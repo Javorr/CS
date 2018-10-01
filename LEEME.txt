@@ -1,0 +1,6 @@
+Los .jar estan en la carpeta dist de cada proyecto.
+
+Si copias el código y te da error por culpa del Log en dist/lib esta log4j-1.2.16.jar para que lo importes a tu proyecto si no lo tienes.
+
+Iván Salas Corrales
+http://programando-o-intentandolo.blogspot.com.es/
