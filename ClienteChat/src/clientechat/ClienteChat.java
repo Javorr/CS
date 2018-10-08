@@ -1,17 +1,15 @@
 
 package clientechat;
 
-import java.awt.Container;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+
+import javax.swing.*;
+import java.awt.*;
 import java.io.DataInputStream;
 import java.io.IOException;
 import java.net.Socket;
 import java.net.UnknownHostException;
-import javax.swing.*;
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 
 /**
  * Clase principal del cliente del chat
