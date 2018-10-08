@@ -1,0 +1,10 @@
+2018-10-08 11:47:31,085 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: DABUTEN.
+2018-10-08 11:47:32,118 [main] ERROR clientechat.ClienteChat - No se ha podido conectar con el servidor (Connection refused: connect).
+2018-10-08 11:47:32,118 [main] ERROR clientechat.ConexionServidor - El socket no se creo correctamente. 
+2018-10-08 11:47:32,118 [main] ERROR clientechat.ClienteChat - El socket no se creo correctamente. 
+2018-10-08 11:47:32,118 [main] ERROR clientechat.ClienteChat - El socket no se creo correctamente. 
+2018-10-08 11:59:03,579 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: .
+2018-10-08 11:59:04,611 [main] ERROR clientechat.ClienteChat - No se ha podido conectar con el servidor (Connection refused: connect).
+2018-10-08 11:59:04,611 [main] ERROR clientechat.ConexionServidor - El socket no se creo correctamente. 
+2018-10-08 11:59:04,611 [main] ERROR clientechat.ClienteChat - El socket no se creo correctamente. 
+2018-10-08 11:59:04,611 [main] ERROR clientechat.ClienteChat - El socket no se creo correctamente. 
