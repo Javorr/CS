@@ -9,19 +9,15 @@ import java.net.Socket;
 import javax.swing.JTextField;
 import org.apache.log4j.Logger;
 
-/**
- * Esta clase gestiona el envio de datos entre el cliente y el servidor.
- * 
- * @author Ivan Salas Corrales <http://programando-o-intentandolo.blogspot.com.es/>
- */
+
 public class ConexionServidor implements ActionListener {
-    
+
     private Logger log = Logger.getLogger(ConexionServidor.class);
-    private Socket socket; 
+    private Socket socket;
     private JTextField tfMensaje;
     private String usuario;
     private DataOutputStream salidaDatos;
-    
+
     public ConexionServidor(Socket socket, JTextField tfMensaje, String usuario) {
         this.socket = socket;
         this.tfMensaje = tfMensaje;

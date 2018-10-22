@@ -11,24 +11,20 @@ import java.io.IOException;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
-/**
- * Clase principal del cliente del chat
- * 
- * @author Ivan Salas Corrales <http://programando-o-intentandolo.blogspot.com.es/>
- */
+
 public class ClienteChat extends JFrame {
-    
+
     private Logger log = Logger.getLogger(ClienteChat.class);
     private JTextArea mensajesChat;
     private Socket socket;
-    
+
     private int puerto;
     private String host;
     private String usuario;
-    
+
     public ClienteChat(){
         super("Cliente Chat");
-        
+
         // Elementos de la ventana
         mensajesChat = new JTextArea();
         mensajesChat.setEnabled(false); // El area de mensajes del chat no se debe de poder editar
@@ -37,16 +33,16 @@ public class ClienteChat extends JFrame {
         JScrollPane scrollMensajesChat = new JScrollPane(mensajesChat);
         JTextField tfMensaje = new JTextField("");
         JButton btEnviar = new JButton("Enviar");
-        
-        
+
+
         // Colocacion de los componentes en la ventana
         Container c = this.getContentPane();
         c.setLayout(new GridBagLayout());
-        
+
         GridBagConstraints gbc = new GridBagConstraints();
-        
+
         gbc.insets = new Insets(20, 20, 20, 20);
-        
+
         gbc.gridx = 0;
         gbc.gridy = 0;
         gbc.gridwidth = 2;
@@ -55,34 +51,34 @@ public class ClienteChat extends JFrame {
         gbc.fill = GridBagConstraints.BOTH;
         c.add(scrollMensajesChat, gbc);
         // Restaura valores por defecto
-        gbc.gridwidth = 1;        
+        gbc.gridwidth = 1;
         gbc.weighty = 0;
-        
-        gbc.fill = GridBagConstraints.HORIZONTAL;        
+
+        gbc.fill = GridBagConstraints.HORIZONTAL;
         gbc.insets = new Insets(0, 20, 20, 20);
-        
+
         gbc.gridx = 0;
         gbc.gridy = 1;
         c.add(tfMensaje, gbc);
         // Restaura valores por defecto
         gbc.weightx = 0;
-        
+
         gbc.gridx = 1;
         gbc.gridy = 1;
         c.add(btEnviar, gbc);
-        
+
         this.setBounds(400, 100, 400, 500);
         this.setVisible(true);
-        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);     
-        
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
         // Ventana de configuracion inicial
         VentanaConfiguracion vc = new VentanaConfiguracion(this);
         host = vc.getHost();
         puerto = vc.getPuerto();
         usuario = vc.getUsuario();
-        
+
         log.info("Quieres conectarte a " + host + " en el puerto " + puerto + " con el nombre de ususario: " + usuario + ".");
-        
+
         // Se crea el socket para conectar con el Sevidor del Chat
         try {
             socket = new Socket(host, puerto);
@@ -91,12 +87,12 @@ public class ClienteChat extends JFrame {
         } catch (IOException ex) {
             log.error("No se ha podido conectar con el servidor (" + ex.getMessage() + ").");
         }
-        
+
         // Accion para el boton enviar
         btEnviar.addActionListener(new ConexionServidor(socket, tfMensaje, usuario));
-        
+
     }
-    
+
     /**
      * Recibe los mensajes del chat reenviados por el servidor
      */
@@ -111,7 +107,7 @@ public class ClienteChat extends JFrame {
         } catch (NullPointerException ex) {
             log.error("El socket no se creo correctamente. ");
         }
-        
+
         // Bucle infinito que recibe mensajes del servidor
         boolean conectado = true;
         while (conectado) {
@@ -127,14 +123,14 @@ public class ClienteChat extends JFrame {
             }
         }
     }
-    
+
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // Carga el archivo de configuracion de log4J
-        PropertyConfigurator.configure("log4j.properties");        
-        
+        PropertyConfigurator.configure("log4j.properties");
+
         ClienteChat c = new ClienteChat();
         c.recibirMensajesServidor();
     }
