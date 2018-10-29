@@ -1,13 +1,14 @@
 
 package clientechat;
 
+import org.apache.log4j.Logger;
+
+import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
-import javax.swing.JTextField;
-import org.apache.log4j.Logger;
 
 
 public class ConexionServidor implements ActionListener {
@@ -36,6 +37,7 @@ public class ConexionServidor implements ActionListener {
         try {
             salidaDatos.writeUTF(usuario + ": " + tfMensaje.getText() );
             tfMensaje.setText("");
+            log.info("ENTRA EN CONEXIONSERVIDOR, ACTIONPERFORMED");
         } catch (IOException ex) {
             log.error("Error al intentar enviar un mensaje: " + ex.getMessage());
         }

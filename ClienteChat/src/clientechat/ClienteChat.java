@@ -113,6 +113,7 @@ public class ClienteChat extends JFrame {
         while (conectado) {
             try {
                 mensaje = entradaDatos.readUTF();
+                log.info(mensaje);
                 mensajesChat.append(mensaje + System.lineSeparator());
             } catch (IOException ex) {
                 log.error("Error al leer del stream de entrada: " + ex.getMessage());

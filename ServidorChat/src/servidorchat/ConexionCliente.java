@@ -5,9 +5,28 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
+import java.security.*;
 import java.util.Observable;
 import java.util.Observer;
 import org.apache.log4j.Logger;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.io.FileWriter;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.util.Base64;
+import java.util.Arrays;
+import java.security.spec.PKCS8EncodedKeySpec;
+import java.security.spec.X509EncodedKeySpec;
+import javax.crypto.Cipher;
+import javax.crypto.KeyGenerator;
+import javax.crypto.SecretKey;
+import javax.crypto.spec.SecretKeySpec;
+import javax.crypto.spec.IvParameterSpec;
+import java.util.Random;
+import java.security.SecureRandom;
 
 
 public class ConexionCliente extends Thread implements Observer{
@@ -18,6 +37,9 @@ public class ConexionCliente extends Thread implements Observer{
     private DataInputStream entradaDatos;
     private DataOutputStream salidaDatos;
     private boolean isMaster;
+    private Key pub;
+    private Key priv;
+    private String pubstrKey;
 
     public ConexionCliente (Socket socket, MensajesChat mensajes, boolean isMaster){
         this.socket = socket;
@@ -25,29 +47,55 @@ public class ConexionCliente extends Thread implements Observer{
         this.isMaster = isMaster;
 
         if(isMaster){ //Genera clave secreta AES
-          KeyGenerator gensecreta = KeyGenerator.getInstance("AES"); //Se instancia el generador de claves
+            KeyGenerator gensecreta = null; //Se instancia el generador de claves
+            try {
+                gensecreta = KeyGenerator.getInstance("AES");
+                log.info(gensecreta);
+            } catch (NoSuchAlgorithmException e) {
+                e.printStackTrace();
+            }
 
-          gensecreta.init(128); //Se inicializa de forma que se genere una clave de 128 bits
+            gensecreta.init(128); //Se inicializa de forma que se genere una clave de 128 bits
           SecretKey secr = gensecreta.generateKey(); //Se genera la clave secreta
+            log.info(secr);
 
+          SecureRandom random = new SecureRandom();
           byte[] iv = new byte[128/8]; //Generaremos el vector de inicializacion(iv)
-          srandom.nextBytes(iv);
+          random.nextBytes(iv);
           IvParameterSpec ivspec = new IvParameterSpec(iv);
+          log.info(iv);
+
         }
         else{ //Si no eres el master se genera el par de claves RSA
-          KeyPairGenerator genpar = KeyPairGenerator.getInstance("RSA"); //Se instancia un generador de par de claves
+            KeyPairGenerator genpar = null; //Se instancia un generador de par de claves
+            try {
+                genpar = KeyPairGenerator.getInstance("RSA");
+                log.info(genpar);
+            } catch (NoSuchAlgorithmException e) {
+                e.printStackTrace();
+            }
 
-          genpar.initialize(2048); //La inicializamos con 2048 bits
+            genpar.initialize(2048); //La inicializamos con 2048 bits
           KeyPair par = genpar.generateKeyPair(); //Se genera el par de claves con la anterior instancia
+            log.info(par);
 
-          Key pub = par.getPublic(); //Ahora tenemos el par de claves, la publica y la privada
-          Key priv = par.getPrivate();
+          pub = par.getPublic(); //Ahora tenemos el par de claves, la publica y la privada
+          priv = par.getPrivate();
+          pubstrKey = Base64.getEncoder().encodeToString(pub.getEncoded());
         }
 
 
         try {
             entradaDatos = new DataInputStream(socket.getInputStream());
             salidaDatos = new DataOutputStream(socket.getOutputStream());
+            if(isMaster) {
+
+            }
+            else {
+                log.info(pub.getAlgorithm());
+                log.info(priv);
+                log.info(pubstrKey);
+            }
         } catch (IOException ex) {
             log.error("Error al crear los stream de entrada y salida : " + ex.getMessage());
         }
@@ -86,6 +134,7 @@ public class ConexionCliente extends Thread implements Observer{
         try {
             // Envia el mensaje al cliente
             salidaDatos.writeUTF(arg.toString());
+            log.info("ENTRA A CONEXIONCLIENTE, UPDATE");
         } catch (IOException ex) {
             log.error("Error al enviar mensaje al cliente (" + ex.getMessage() + ").");
         }

@@ -1,1 +1,84 @@
 2018-10-08 12:07:53,396 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-10-22 12:38:35,999 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-10-22 12:55:21,188 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-10-22 12:55:21,188 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-10-22 12:55:45,693 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
+2018-10-29 11:50:44,066 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-10-29 11:51:08,187 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-10-29 11:55:46,148 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-10-29 11:55:59,259 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-10-29 11:58:04,276 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-10-29 11:58:15,836 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-10-29 11:58:16,321 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-10-29 11:58:22,017 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-10-29 11:58:51,295 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-10-29 11:58:53,811 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-10-29 11:58:56,013 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-10-29 11:58:57,899 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-10-29 11:59:25,883 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-10-29 11:59:34,642 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-10-29 11:59:35,126 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-10-29 11:59:37,641 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-10-29 11:59:46,492 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-10-29 11:59:48,319 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-10-29 12:00:55,762 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-10-29 12:01:03,528 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-10-29 12:01:04,012 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-10-29 12:01:06,290 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-10-29 12:01:10,226 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-10-29 12:01:13,476 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-10-29 12:01:16,584 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-10-29 12:01:17,256 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-10-29 12:01:17,990 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-10-29 12:01:19,037 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-10-29 12:04:03,548 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
+2018-10-29 12:04:11,466 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-10-29 12:04:22,853 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-10-29 12:04:23,337 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-10-29 12:04:26,405 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-10-29 12:12:01,942 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
+2018-10-29 12:12:09,004 [main] ERROR servidorchat.ServidorChat - Error: Address already in use: JVM_Bind
+2018-10-29 12:22:21,610 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-10-29 12:22:31,807 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-10-29 12:22:32,260 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-10-29 12:22:36,334 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-10-29 12:23:23,462 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-10-29 12:23:31,974 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-10-29 12:24:35,906 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-10-29 12:24:46,577 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-10-29 12:24:47,076 [main] INFO  servidorchat.ConexionCliente - 
+2018-10-29 12:24:47,076 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-10-29 12:24:48,671 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-10-29 12:26:06,022 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-10-29 12:26:15,321 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-10-29 12:26:15,774 [main] INFO  servidorchat.ConexionCliente - 
+2018-10-29 12:26:15,774 [main] INFO  servidorchat.ConexionCliente - 
+2018-10-29 12:26:15,774 [main] INFO  servidorchat.ConexionCliente - 
+2018-10-29 12:26:15,774 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-10-29 12:29:18,661 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-10-29 12:29:27,021 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-10-29 12:34:50,232 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-10-29 12:34:57,808 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-10-29 12:34:58,183 [main] INFO  servidorchat.ConexionCliente - javax.crypto.KeyGenerator@6442b0a6
+2018-10-29 12:34:58,308 [main] INFO  servidorchat.ConexionCliente - javax.crypto.spec.SecretKeySpec@fffe8c92
+2018-10-29 12:34:58,308 [main] INFO  servidorchat.ConexionCliente - [B@1a407d53
+2018-10-29 12:46:36,775 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-10-29 12:46:51,771 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-10-29 12:46:52,130 [main] INFO  servidorchat.ConexionCliente - javax.crypto.KeyGenerator@6442b0a6
+2018-10-29 12:46:52,255 [main] INFO  servidorchat.ConexionCliente - javax.crypto.spec.SecretKeySpec@fffe8cdb
+2018-10-29 12:46:52,255 [main] INFO  servidorchat.ConexionCliente - [B@1a407d53
+2018-10-29 12:51:14,066 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-10-29 12:51:32,403 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-10-29 12:51:32,763 [main] INFO  servidorchat.ConexionCliente - javax.crypto.KeyGenerator@6442b0a6
+2018-10-29 12:51:32,888 [main] INFO  servidorchat.ConexionCliente - javax.crypto.spec.SecretKeySpec@177a9
+2018-10-29 12:51:32,888 [main] INFO  servidorchat.ConexionCliente - [B@1a407d53
+2018-10-29 12:51:32,888 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-10-29 12:51:42,419 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-10-29 12:51:42,435 [main] INFO  servidorchat.ConexionCliente - java.security.KeyPairGenerator$Delegate@380fb434
+2018-10-29 12:51:42,731 [main] INFO  servidorchat.ConexionCliente - java.security.KeyPair@3cda1055
+2018-10-29 12:51:42,731 [main] INFO  servidorchat.ConexionCliente - RSA
+2018-10-29 12:51:42,731 [main] INFO  servidorchat.ConexionCliente - sun.security.rsa.RSAPrivateCrtKeyImpl@ffdded88
+2018-10-29 12:51:42,731 [main] INFO  servidorchat.ConexionCliente - MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApUZWCdsFzuwiOdmZ8z2lzb+6f8ZcGB2+2tMc5AjD2epJymiaGEULzsO2pdepELrhddYN4Mn+L3dNBEkCPrlBogUG8xjiqCozFcQuy96+dpCtlSLxu9hdHBMPzcRoJgibskiUMO/PSKJ8JWxlrAJNgPV4nI893TjCa92f03NKq+lQMDywuhUX+JjNZk0EnH88a85jYmVMCxhtHM3FOK9HmimYrzRDLKBrLSHM+OyBXWIwQnFrTlSTBKh5iPQw23bO948BwQigra4uFrJkD+m9U28Dx1lLaAMDm69u/AFft+ywSHLn893DJXBwd1glwuM9SC7DkM0cVb8QEDZr5tyIAQIDAQAB
+2018-10-29 12:51:42,731 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-10-29 12:54:22,588 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
+2018-10-29 12:54:24,479 [Thread-1] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
