@@ -125,15 +125,20 @@ public class ClienteChat extends JFrame {
         }
     }
 
+    public void enviarLog() {
+        log.info("Me he conectado, fin del main");
+    }
     /**
      * @param args the command line arguments
      */
+
     public static void main(String[] args) {
         // Carga el archivo de configuracion de log4J
         PropertyConfigurator.configure("log4j.properties");
 
         ClienteChat c = new ClienteChat();
         c.recibirMensajesServidor();
+        c.enviarLog();
     }
 
 }

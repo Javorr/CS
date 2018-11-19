@@ -21,6 +21,7 @@ public class ServidorChat {
         Socket socket = null;
         MensajesChat mensajes = new MensajesChat();
         ConexionCliente master = null;
+        int incre=0;
 
         try {
             // Se crea el serverSocket
@@ -34,13 +35,15 @@ public class ServidorChat {
 
                 //Se asigna el master
                 if(master==null){
-                  master = new ConexionCliente(socket, mensajes, true);
+                  master = new ConexionCliente(socket, mensajes, true, incre);
                   master.start();
+                  incre++;
                 }
 
                 else{
-                  ConexionCliente cc = new ConexionCliente(socket, mensajes, false);
+                  ConexionCliente cc = new ConexionCliente(socket, mensajes, false, incre);
                   cc.start();
+                  incre++;
               }
 
             }

@@ -37,65 +37,20 @@ public class ConexionCliente extends Thread implements Observer{
     private DataInputStream entradaDatos;
     private DataOutputStream salidaDatos;
     private boolean isMaster;
-    private Key pub;
-    private Key priv;
-    private String pubstrKey;
+    private int id;
 
-    public ConexionCliente (Socket socket, MensajesChat mensajes, boolean isMaster){
+    public ConexionCliente (Socket socket, MensajesChat mensajes, boolean isMaster, int identificador){
         this.socket = socket;
         this.mensajes = mensajes;
         this.isMaster = isMaster;
-
-        if(isMaster){ //Genera clave secreta AES
-            KeyGenerator gensecreta = null; //Se instancia el generador de claves
-            try {
-                gensecreta = KeyGenerator.getInstance("AES");
-                log.info(gensecreta);
-            } catch (NoSuchAlgorithmException e) {
-                e.printStackTrace();
-            }
-
-            gensecreta.init(128); //Se inicializa de forma que se genere una clave de 128 bits
-          SecretKey secr = gensecreta.generateKey(); //Se genera la clave secreta
-            log.info(secr);
-
-          SecureRandom random = new SecureRandom();
-          byte[] iv = new byte[128/8]; //Generaremos el vector de inicializacion(iv)
-          random.nextBytes(iv);
-          IvParameterSpec ivspec = new IvParameterSpec(iv);
-          log.info(iv);
-
-        }
-        else{ //Si no eres el master se genera el par de claves RSA
-            KeyPairGenerator genpar = null; //Se instancia un generador de par de claves
-            try {
-                genpar = KeyPairGenerator.getInstance("RSA");
-                log.info(genpar);
-            } catch (NoSuchAlgorithmException e) {
-                e.printStackTrace();
-            }
-
-            genpar.initialize(2048); //La inicializamos con 2048 bits
-          KeyPair par = genpar.generateKeyPair(); //Se genera el par de claves con la anterior instancia
-            log.info(par);
-
-          pub = par.getPublic(); //Ahora tenemos el par de claves, la publica y la privada
-          priv = par.getPrivate();
-          pubstrKey = Base64.getEncoder().encodeToString(pub.getEncoded());
-        }
+        this.id = identificador;
 
 
         try {
             entradaDatos = new DataInputStream(socket.getInputStream());
             salidaDatos = new DataOutputStream(socket.getOutputStream());
-            if(isMaster) {
+            salidaDatos.writeUTF("Se asignan los streams");
 
-            }
-            else {
-                log.info(pub.getAlgorithm());
-                log.info(priv);
-                log.info(pubstrKey);
-            }
         } catch (IOException ex) {
             log.error("Error al crear los stream de entrada y salida : " + ex.getMessage());
         }
@@ -107,7 +62,11 @@ public class ConexionCliente extends Thread implements Observer{
         boolean conectado = true;
         // Se apunta a la lista de observadores de mensajes
         mensajes.addObserver(this);
-
+        try {
+            salidaDatos.writeUTF("Mensaje desde el run");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         while (conectado) {
             try {
                 // Lee un mensaje enviado por el cliente
@@ -133,7 +92,11 @@ public class ConexionCliente extends Thread implements Observer{
     public void update(Observable o, Object arg) {
         try {
             // Envia el mensaje al cliente
+            if(isMaster) {
+                log.info("Ha entrado a update: "+arg.toString());
+            }
             salidaDatos.writeUTF(arg.toString());
+            salidaDatos.writeUTF("Mensaje escrito desde el update");
             log.info("ENTRA A CONEXIONCLIENTE, UPDATE");
         } catch (IOException ex) {
             log.error("Error al enviar mensaje al cliente (" + ex.getMessage() + ").");

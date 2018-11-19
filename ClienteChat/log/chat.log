@@ -66,3 +66,232 @@
 2018-10-29 12:47:03,359 [main] ERROR clientechat.ClienteChat - El socket no se creo correctamente. 
 2018-10-29 12:51:32,388 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: gh.
 2018-10-29 12:51:42,419 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: gh.
+2018-11-05 11:25:40,405 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: hola.
+2018-11-05 11:25:52,824 [main] INFO  clientechat.ClienteChat - hola: sdfdsf
+2018-11-05 11:25:52,824 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - ENTRA EN CONEXIONSERVIDOR, ACTIONPERFORMED
+2018-11-05 11:27:34,853 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: jaja.
+2018-11-05 11:27:41,945 [main] INFO  clientechat.ClienteChat - jaja: sdfsdf
+2018-11-05 11:27:41,945 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - ENTRA EN CONEXIONSERVIDOR, ACTIONPERFORMED
+2018-11-05 11:27:41,945 [main] INFO  clientechat.ClienteChat - jaja: sdfsdf
+2018-11-05 11:29:40,912 [main] ERROR clientechat.ClienteChat - Error al leer del stream de entrada: Connection reset
+2018-11-05 11:29:40,912 [main] ERROR clientechat.ClienteChat - Error al leer del stream de entrada: Connection reset
+2018-11-05 11:30:02,847 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: df.
+2018-11-05 11:30:14,029 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: fd.
+2018-11-05 11:30:20,200 [main] INFO  clientechat.ClienteChat - fd: hola
+2018-11-05 11:30:20,200 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - ENTRA EN CONEXIONSERVIDOR, ACTIONPERFORMED
+2018-11-05 11:30:20,200 [main] INFO  clientechat.ClienteChat - fd: hola
+2018-11-05 11:33:10,159 [main] ERROR clientechat.ClienteChat - Error al leer del stream de entrada: Connection reset
+2018-11-05 11:33:29,086 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: df.
+2018-11-05 11:33:43,537 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: nomaster.
+2018-11-05 11:33:43,662 [main] INFO  clientechat.ClienteChat - Aqui va la clave
+2018-11-05 11:34:12,168 [main] INFO  clientechat.ClienteChat - df: dfds
+2018-11-05 11:34:12,168 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - ENTRA EN CONEXIONSERVIDOR, ACTIONPERFORMED
+2018-11-05 11:34:12,168 [main] INFO  clientechat.ClienteChat - df: dfds
+2018-11-05 11:34:24,978 [main] INFO  clientechat.ClienteChat - nomaster: dsfsdf
+2018-11-05 11:34:24,978 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - ENTRA EN CONEXIONSERVIDOR, ACTIONPERFORMED
+2018-11-05 11:34:24,978 [main] INFO  clientechat.ClienteChat - nomaster: dsfsdf
+2018-11-05 11:38:11,861 [main] ERROR clientechat.ClienteChat - Error al leer del stream de entrada: Connection reset
+2018-11-05 11:38:11,861 [main] ERROR clientechat.ClienteChat - Error al leer del stream de entrada: Connection reset
+2018-11-05 11:42:14,666 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: m.
+2018-11-05 11:42:15,151 [main] INFO  clientechat.ClienteChat - Se ha enviado
+2018-11-05 11:45:54,321 [main] ERROR clientechat.ClienteChat - Error al leer del stream de entrada: Connection reset
+2018-11-05 11:46:15,088 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: df.
+2018-11-05 11:46:15,588 [main] INFO  clientechat.ClienteChat - A ver si funcionas
+2018-11-05 11:46:15,604 [main] INFO  clientechat.ClienteChat - Se ha enviado
+2018-11-05 11:47:22,512 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: sdfdsf.
+2018-11-05 11:47:22,975 [main] INFO  clientechat.ClienteChat - A ver si funcionas
+2018-11-05 11:47:22,975 [main] INFO  clientechat.ClienteChat - Se ha enviado
+2018-11-05 11:47:22,975 [main] INFO  clientechat.ClienteChat - Aqui va la clave
+2018-11-05 11:47:22,975 [main] INFO  clientechat.ClienteChat - Se ha enviado
+2018-11-05 11:47:29,531 [main] INFO  clientechat.ClienteChat - sdfdsf: hola
+2018-11-05 11:47:29,531 [main] INFO  clientechat.ClienteChat - sdfdsf: hola
+2018-11-05 11:47:29,531 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - ENTRA EN CONEXIONSERVIDOR, ACTIONPERFORMED
+2018-11-05 11:48:48,891 [main] INFO  clientechat.ClienteChat - df: soy el master
+2018-11-05 11:48:48,891 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - ENTRA EN CONEXIONSERVIDOR, ACTIONPERFORMED
+2018-11-05 11:48:48,891 [main] INFO  clientechat.ClienteChat - df: soy el master
+2018-11-05 11:49:13,457 [main] INFO  clientechat.ClienteChat - sdfdsf: no soy el master
+2018-11-05 11:49:13,457 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - ENTRA EN CONEXIONSERVIDOR, ACTIONPERFORMED
+2018-11-05 11:49:13,457 [main] INFO  clientechat.ClienteChat - sdfdsf: no soy el master
+2018-11-05 11:49:38,170 [main] ERROR clientechat.ClienteChat - Error al leer del stream de entrada: Connection reset
+2018-11-05 11:49:38,170 [main] ERROR clientechat.ClienteChat - Error al leer del stream de entrada: Connection reset
+2018-11-05 11:53:31,608 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: m.
+2018-11-05 11:53:32,092 [main] INFO  clientechat.ClienteChat - A ver si funcionas
+2018-11-05 11:53:32,107 [main] INFO  clientechat.ClienteChat - Mensaje desde el run
+2018-11-05 11:53:32,107 [main] INFO  clientechat.ClienteChat - Mensaje desde conexion servidor
+2018-11-05 11:53:32,107 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 11:54:23,120 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: nm.
+2018-11-05 11:54:24,198 [main] INFO  clientechat.ClienteChat - A ver si funcionas
+2018-11-05 11:54:24,214 [main] INFO  clientechat.ClienteChat - Logs de las claves
+2018-11-05 11:54:24,214 [main] INFO  clientechat.ClienteChat - Mensaje desde el run
+2018-11-05 11:54:24,214 [main] INFO  clientechat.ClienteChat - Mensaje desde conexion servidor
+2018-11-05 11:54:24,214 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 11:54:24,214 [main] INFO  clientechat.ClienteChat - Mensaje desde conexion servidor
+2018-11-05 11:54:24,214 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 11:55:26,483 [main] INFO  clientechat.ClienteChat - m: hola
+2018-11-05 11:55:26,483 [main] INFO  clientechat.ClienteChat - m: hola
+2018-11-05 11:55:26,483 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - ENTRA EN CONEXIONSERVIDOR, ACTIONPERFORMED
+2018-11-05 11:55:26,483 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 11:55:26,483 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 11:57:00,212 [main] INFO  clientechat.ClienteChat - nm: hola
+2018-11-05 11:57:00,212 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 11:57:00,212 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - ENTRA EN CONEXIONSERVIDOR, ACTIONPERFORMED
+2018-11-05 11:57:00,212 [main] INFO  clientechat.ClienteChat - nm: hola
+2018-11-05 11:57:00,212 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 11:57:49,016 [main] ERROR clientechat.ClienteChat - Error al leer del stream de entrada: Connection reset
+2018-11-05 11:57:49,016 [main] ERROR clientechat.ClienteChat - Error al leer del stream de entrada: Connection reset
+2018-11-05 12:01:35,928 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: m.
+2018-11-05 12:01:36,427 [main] INFO  clientechat.ClienteChat - Se asignan los streams
+2018-11-05 12:01:36,427 [main] INFO  clientechat.ClienteChat - Mensaje desde el run
+2018-11-05 12:01:36,427 [main] INFO  clientechat.ClienteChat - Mensaje desde conexion servidor
+2018-11-05 12:01:36,427 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 12:01:56,960 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: nm.
+2018-11-05 12:01:57,429 [main] INFO  clientechat.ClienteChat - Se asignan los streams
+2018-11-05 12:01:57,429 [main] INFO  clientechat.ClienteChat - Mensaje desde conexion servidor
+2018-11-05 12:01:57,429 [main] INFO  clientechat.ClienteChat - Logs de las claves
+2018-11-05 12:01:57,444 [main] INFO  clientechat.ClienteChat - Mensaje desde el run
+2018-11-05 12:01:57,444 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 12:01:57,444 [main] INFO  clientechat.ClienteChat - Mensaje desde conexion servidor
+2018-11-05 12:01:57,444 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 12:02:15,065 [main] INFO  clientechat.ClienteChat - m: hola
+2018-11-05 12:02:15,065 [main] INFO  clientechat.ClienteChat - m: hola
+2018-11-05 12:02:15,065 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - ENTRA EN CONEXIONSERVIDOR, ACTIONPERFORMED
+2018-11-05 12:02:15,065 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 12:02:15,065 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 12:05:01,430 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: m.
+2018-11-05 12:05:01,915 [main] INFO  clientechat.ClienteChat - Se asignan los streams
+2018-11-05 12:05:01,930 [main] INFO  clientechat.ClienteChat - Mensaje desde el run
+2018-11-05 12:05:01,930 [main] INFO  clientechat.ClienteChat - Mensaje desde conexion servidor
+2018-11-05 12:05:01,930 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 12:05:13,799 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: nm.
+2018-11-05 12:05:14,471 [main] INFO  clientechat.ClienteChat - Se asignan los streams
+2018-11-05 12:05:14,471 [main] INFO  clientechat.ClienteChat - Mensaje desde conexion servidor
+2018-11-05 12:05:14,471 [main] INFO  clientechat.ClienteChat - Logs de las claves
+2018-11-05 12:05:14,471 [main] INFO  clientechat.ClienteChat - Mensaje desde el run
+2018-11-05 12:05:14,471 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 12:05:14,471 [main] INFO  clientechat.ClienteChat - Mensaje desde conexion servidor
+2018-11-05 12:05:14,471 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 12:08:35,374 [main] ERROR clientechat.ClienteChat - Error al leer del stream de entrada: Connection reset
+2018-11-05 12:08:35,374 [main] INFO  clientechat.ClienteChat - Me he conectado, fin del main
+2018-11-05 12:08:35,374 [main] ERROR clientechat.ClienteChat - Error al leer del stream de entrada: Connection reset
+2018-11-05 12:08:35,374 [main] INFO  clientechat.ClienteChat - Me he conectado, fin del main
+2018-11-05 12:08:57,611 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: m.
+2018-11-05 12:08:58,096 [main] INFO  clientechat.ClienteChat - Se asignan los streams
+2018-11-05 12:08:58,111 [main] INFO  clientechat.ClienteChat - Mensaje desde el run
+2018-11-05 12:08:58,111 [main] INFO  clientechat.ClienteChat - Mensaje desde conexion servidor
+2018-11-05 12:08:58,111 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 12:09:11,936 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: nm.
+2018-11-05 12:09:12,280 [main] INFO  clientechat.ClienteChat - Se asignan los streams
+2018-11-05 12:09:12,280 [main] INFO  clientechat.ClienteChat - Mensaje desde conexion servidor
+2018-11-05 12:09:12,280 [main] INFO  clientechat.ClienteChat - Logs de las claves
+2018-11-05 12:09:12,280 [main] INFO  clientechat.ClienteChat - Mensaje desde el run
+2018-11-05 12:09:12,295 [main] INFO  clientechat.ClienteChat - Mensaje desde conexion servidor
+2018-11-05 12:09:12,295 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 12:09:12,295 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 12:09:23,284 [main] INFO  clientechat.ClienteChat - nm: hola
+2018-11-05 12:09:23,284 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - ENTRA EN CONEXIONSERVIDOR, ACTIONPERFORMED
+2018-11-05 12:09:23,284 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 12:09:23,284 [main] INFO  clientechat.ClienteChat - nm: hola
+2018-11-05 12:09:23,289 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 12:10:30,500 [main] INFO  clientechat.ClienteChat - m: hola
+2018-11-05 12:10:30,500 [main] INFO  clientechat.ClienteChat - m: hola
+2018-11-05 12:10:30,500 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - ENTRA EN CONEXIONSERVIDOR, ACTIONPERFORMED
+2018-11-05 12:10:30,500 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 12:10:30,500 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 12:10:41,619 [main] INFO  clientechat.ClienteChat - nm: hola
+2018-11-05 12:10:41,619 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - ENTRA EN CONEXIONSERVIDOR, ACTIONPERFORMED
+2018-11-05 12:10:41,619 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 12:10:41,619 [main] INFO  clientechat.ClienteChat - nm: hola
+2018-11-05 12:10:41,619 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 12:11:54,738 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: cgdfdsgfd.
+2018-11-05 12:11:55,222 [main] INFO  clientechat.ClienteChat - Se asignan los streams
+2018-11-05 12:11:55,222 [main] INFO  clientechat.ClienteChat - Mensaje desde conexion servidor
+2018-11-05 12:11:55,222 [main] INFO  clientechat.ClienteChat - Mensaje desde conexion servidor
+2018-11-05 12:11:55,222 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 12:11:55,222 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 12:11:55,222 [main] INFO  clientechat.ClienteChat - Logs de las claves
+2018-11-05 12:11:55,222 [main] INFO  clientechat.ClienteChat - Mensaje desde el run
+2018-11-05 12:11:55,238 [main] INFO  clientechat.ClienteChat - Mensaje desde conexion servidor
+2018-11-05 12:11:55,238 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 12:21:32,888 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: m.
+2018-11-05 12:21:33,388 [main] INFO  clientechat.ClienteChat - Se asignan los streams
+2018-11-05 12:21:33,388 [main] INFO  clientechat.ClienteChat - Mensaje desde el run
+2018-11-05 12:21:33,388 [main] INFO  clientechat.ClienteChat - Mensaje desde conexion servidor
+2018-11-05 12:21:33,388 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 12:21:54,384 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: nm.
+2018-11-05 12:21:54,743 [main] INFO  clientechat.ClienteChat - Se asignan los streams
+2018-11-05 12:21:54,743 [main] INFO  clientechat.ClienteChat - Mensaje desde conexion servidor
+2018-11-05 12:21:54,743 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 12:21:54,743 [main] INFO  clientechat.ClienteChat - Logs de las claves
+2018-11-05 12:21:54,743 [main] INFO  clientechat.ClienteChat - Mensaje desde el run
+2018-11-05 12:21:54,743 [main] INFO  clientechat.ClienteChat - Mensaje desde conexion servidor
+2018-11-05 12:21:54,743 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 12:23:13,696 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: m.
+2018-11-05 12:23:13,711 [main] INFO  clientechat.ClienteChat - Se asignan los streams
+2018-11-05 12:23:13,711 [main] INFO  clientechat.ClienteChat - Mensaje desde el run
+2018-11-05 12:23:13,711 [main] INFO  clientechat.ClienteChat - Mensaje desde conexion servidor
+2018-11-05 12:23:13,711 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 12:23:21,394 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: nm.
+2018-11-05 12:23:21,409 [main] ERROR clientechat.ClienteChat - Error al leer del stream de entrada: Software caused connection abort: recv failed
+2018-11-05 12:23:21,409 [main] INFO  clientechat.ClienteChat - Me he conectado, fin del main
+2018-11-05 12:24:07,286 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - java.security.KeyPairGenerator$Delegate@1a750c70
+2018-11-05 12:24:08,036 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - java.security.KeyPair@58f70f8e
+2018-11-05 12:24:08,036 [AWT-EventQueue-0] ERROR clientechat.ConexionServidor - Error al intentar enviar un mensaje: Software caused connection abort: socket write error
+2018-11-05 12:25:07,298 [main] ERROR clientechat.ClienteChat - Error al leer del stream de entrada: Connection reset
+2018-11-05 12:25:07,298 [main] INFO  clientechat.ClienteChat - Me he conectado, fin del main
+2018-11-05 12:26:47,173 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: m.
+2018-11-05 12:26:47,188 [main] INFO  clientechat.ClienteChat - Se asignan los streams
+2018-11-05 12:26:47,188 [main] INFO  clientechat.ClienteChat - Mensaje desde el run
+2018-11-05 12:26:47,188 [main] INFO  clientechat.ClienteChat - Mensaje desde conexion servidor
+2018-11-05 12:26:47,188 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 12:27:03,097 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: nm.
+2018-11-05 12:27:03,113 [main] INFO  clientechat.ClienteChat - Se asignan los streams
+2018-11-05 12:27:03,113 [main] INFO  clientechat.ClienteChat - Mensaje desde conexion servidor
+2018-11-05 12:27:03,113 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 12:27:03,113 [main] INFO  clientechat.ClienteChat - Logs de las claves
+2018-11-05 12:27:03,113 [main] INFO  clientechat.ClienteChat - Mensaje desde el run
+2018-11-05 12:27:03,113 [main] INFO  clientechat.ClienteChat - Mensaje desde conexion servidor
+2018-11-05 12:27:03,113 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 12:28:13,169 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - java.security.KeyPairGenerator$Delegate@5fd0d892
+2018-11-05 12:28:13,512 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - java.security.KeyPair@f68bb0a
+2018-11-05 12:28:13,512 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - ENTRA EN CONEXIONSERVIDOR, ACTIONPERFORMED
+2018-11-05 12:28:13,512 [main] INFO  clientechat.ClienteChat - MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgGLMtdTp9y7AaY5Ia+SwxfjYsdIi6rqX0LqR2HrvhKWtaOXH7/ntNe6b5UkxHVMZHZAiyX31IP9ZTcKuVqmDYGNjvIQb2oRET0KSOI36ZLi2QsAhZepY9gWx8Qol258NPaoRitk1K5XvulFBsbJL46GL16eT7b7PvI7stH4ZTYBNjmI5fECIjtjqCUNHr3gJh1TbwWotoNZJ+soO6dJWcGVERNPQcImZQTfROyg+SGTKGnT8B096Kf+IAGat8MjcuZUYpzFFe+rWSf4/nWgSHGqCsGoxx1Nbkm+Vf8Baa4Pvtdzdrc8oVlWs5GN3YpYR0d4daEbUnU3uIZnkiNrXhQIDAQAB
+2018-11-05 12:28:13,512 [main] INFO  clientechat.ClienteChat - MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgGLMtdTp9y7AaY5Ia+SwxfjYsdIi6rqX0LqR2HrvhKWtaOXH7/ntNe6b5UkxHVMZHZAiyX31IP9ZTcKuVqmDYGNjvIQb2oRET0KSOI36ZLi2QsAhZepY9gWx8Qol258NPaoRitk1K5XvulFBsbJL46GL16eT7b7PvI7stH4ZTYBNjmI5fECIjtjqCUNHr3gJh1TbwWotoNZJ+soO6dJWcGVERNPQcImZQTfROyg+SGTKGnT8B096Kf+IAGat8MjcuZUYpzFFe+rWSf4/nWgSHGqCsGoxx1Nbkm+Vf8Baa4Pvtdzdrc8oVlWs5GN3YpYR0d4daEbUnU3uIZnkiNrXhQIDAQAB
+2018-11-05 12:28:13,528 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-05 12:28:13,528 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-10 11:00:29,895 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: user1.
+2018-11-10 11:00:29,924 [main] INFO  clientechat.ClienteChat - Se asignan los streams
+2018-11-10 11:00:29,924 [main] INFO  clientechat.ClienteChat - Mensaje desde el run
+2018-11-10 11:00:29,935 [main] INFO  clientechat.ClienteChat - Mensaje desde conexion servidor
+2018-11-10 11:00:29,935 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-10 12:05:37,773 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: master.
+2018-11-10 12:05:37,793 [main] INFO  clientechat.ClienteChat - Se asignan los streams
+2018-11-10 12:05:37,793 [main] INFO  clientechat.ClienteChat - Mensaje desde el run
+2018-11-10 12:05:37,793 [main] INFO  clientechat.ClienteChat - Mensaje desde conexion servidor
+2018-11-10 12:05:37,793 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-10 12:06:07,793 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: nomaster.
+2018-11-10 12:06:07,803 [main] INFO  clientechat.ClienteChat - Se asignan los streams
+2018-11-10 12:06:07,803 [main] INFO  clientechat.ClienteChat - Mensaje desde conexion servidor
+2018-11-10 12:06:07,803 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-10 12:06:07,803 [main] INFO  clientechat.ClienteChat - Mensaje desde el run
+2018-11-10 12:06:07,813 [main] INFO  clientechat.ClienteChat - Mensaje desde conexion servidor
+2018-11-10 12:06:07,813 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-10 12:06:38,483 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - javax.crypto.KeyGenerator@4c72ba7c
+2018-11-10 12:06:38,593 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - javax.crypto.spec.SecretKeySpec@17043
+2018-11-10 12:06:38,595 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - [B@2998d970
+2018-11-10 12:06:38,595 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - java.security.KeyPairGenerator$Delegate@372ed0b0
+2018-11-10 12:06:39,213 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - java.security.KeyPair@34636aa1
+2018-11-10 12:06:39,213 [main] INFO  clientechat.ClienteChat - MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsLlU/IqZR3Jd9lNJ/wOgjNGhv63kyt/ykOW7xPqK+HyTDcQQXsbNW2k0exatY2PfyYSVN0R74yIkpFWE0qOSTpc+ZlDcQlUNxDEZOdRnkVCrpObVesEJyIux7lDToBm3yTm3jf9r3GNRx3l8KhsuQiQCFU6Z91Qg2ovW9h2kzEM1IgbmJ5oAtVl3ndbRW1Fu606buFsIkuR0YVUPyAL9tSuzHABczWzBGIlCxG6Z13//ti3d36kQQ/BquOSlU0rzSSoeyHHGPXiQeOsj/xxHOKB1FlSTJf1igbCRyQYgW78VG7nUhtKa1iHqMsgH/5eDu46BfEK89GMbslpBcLU9DwIDAQAB
+2018-11-10 12:06:39,213 [main] INFO  clientechat.ClienteChat - MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsLlU/IqZR3Jd9lNJ/wOgjNGhv63kyt/ykOW7xPqK+HyTDcQQXsbNW2k0exatY2PfyYSVN0R74yIkpFWE0qOSTpc+ZlDcQlUNxDEZOdRnkVCrpObVesEJyIux7lDToBm3yTm3jf9r3GNRx3l8KhsuQiQCFU6Z91Qg2ovW9h2kzEM1IgbmJ5oAtVl3ndbRW1Fu606buFsIkuR0YVUPyAL9tSuzHABczWzBGIlCxG6Z13//ti3d36kQQ/BquOSlU0rzSSoeyHHGPXiQeOsj/xxHOKB1FlSTJf1igbCRyQYgW78VG7nUhtKa1iHqMsgH/5eDu46BfEK89GMbslpBcLU9DwIDAQAB
+2018-11-10 12:06:39,233 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-10 12:06:39,233 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - ENTRA EN CONEXIONSERVIDOR, ACTIONPERFORMED
+2018-11-10 12:06:39,243 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-10 12:23:14,912 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - javax.crypto.KeyGenerator@7ab3fb2f
+2018-11-10 12:23:14,912 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - javax.crypto.spec.SecretKeySpec@fffe8c2e
+2018-11-10 12:23:14,912 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - [B@3bd91f99
+2018-11-10 12:23:14,912 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - java.security.KeyPairGenerator$Delegate@9dd3f1b
+2018-11-10 12:23:15,292 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - java.security.KeyPair@26c46ae3
+2018-11-10 12:23:15,292 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - ENTRA EN CONEXIONSERVIDOR, ACTIONPERFORMED
+2018-11-10 12:23:15,292 [main] INFO  clientechat.ClienteChat - MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAopEJMz7Pc3ee1u9VK6YeN0u+Bj93eb3FTG9qatE1VDESQRMqNU10mf114V9ln50qk217Z4G3MD6eil/W6s/tSmS7d5P8uuMtJCrIRPPPEAytIl8PKlXxJsSKJmphTrQvrHi5tXGWaZacao7hAkpD2u3AyOCV/BsQiAuJbhzbPJn39YqCzE8VYhKRPDK5zX0vO4Y7sXcp7TNotelGcfB356whfSOW9tudMGWqV6oehi+Q/KWsnpfvXtC6paUDuwZUeIKRlRres98aBaslw0ShRPga/s6/MWCjCoeMT79Z8hUPF13Pmxh6sjJgA8xU5rqOcplxUkPUKeGYUzIVBHTCsQIDAQAB
+2018-11-10 12:23:15,292 [main] INFO  clientechat.ClienteChat - MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAopEJMz7Pc3ee1u9VK6YeN0u+Bj93eb3FTG9qatE1VDESQRMqNU10mf114V9ln50qk217Z4G3MD6eil/W6s/tSmS7d5P8uuMtJCrIRPPPEAytIl8PKlXxJsSKJmphTrQvrHi5tXGWaZacao7hAkpD2u3AyOCV/BsQiAuJbhzbPJn39YqCzE8VYhKRPDK5zX0vO4Y7sXcp7TNotelGcfB356whfSOW9tudMGWqV6oehi+Q/KWsnpfvXtC6paUDuwZUeIKRlRres98aBaslw0ShRPga/s6/MWCjCoeMT79Z8hUPF13Pmxh6sjJgA8xU5rqOcplxUkPUKeGYUzIVBHTCsQIDAQAB
+2018-11-10 12:23:15,292 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
+2018-11-10 12:23:15,292 [main] INFO  clientechat.ClienteChat - Mensaje escrito desde el update
