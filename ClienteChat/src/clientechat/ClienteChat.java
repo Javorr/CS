@@ -21,6 +21,7 @@ public class ClienteChat extends JFrame {
     private int puerto;
     private String host;
     private String usuario;
+    private ConexionServidor cs;
 
     public ClienteChat(){
         super("Cliente Chat");
@@ -34,10 +35,10 @@ public class ClienteChat extends JFrame {
         JTextField tfMensaje = new JTextField("");
         JButton btEnviar = new JButton("Enviar");
 
-
         // Colocacion de los componentes en la ventana
         Container c = this.getContentPane();
         c.setLayout(new GridBagLayout());
+        c.setBackground(Color.pink);
 
         GridBagConstraints gbc = new GridBagConstraints();
 
@@ -89,7 +90,8 @@ public class ClienteChat extends JFrame {
         }
 
         // Accion para el boton enviar
-        btEnviar.addActionListener(new ConexionServidor(socket, tfMensaje, usuario));
+        cs = new ConexionServidor(socket, tfMensaje, usuario);
+        btEnviar.addActionListener(cs);
 
     }
 
@@ -113,8 +115,34 @@ public class ClienteChat extends JFrame {
         while (conectado) {
             try {
                 mensaje = entradaDatos.readUTF();
-                log.info(mensaje);
-                mensajesChat.append(mensaje + System.lineSeparator());
+                String[] splitStr = mensaje.trim().split("\\s+");
+
+                switch (splitStr[0]){
+                    case "Master":
+                        cs.crear_AES();
+                        break;
+
+                    case "Nomaster":
+                        cs.enviar_puk();
+                        break;
+
+                    case"PUK":
+                        cs.gestionar_puk(splitStr);
+                        break;
+
+                    case "CSCIFRADA":
+                        cs.descifrar_AES(splitStr);
+                        break;
+
+                    default:
+                        mensaje = cs.descifrarmensaje(mensaje);
+                        mensajesChat.append(mensaje + System.lineSeparator());
+                        break;
+                }
+
+
+
+
             } catch (IOException ex) {
                 log.error("Error al leer del stream de entrada: " + ex.getMessage());
                 conectado = false;

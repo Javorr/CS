@@ -1,342 +1,230 @@
-2018-10-08 12:07:53,396 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-10-22 12:38:35,999 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-10-22 12:55:21,188 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-10-22 12:55:21,188 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-10-22 12:55:45,693 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-10-29 11:50:44,066 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-10-29 11:51:08,187 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-10-29 11:55:46,148 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-10-29 11:55:59,259 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-10-29 11:58:04,276 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-10-29 11:58:15,836 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-10-29 11:58:16,321 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-10-29 11:58:22,017 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-10-29 11:58:51,295 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-10-29 11:58:53,811 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-10-29 11:58:56,013 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-10-29 11:58:57,899 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-10-29 11:59:25,883 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-10-29 11:59:34,642 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-10-29 11:59:35,126 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-10-29 11:59:37,641 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-10-29 11:59:46,492 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-10-29 11:59:48,319 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-10-29 12:00:55,762 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-10-29 12:01:03,528 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-10-29 12:01:04,012 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-10-29 12:01:06,290 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-10-29 12:01:10,226 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-10-29 12:01:13,476 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-10-29 12:01:16,584 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-10-29 12:01:17,256 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-10-29 12:01:17,990 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-10-29 12:01:19,037 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-10-29 12:04:03,548 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-10-29 12:04:11,466 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-10-29 12:04:22,853 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-10-29 12:04:23,337 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-10-29 12:04:26,405 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-10-29 12:12:01,942 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-10-29 12:12:09,004 [main] ERROR servidorchat.ServidorChat - Error: Address already in use: JVM_Bind
-2018-10-29 12:22:21,610 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-10-29 12:22:31,807 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-10-29 12:22:32,260 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-10-29 12:22:36,334 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-10-29 12:23:23,462 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-10-29 12:23:31,974 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-10-29 12:24:35,906 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-10-29 12:24:46,577 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-10-29 12:24:47,076 [main] INFO  servidorchat.ConexionCliente - 
-2018-10-29 12:24:47,076 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-10-29 12:24:48,671 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-10-29 12:26:06,022 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-10-29 12:26:15,321 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-10-29 12:26:15,774 [main] INFO  servidorchat.ConexionCliente - 
-2018-10-29 12:26:15,774 [main] INFO  servidorchat.ConexionCliente - 
-2018-10-29 12:26:15,774 [main] INFO  servidorchat.ConexionCliente - 
-2018-10-29 12:26:15,774 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-10-29 12:29:18,661 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-10-29 12:29:27,021 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-10-29 12:34:50,232 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-10-29 12:34:57,808 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-10-29 12:34:58,183 [main] INFO  servidorchat.ConexionCliente - javax.crypto.KeyGenerator@6442b0a6
-2018-10-29 12:34:58,308 [main] INFO  servidorchat.ConexionCliente - javax.crypto.spec.SecretKeySpec@fffe8c92
-2018-10-29 12:34:58,308 [main] INFO  servidorchat.ConexionCliente - [B@1a407d53
-2018-10-29 12:46:36,775 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-10-29 12:46:51,771 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-10-29 12:46:52,130 [main] INFO  servidorchat.ConexionCliente - javax.crypto.KeyGenerator@6442b0a6
-2018-10-29 12:46:52,255 [main] INFO  servidorchat.ConexionCliente - javax.crypto.spec.SecretKeySpec@fffe8cdb
-2018-10-29 12:46:52,255 [main] INFO  servidorchat.ConexionCliente - [B@1a407d53
-2018-10-29 12:51:14,066 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-10-29 12:51:32,403 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-10-29 12:51:32,763 [main] INFO  servidorchat.ConexionCliente - javax.crypto.KeyGenerator@6442b0a6
-2018-10-29 12:51:32,888 [main] INFO  servidorchat.ConexionCliente - javax.crypto.spec.SecretKeySpec@177a9
-2018-10-29 12:51:32,888 [main] INFO  servidorchat.ConexionCliente - [B@1a407d53
-2018-10-29 12:51:32,888 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-10-29 12:51:42,419 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-10-29 12:51:42,435 [main] INFO  servidorchat.ConexionCliente - java.security.KeyPairGenerator$Delegate@380fb434
-2018-10-29 12:51:42,731 [main] INFO  servidorchat.ConexionCliente - java.security.KeyPair@3cda1055
-2018-10-29 12:51:42,731 [main] INFO  servidorchat.ConexionCliente - RSA
-2018-10-29 12:51:42,731 [main] INFO  servidorchat.ConexionCliente - sun.security.rsa.RSAPrivateCrtKeyImpl@ffdded88
-2018-10-29 12:51:42,731 [main] INFO  servidorchat.ConexionCliente - MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApUZWCdsFzuwiOdmZ8z2lzb+6f8ZcGB2+2tMc5AjD2epJymiaGEULzsO2pdepELrhddYN4Mn+L3dNBEkCPrlBogUG8xjiqCozFcQuy96+dpCtlSLxu9hdHBMPzcRoJgibskiUMO/PSKJ8JWxlrAJNgPV4nI893TjCa92f03NKq+lQMDywuhUX+JjNZk0EnH88a85jYmVMCxhtHM3FOK9HmimYrzRDLKBrLSHM+OyBXWIwQnFrTlSTBKh5iPQw23bO948BwQigra4uFrJkD+m9U28Dx1lLaAMDm69u/AFft+ywSHLn893DJXBwd1glwuM9SC7DkM0cVb8QEDZr5tyIAQIDAQAB
-2018-10-29 12:51:42,731 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-10-29 12:54:22,588 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-10-29 12:54:24,479 [Thread-1] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-11-05 11:25:26,123 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 11:25:40,451 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-11-05 11:25:41,467 [main] INFO  servidorchat.ConexionCliente - javax.crypto.KeyGenerator@6442b0a6
-2018-11-05 11:25:41,623 [main] INFO  servidorchat.ConexionCliente - javax.crypto.spec.SecretKeySpec@1720d
-2018-11-05 11:25:41,623 [main] INFO  servidorchat.ConexionCliente - [B@1a407d53
-2018-11-05 11:25:41,623 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 11:25:52,824 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 11:27:34,868 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-11-05 11:27:35,056 [main] INFO  servidorchat.ConexionCliente - java.security.KeyPairGenerator$Delegate@380fb434
-2018-11-05 11:27:36,227 [main] INFO  servidorchat.ConexionCliente - java.security.KeyPair@3cda1055
-2018-11-05 11:27:36,227 [main] INFO  servidorchat.ConexionCliente - RSA
-2018-11-05 11:27:36,227 [main] INFO  servidorchat.ConexionCliente - sun.security.rsa.RSAPrivateCrtKeyImpl@ffd26923
-2018-11-05 11:27:36,227 [main] INFO  servidorchat.ConexionCliente - MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkp1shJSilkYI6OR+jhkHCIFkBx87a1n6/XfgvSV5rINqqsInhQtR3Ue4wDLX03R+/vRsmOuqoJgOxkxx8NB1MEw+GJvAYxKzxItbSlPrclCMvoPjCPDdEISLsZUI2q+z4BbZKqBm3bKYu4EekxF/p1GmDQSe6qDOuE3zKd+gecAqlLGtFMwwFG9f0vmpIhnWGxWghcxxPTBXQk3lo1Obtgz5PiFxTc3UkaWqLDkIemAL8TIlX0SwjX41oaEuH9CXwM6W4VyzHy617CHY3LnVSwDRduKhz97ClQkj+pG4dPMLMCGcKWqAh0bqvMFbRwtLDiVPOhAyzCeYGvO8qH7yMwIDAQAB
-2018-11-05 11:27:36,227 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 11:27:41,945 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 11:27:41,945 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 11:29:56,108 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 11:30:02,863 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-11-05 11:30:03,238 [main] INFO  servidorchat.ConexionCliente - javax.crypto.KeyGenerator@6442b0a6
-2018-11-05 11:30:03,363 [main] INFO  servidorchat.ConexionCliente - javax.crypto.spec.SecretKeySpec@fffe8d2d
-2018-11-05 11:30:03,363 [main] INFO  servidorchat.ConexionCliente - [B@1a407d53
-2018-11-05 11:30:03,363 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 11:30:14,045 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-11-05 11:30:14,045 [main] INFO  servidorchat.ConexionCliente - java.security.KeyPairGenerator$Delegate@380fb434
-2018-11-05 11:30:14,482 [main] INFO  servidorchat.ConexionCliente - java.security.KeyPair@3cda1055
-2018-11-05 11:30:14,482 [main] INFO  servidorchat.ConexionCliente - RSA
-2018-11-05 11:30:14,482 [main] INFO  servidorchat.ConexionCliente - sun.security.rsa.RSAPrivateCrtKeyImpl@ffe63c78
-2018-11-05 11:30:14,482 [main] INFO  servidorchat.ConexionCliente - MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvqlSwO8wevD8IdWUwwG1prsWGy1sJaKmcXhJV3oxl6Gs9/5ku9uwlRR20/gUVRXKDQpPqhkMAEAnSnfJIC8grVwiXWrGjmIaLPcmwiAdYhIKNxgI3JzwCDxFAEE+jotISiMX/hvr8Wah8ry1AsNrFoM7yWZe/pKld4zKe/bE36NTFoR6x6phqxrEqKASwVtqYPth6rZ49U5OkRxGRVgWI87NgR1711XtawmNoh/u+ruSPVA3cGcPdVCUu+Vd0XdN62VkkrFi9edoEkQazhO4lf2l5zV3mMFTI0NVfdWXKULpOKFJs82+d3elIiaIXU2S6gl6u1cXSof1HXP8LKFyyQIDAQAB
-2018-11-05 11:30:14,482 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 11:30:20,200 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 11:30:20,200 [Thread-1] INFO  servidorchat.ConexionCliente - El master ha leido: fd: hola
-2018-11-05 11:30:20,200 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 11:32:53,486 [Thread-1] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-11-05 11:33:19,274 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 11:33:29,102 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-11-05 11:33:29,461 [main] INFO  servidorchat.ConexionCliente - javax.crypto.KeyGenerator@6442b0a6
-2018-11-05 11:33:29,586 [main] INFO  servidorchat.ConexionCliente - javax.crypto.spec.SecretKeySpec@fffe8477
-2018-11-05 11:33:29,586 [main] INFO  servidorchat.ConexionCliente - [B@1a407d53
-2018-11-05 11:33:29,586 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 11:33:43,537 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-11-05 11:33:43,537 [main] INFO  servidorchat.ConexionCliente - java.security.KeyPairGenerator$Delegate@380fb434
-2018-11-05 11:33:43,662 [main] INFO  servidorchat.ConexionCliente - java.security.KeyPair@3cda1055
-2018-11-05 11:33:43,662 [main] INFO  servidorchat.ConexionCliente - RSA
-2018-11-05 11:33:43,662 [main] INFO  servidorchat.ConexionCliente - sun.security.rsa.RSAPrivateCrtKeyImpl@ffec7304
-2018-11-05 11:33:43,662 [main] INFO  servidorchat.ConexionCliente - MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA32dz7wkeVKYG7k8n+1G//RDLIOqULFWEVC3QtEUjDxm7m5tapgQlei2HZT5B1d21/aIvBrlJkFIV3SgFAjmatdaYYN23AzOxCMyg70yVs/K7BoYlY7LzuqaJ09OrwD7UYCvyEoJjoNVmxaLAzmukCmCL751Tkr9lfsL5/eWZ7Xb2+SoDOEvTiY7Y9f+WD0mQhk5zha1SyOpIAW0Gi3pX9YbxtSx9O26JezAcDFhRwPjV1QxbWjg7lvIF11C4bdlQj69en1wMb3WECrsGt3Ekf9SbNYs5/lRYWKfcG84Vz9PIG5r42pXkcbP7R+97kNJhEqnhNQvVqU4Y8TMTefvkVQIDAQAB
-2018-11-05 11:33:43,662 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 11:34:12,168 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 11:34:12,168 [Thread-0] INFO  servidorchat.ConexionCliente - El master ha leido: df: dfds
-2018-11-05 11:34:12,168 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 11:34:24,978 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 11:34:24,978 [Thread-1] INFO  servidorchat.ConexionCliente - El master ha leido: nomaster: dsfsdf
-2018-11-05 11:34:24,978 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 11:42:01,912 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 11:42:14,682 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-11-05 11:42:15,026 [main] INFO  servidorchat.ConexionCliente - javax.crypto.KeyGenerator@6442b0a6
-2018-11-05 11:42:15,151 [main] INFO  servidorchat.ConexionCliente - javax.crypto.spec.SecretKeySpec@fffe8ec7
-2018-11-05 11:42:15,151 [main] INFO  servidorchat.ConexionCliente - [B@1a407d53
-2018-11-05 11:42:15,151 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 11:42:15,151 [Thread-0] INFO  servidorchat.ConexionCliente - El master ha leido: Se ha enviado
-2018-11-05 11:42:15,151 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 11:46:02,347 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 11:46:15,104 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-11-05 11:46:15,463 [main] INFO  servidorchat.ConexionCliente - javax.crypto.KeyGenerator@6442b0a6
-2018-11-05 11:46:15,588 [main] INFO  servidorchat.ConexionCliente - javax.crypto.spec.SecretKeySpec@fffe845d
-2018-11-05 11:46:15,588 [main] INFO  servidorchat.ConexionCliente - [B@1a407d53
-2018-11-05 11:46:15,588 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 11:46:15,588 [Thread-0] INFO  servidorchat.ConexionCliente - El master ha leido: Se ha enviado
-2018-11-05 11:46:15,588 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 11:47:22,512 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-11-05 11:47:22,512 [main] INFO  servidorchat.ConexionCliente - java.security.KeyPairGenerator$Delegate@380fb434
-2018-11-05 11:47:22,975 [main] INFO  servidorchat.ConexionCliente - java.security.KeyPair@3cda1055
-2018-11-05 11:47:22,975 [main] INFO  servidorchat.ConexionCliente - RSA
-2018-11-05 11:47:22,975 [main] INFO  servidorchat.ConexionCliente - sun.security.rsa.RSAPrivateCrtKeyImpl@ffe873d6
-2018-11-05 11:47:22,975 [main] INFO  servidorchat.ConexionCliente - MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs1sc7Y5G4RtW3Hpybx7j+6q/wuKSI4akXrvkhxiNrk9KmviPcRKZLAAn8D9qg1TMohuDf3fM28kiTEsxCwD5jKCI8KS5FtfR8X2udWkFp4Mqq7oepwJ+MdTzqfVSiVKqvIO5wEWW3cMNnLtYOJJb21SjBQZQFu/sIncIQD7jCDwRJlLI1GFZRTkniwPyXOu9hZ5n3zGp2fF+tMdXgRGTo8iRd/BIMUxTBz8HCLu9hfg9itAbwXpYPT/4IBfLFUEsk+3Qm9GHnKLM9lnN0e2wnya5dWn1BrpqL6mWiLlg9YlHNF0N1dk9Tv1/hQ1mUE2rg3LFHrDL2vcncwNFyxsVIQIDAQAB
-2018-11-05 11:47:22,975 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 11:47:22,975 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 11:47:22,975 [Thread-1] INFO  servidorchat.ConexionCliente - El master ha leido: Se ha enviado
-2018-11-05 11:47:22,975 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 11:47:29,531 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 11:47:29,531 [Thread-1] INFO  servidorchat.ConexionCliente - El master ha leido: sdfdsf: hola
-2018-11-05 11:47:29,531 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 11:48:48,891 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 11:48:48,891 [Thread-0] INFO  servidorchat.ConexionCliente - El master ha leido: df: soy el master
-2018-11-05 11:48:48,891 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 11:49:13,457 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 11:49:13,457 [Thread-1] INFO  servidorchat.ConexionCliente - El master ha leido: sdfdsf: no soy el master
-2018-11-05 11:49:13,457 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 11:53:23,533 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 11:53:31,623 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-11-05 11:53:31,967 [main] INFO  servidorchat.ConexionCliente - javax.crypto.KeyGenerator@6442b0a6
-2018-11-05 11:53:32,092 [main] INFO  servidorchat.ConexionCliente - javax.crypto.spec.SecretKeySpec@178e3
-2018-11-05 11:53:32,092 [main] INFO  servidorchat.ConexionCliente - [B@1a407d53
-2018-11-05 11:53:32,092 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 11:53:32,092 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: Mensaje desde conexion servidor
-2018-11-05 11:53:32,092 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 11:54:23,136 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-11-05 11:54:23,136 [main] INFO  servidorchat.ConexionCliente - java.security.KeyPairGenerator$Delegate@380fb434
-2018-11-05 11:54:24,198 [main] INFO  servidorchat.ConexionCliente - java.security.KeyPair@3cda1055
-2018-11-05 11:54:24,198 [main] INFO  servidorchat.ConexionCliente - RSA
-2018-11-05 11:54:24,198 [main] INFO  servidorchat.ConexionCliente - sun.security.rsa.RSAPrivateCrtKeyImpl@ffdf333f
-2018-11-05 11:54:24,198 [main] INFO  servidorchat.ConexionCliente - MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjVs59jD77juhCDivNoYVeeDyz9HRPDogzcvZOxJuANf3y3dqacC3ZdaaC/0cQG6CMP6l3YHG+Hm7oO8jeLeh/uK+E+BxdRdE7D8oDWGR0JJgIVqTp11GhWMEEy2zpMHjMfb43zL/027xg/PsbIVr47NDTXhedvmA7vW6YCAXtpaBcKkmEt9fSfu5yUZ8Cmqpta9hSKPXUeite1KMBcSOVnnOabjBEbcwIGeEfv5lqMuqlTeV0WJY0abkNEKcf4vY3ilVfM+xxTq/p8VlwKaX136s9tJqjoIF79LUVIq39a16KE1Dkfysj0gPM3oYPRwq5pX/kNbHN291I0N9BtKPywIDAQAB
-2018-11-05 11:54:24,214 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 11:54:24,214 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 11:54:24,214 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: Mensaje desde conexion servidor
-2018-11-05 11:54:24,214 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 11:55:26,483 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 11:55:26,483 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: m: hola
-2018-11-05 11:55:26,483 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 11:57:00,212 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 11:57:00,212 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: nm: hola
-2018-11-05 11:57:00,212 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 12:01:29,540 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 12:01:35,943 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-11-05 12:01:36,302 [main] INFO  servidorchat.ConexionCliente - javax.crypto.KeyGenerator@6442b0a6
-2018-11-05 12:01:36,427 [main] INFO  servidorchat.ConexionCliente - javax.crypto.spec.SecretKeySpec@1786a
-2018-11-05 12:01:36,427 [main] INFO  servidorchat.ConexionCliente - [B@1a407d53
-2018-11-05 12:01:36,427 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 12:01:36,427 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: Mensaje desde conexion servidor
-2018-11-05 12:01:36,427 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 12:01:56,960 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-11-05 12:01:56,960 [main] INFO  servidorchat.ConexionCliente - java.security.KeyPairGenerator$Delegate@380fb434
-2018-11-05 12:01:57,429 [main] INFO  servidorchat.ConexionCliente - java.security.KeyPair@3cda1055
-2018-11-05 12:01:57,429 [main] INFO  servidorchat.ConexionCliente - RSA
-2018-11-05 12:01:57,429 [main] INFO  servidorchat.ConexionCliente - sun.security.rsa.RSAPrivateCrtKeyImpl@ffc6e8e7
-2018-11-05 12:01:57,429 [main] INFO  servidorchat.ConexionCliente - MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArh9g98orJU2T+2wtdbEfeBShEv8StAkbw/m4q3XZGzBdi0g4GhFtMuZoZNWiHxbRlp8Yz4wLZBp29h9TToTGKRI1li8X6saQHnW8nN8CL+joJgeMR7XNF8vCkDv6sgeNTMkx2uO73ptjQ787hwWPPBRPCdcjJnuxUDxsLx+JqbECTGsKTzvWjTRcV1ws1QxCvS5wz+9Fo/T+1Kn2hmg65iGoQDn/5rws0Ry7CzX5rY2CT+8l4tiScrqHCiVuOTSRm3OL0HAy92j7GhxQpBoJnNd4286A2+a2h/WuGVIJ/5P6aFEO36FU+UrgzDfUyq3Te6/qBKIwJ9Q1KL06G1LTpwIDAQAB
-2018-11-05 12:01:57,429 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 12:01:57,429 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 12:01:57,429 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: Mensaje desde conexion servidor
-2018-11-05 12:01:57,444 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 12:02:15,065 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 12:02:15,065 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: m: hola
-2018-11-05 12:02:15,065 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 12:04:43,912 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-11-05 12:04:45,724 [Thread-1] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-11-05 12:04:54,829 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 12:05:01,446 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-11-05 12:05:01,805 [main] INFO  servidorchat.ConexionCliente - javax.crypto.KeyGenerator@6442b0a6
-2018-11-05 12:05:01,915 [main] INFO  servidorchat.ConexionCliente - javax.crypto.spec.SecretKeySpec@172cd
-2018-11-05 12:05:01,915 [main] INFO  servidorchat.ConexionCliente - [B@1a407d53
-2018-11-05 12:05:01,915 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 12:05:01,915 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: Mensaje desde conexion servidor
-2018-11-05 12:05:01,915 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 12:05:13,799 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-11-05 12:05:13,799 [main] INFO  servidorchat.ConexionCliente - java.security.KeyPairGenerator$Delegate@380fb434
-2018-11-05 12:05:14,471 [main] INFO  servidorchat.ConexionCliente - java.security.KeyPair@3cda1055
-2018-11-05 12:05:14,471 [main] INFO  servidorchat.ConexionCliente - RSA
-2018-11-05 12:05:14,471 [main] INFO  servidorchat.ConexionCliente - sun.security.rsa.RSAPrivateCrtKeyImpl@ffd485d6
-2018-11-05 12:05:14,471 [main] INFO  servidorchat.ConexionCliente - MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAy/l90kafwId6ymc/N3Jw01+pipRtWpM3/P+E2B1yyrSzeIez8wbZ1CC39E/a/jPKtUenH9qsfyaVLKjfkw1NcvigiLIE9DWvLW+ENrIDJ3FK5RIryvmW9kk+/l5sMDtziY1gd/yd/wtUNCX6qpbdP5ft6UCh2kqaJgkFKNWfkKqCvkb0sjQCGv0OW2CbCDWRvBaa7QsfMmBkZ2CGX4vVZCsd+j4iD5Loyy6bbsEFEGVqPd5oxHJx+JlcenRzdqDtC4WWDloOdQEadRIl3dpBxXOPLTuT4NzXqh0ZRHnjOYqyScBbPw26XxLn79XAALUIk9SMPyr5sKZIUK8Xkya5bQIDAQAB
-2018-11-05 12:05:14,471 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 12:05:14,471 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 12:05:14,471 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: Mensaje desde conexion servidor
-2018-11-05 12:05:14,471 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 12:08:38,202 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 12:08:57,627 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-11-05 12:08:57,971 [main] INFO  servidorchat.ConexionCliente - javax.crypto.KeyGenerator@6442b0a6
-2018-11-05 12:08:58,096 [main] INFO  servidorchat.ConexionCliente - javax.crypto.spec.SecretKeySpec@17ed4
-2018-11-05 12:08:58,096 [main] INFO  servidorchat.ConexionCliente - [B@1a407d53
-2018-11-05 12:08:58,096 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 12:08:58,096 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: Mensaje desde conexion servidor
-2018-11-05 12:08:58,096 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 12:09:11,952 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-11-05 12:09:11,952 [main] INFO  servidorchat.ConexionCliente - java.security.KeyPairGenerator$Delegate@380fb434
-2018-11-05 12:09:12,280 [main] INFO  servidorchat.ConexionCliente - java.security.KeyPair@3cda1055
-2018-11-05 12:09:12,280 [main] INFO  servidorchat.ConexionCliente - RSA
-2018-11-05 12:09:12,280 [main] INFO  servidorchat.ConexionCliente - sun.security.rsa.RSAPrivateCrtKeyImpl@ffde3691
-2018-11-05 12:09:12,280 [main] INFO  servidorchat.ConexionCliente - MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjLK4Rpl764tv5jr/tObVhzTLpqjWOtcUd4+t5EXjvrUhJAZ/UusQghWKJOVtIcxLnX4Hpa35uQTFSgzHtodb6UdC6c6lVgnyhGqIjJzy6cnnkSP08FyZmgRoZAMl+YqUTOauTjy24Hkp346YrzVCAnQIl4zD6B4oeB9/gDY8pxW9zjcV80s/sKngNzUvRLr4QwS5yqxqje1qevd/vpsueK7rB43XoxuYaW0Y/nX6bGTqpBdo050HxUvEq3vDvWdtlhujCItG89aO+V7C7TaI9xR6D8wFrpwFqcu2vxhEuQirw0LRz2DtZQ6ZkWEJVYc9HtW8MAICuAcActUnp0zP8QIDAQAB
-2018-11-05 12:09:12,280 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 12:09:12,280 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 12:09:12,280 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: Mensaje desde conexion servidor
-2018-11-05 12:09:12,295 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 12:09:23,284 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 12:09:23,284 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: nm: hola
-2018-11-05 12:09:23,284 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 12:10:30,500 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 12:10:30,500 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: m: hola
-2018-11-05 12:10:30,500 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 12:10:41,619 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 12:10:41,619 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: nm: hola
-2018-11-05 12:10:41,619 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 12:11:54,754 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-11-05 12:11:54,754 [main] INFO  servidorchat.ConexionCliente - java.security.KeyPairGenerator$Delegate@2ed94a8b
-2018-11-05 12:11:55,222 [main] INFO  servidorchat.ConexionCliente - java.security.KeyPair@38082d64
-2018-11-05 12:11:55,222 [main] INFO  servidorchat.ConexionCliente - RSA
-2018-11-05 12:11:55,222 [main] INFO  servidorchat.ConexionCliente - sun.security.rsa.RSAPrivateCrtKeyImpl@ffdf7a69
-2018-11-05 12:11:55,222 [main] INFO  servidorchat.ConexionCliente - MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtLK52ftqu17ua1HDQtYacjkCj/pMInOV1msns8jxj0/ywbLCG7c/fq+J86vdAv0bCXdmq8YkurpPBnYtaRPvkel+RuvueWUORrVEoEIlHElJMczYJAVRuHCAbTL1aUDSDtX363QAqrYoayycS6Epz0qsBdnsGsPaMgekFP/VGaepVOK+drTqGkn2C22/OBYMaSHtxLLINM2LXI8FjLfFnlU8Hh6h5hDsdDWrr1reCsNge3rjFHSNdS0JCOQjEC/Uj2jMbsauAcnubIfDJDgvhVU/HSorg0zsJf/anLWeyk8bUpV/NdE6hIt/dZV71TIq2D+HKmVrf2+X044r4eG8QwIDAQAB
-2018-11-05 12:11:55,222 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 12:11:55,222 [Thread-2] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 12:11:55,222 [Thread-2] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 12:11:55,222 [Thread-2] INFO  servidorchat.ConexionCliente - Ha entrado a update: Mensaje desde conexion servidor
-2018-11-05 12:11:55,222 [Thread-2] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 12:11:56,238 [Thread-2] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-11-05 12:21:12,208 [Thread-1] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-11-05 12:21:12,255 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-11-05 12:21:21,882 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 12:21:32,903 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-11-05 12:21:33,263 [main] INFO  servidorchat.ConexionCliente - javax.crypto.KeyGenerator@6442b0a6
-2018-11-05 12:21:33,388 [main] INFO  servidorchat.ConexionCliente - javax.crypto.spec.SecretKeySpec@17a8c
-2018-11-05 12:21:33,388 [main] INFO  servidorchat.ConexionCliente - [B@1a407d53
-2018-11-05 12:21:33,388 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 12:21:33,388 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: Mensaje desde conexion servidor
-2018-11-05 12:21:33,388 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 12:21:54,399 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-11-05 12:21:54,399 [main] INFO  servidorchat.ConexionCliente - java.security.KeyPairGenerator$Delegate@380fb434
-2018-11-05 12:21:54,743 [main] INFO  servidorchat.ConexionCliente - java.security.KeyPair@3cda1055
-2018-11-05 12:21:54,743 [main] INFO  servidorchat.ConexionCliente - RSA
-2018-11-05 12:21:54,743 [main] INFO  servidorchat.ConexionCliente - sun.security.rsa.RSAPrivateCrtKeyImpl@ffbd4fea
-2018-11-05 12:21:54,743 [main] INFO  servidorchat.ConexionCliente - MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuQSfcKzH4f5a2Gy0q8y+FYtQmEBeHiQZQzbVF7128AdeDiywQ8ktKmw/m2alG5QlGWzpjcuTVD8WNGMIcBlbVNewe8YUKXtp2WZEFEF3Rcb3GUxlet4hNBquQEcIFWSnruhsg+KllEK14aTpyvlmLWjq1pqYz5H3w+8Ve7M15j3r+iASnkkigYZz9bj+rbpyG+REqZS1C2ghcoWYnpAq4upJBIkDy0d2VNMp+kcppj73THXkM73pchWPNstcGQo2EAuSLAj3YBJy26rPMytobP1zS8UKvnNIe65y7latumREzqrMeyso9Je6z0gy9xH0j0bLNUMTDesW20gd2RwWwwIDAQAB
-2018-11-05 12:21:54,743 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 12:21:54,743 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 12:21:54,743 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: Mensaje desde conexion servidor
-2018-11-05 12:21:54,743 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 12:22:05,624 [Thread-1] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-11-05 12:22:05,640 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-11-05 12:23:05,806 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 12:23:13,711 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-11-05 12:23:13,711 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 12:23:13,711 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: Mensaje desde conexion servidor
-2018-11-05 12:23:13,711 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 12:23:21,409 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-11-05 12:26:38,369 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 12:26:47,188 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-11-05 12:26:47,188 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 12:26:47,188 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: Mensaje desde conexion servidor
-2018-11-05 12:26:47,188 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 12:27:03,113 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-11-05 12:27:03,113 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-05 12:27:03,113 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 12:27:03,113 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: Mensaje desde conexion servidor
-2018-11-05 12:27:03,113 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 12:28:13,512 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 12:28:13,512 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgGLMtdTp9y7AaY5Ia+SwxfjYsdIi6rqX0LqR2HrvhKWtaOXH7/ntNe6b5UkxHVMZHZAiyX31IP9ZTcKuVqmDYGNjvIQb2oRET0KSOI36ZLi2QsAhZepY9gWx8Qol258NPaoRitk1K5XvulFBsbJL46GL16eT7b7PvI7stH4ZTYBNjmI5fECIjtjqCUNHr3gJh1TbwWotoNZJ+soO6dJWcGVERNPQcImZQTfROyg+SGTKGnT8B096Kf+IAGat8MjcuZUYpzFFe+rWSf4/nWgSHGqCsGoxx1Nbkm+Vf8Baa4Pvtdzdrc8oVlWs5GN3YpYR0d4daEbUnU3uIZnkiNrXhQIDAQAB
-2018-11-05 12:28:13,512 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-05 12:59:45,906 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-11-05 12:59:46,718 [Thread-1] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-11-10 10:59:24,294 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-10 11:00:29,924 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-11-10 11:00:29,924 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-10 11:00:29,924 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: Mensaje desde conexion servidor
-2018-11-10 11:00:29,924 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-10 11:02:41,968 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-11-10 12:05:18,734 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-10 12:05:37,793 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-11-10 12:05:37,793 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-10 12:05:37,793 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: Mensaje desde conexion servidor
-2018-11-10 12:05:37,793 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-10 12:06:07,803 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-11-10 12:06:07,803 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-11-10 12:06:07,803 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-10 12:06:07,803 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: Mensaje desde conexion servidor
-2018-11-10 12:06:07,803 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-10 12:06:39,213 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-10 12:06:39,213 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsLlU/IqZR3Jd9lNJ/wOgjNGhv63kyt/ykOW7xPqK+HyTDcQQXsbNW2k0exatY2PfyYSVN0R74yIkpFWE0qOSTpc+ZlDcQlUNxDEZOdRnkVCrpObVesEJyIux7lDToBm3yTm3jf9r3GNRx3l8KhsuQiQCFU6Z91Qg2ovW9h2kzEM1IgbmJ5oAtVl3ndbRW1Fu606buFsIkuR0YVUPyAL9tSuzHABczWzBGIlCxG6Z13//ti3d36kQQ/BquOSlU0rzSSoeyHHGPXiQeOsj/xxHOKB1FlSTJf1igbCRyQYgW78VG7nUhtKa1iHqMsgH/5eDu46BfEK89GMbslpBcLU9DwIDAQAB
-2018-11-10 12:06:39,213 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-10 12:23:15,292 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-10 12:23:15,292 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAopEJMz7Pc3ee1u9VK6YeN0u+Bj93eb3FTG9qatE1VDESQRMqNU10mf114V9ln50qk217Z4G3MD6eil/W6s/tSmS7d5P8uuMtJCrIRPPPEAytIl8PKlXxJsSKJmphTrQvrHi5tXGWaZacao7hAkpD2u3AyOCV/BsQiAuJbhzbPJn39YqCzE8VYhKRPDK5zX0vO4Y7sXcp7TNotelGcfB356whfSOW9tudMGWqV6oehi+Q/KWsnpfvXtC6paUDuwZUeIKRlRres98aBaslw0ShRPga/s6/MWCjCoeMT79Z8hUPF13Pmxh6sjJgA8xU5rqOcplxUkPUKeGYUzIVBHTCsQIDAQAB
-2018-11-10 12:23:15,292 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-11-10 12:23:30,112 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-11-10 12:23:30,133 [Thread-1] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
+2018-11-26 16:36:39,698 [Thread-1] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: PUK 30 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0nGJUb0DXWs5RwpYOMNXBHcSvZFvAhAIaCowv7vBkt9/rACKFuCad3//5mMe5rJ65RnqT3dOe1rwS1ugkqQA4OLi5wh5Mwc4gxK24JC+q5PIandUpVRxPD1nsOQRpUlnYEzobSelPCXjj2jD9NBYFmUQsAi2m+z0DpuzQ36g+QP103HwVhqN8eaCOSr1UkSPoooM8uH+m+DQqwk10akpKda60ZEB9DKzEGAP7i6UXFOakZaokboWQfvt+460V7yB3VxOmyeMg433kXAguSI110uDZeLgi2vZnZzF3iLyPDUeR1QCcPUsuDqQnaF5Ol1Bg2xJ7/DR0OX6QJFGuw9SKwIDAQAB
+2018-11-26 16:36:39,698 [Thread-1] INFO  servidorchat.ConexionCliente - Me han enviado una clave publica, con ID: 30
+2018-11-26 16:36:39,698 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 16:36:39,698 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: PUK 30 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0nGJUb0DXWs5RwpYOMNXBHcSvZFvAhAIaCowv7vBkt9/rACKFuCad3//5mMe5rJ65RnqT3dOe1rwS1ugkqQA4OLi5wh5Mwc4gxK24JC+q5PIandUpVRxPD1nsOQRpUlnYEzobSelPCXjj2jD9NBYFmUQsAi2m+z0DpuzQ36g+QP103HwVhqN8eaCOSr1UkSPoooM8uH+m+DQqwk10akpKda60ZEB9DKzEGAP7i6UXFOakZaokboWQfvt+460V7yB3VxOmyeMg433kXAguSI110uDZeLgi2vZnZzF3iLyPDUeR1QCcPUsuDqQnaF5Ol1Bg2xJ7/DR0OX6QJFGuw9SKwIDAQAB
+2018-11-26 16:36:39,698 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 16:36:39,713 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: CSCIFRADA 30 oUNfafluYmWGsA1SdauWUnj7UHMHw3NYvd7UproPcR+0M+MFaO7HpY6gQ8jTJP7yUSaqrsr7H7rPNHrTygmacXJYn8qaywmuMs/tFVaW9OZOlLd5Y25hsbVMdNO2KNdgUTbtU0ad2PYY9L4yWHlyLiJAD69xhGUUH2fAPogktHeTnzSHDCkBGWJZsAhCyEIvK2Lx9cu+yoNjeLLN1uG2ojurrrkmOU7B4yQP81Ed80vJzfCFJtwqQQo8QYRkbFcP3/jc111kLXM5zv+j8ld5R5yEnLJfY0Os4lYXdFcwnnDWD/78Yqa0LA03jRPWB6MLM7umM8Q2nseYI8EoB61VWA==
+2018-11-26 16:36:39,713 [Thread-0] INFO  servidorchat.ConexionCliente - Ha llegado la clave AES cifrada para ID: 30
+2018-11-26 16:36:39,713 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 16:36:39,713 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: CSCIFRADA 30 oUNfafluYmWGsA1SdauWUnj7UHMHw3NYvd7UproPcR+0M+MFaO7HpY6gQ8jTJP7yUSaqrsr7H7rPNHrTygmacXJYn8qaywmuMs/tFVaW9OZOlLd5Y25hsbVMdNO2KNdgUTbtU0ad2PYY9L4yWHlyLiJAD69xhGUUH2fAPogktHeTnzSHDCkBGWJZsAhCyEIvK2Lx9cu+yoNjeLLN1uG2ojurrrkmOU7B4yQP81Ed80vJzfCFJtwqQQo8QYRkbFcP3/jc111kLXM5zv+j8ld5R5yEnLJfY0Os4lYXdFcwnnDWD/78Yqa0LA03jRPWB6MLM7umM8Q2nseYI8EoB61VWA==
+2018-11-26 16:36:39,713 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 16:36:44,665 [Thread-1] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: moni: hola
+2018-11-26 16:36:44,665 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 16:36:44,665 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: moni: hola
+2018-11-26 16:36:44,665 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 16:36:51,648 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: m: que tal
+2018-11-26 16:36:51,648 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 16:36:51,648 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: m: que tal
+2018-11-26 16:36:51,648 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 16:36:57,834 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
+2018-11-26 16:36:59,334 [Thread-1] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
+2018-11-26 16:40:35,667 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-11-26 16:40:59,164 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-11-26 16:40:59,164 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-11-26 16:40:59,164 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 16
+2018-11-26 16:40:59,164 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos detectado el id
+2018-11-26 16:40:59,164 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos asignado el id del master
+2018-11-26 16:41:04,335 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: Monica9: egfrtrty
+2018-11-26 16:41:04,335 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: Monica9: egfrtrty
+2018-11-26 16:41:04,335 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 16:55:01,468 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
+2018-11-26 16:55:07,010 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-11-26 16:55:13,804 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-11-26 16:55:13,804 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-11-26 16:55:13,804 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 40
+2018-11-26 16:55:13,804 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos detectado el id
+2018-11-26 16:55:13,819 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos asignado el id del master
+2018-11-26 16:55:18,549 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: m: hola
+2018-11-26 16:55:18,549 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: m: hola
+2018-11-26 16:55:18,549 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 16:56:52,215 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
+2018-11-26 16:57:04,767 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-11-26 16:57:11,234 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-11-26 16:57:11,250 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-11-26 16:57:11,250 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 4
+2018-11-26 16:57:11,250 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos detectado el id
+2018-11-26 16:57:11,250 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos asignado el id del master
+2018-11-26 16:57:14,312 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: KrVfXtujMSA9WA/VJEp7iw==
+2018-11-26 16:57:14,312 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: KrVfXtujMSA9WA/VJEp7iw==
+2018-11-26 16:57:14,312 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 16:57:19,514 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: cDm8E/TdLwO6IzwoFmESNA==
+2018-11-26 16:57:19,514 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: cDm8E/TdLwO6IzwoFmESNA==
+2018-11-26 16:57:19,514 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 16:57:23,716 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: 6Oc8csjJoETK79m7id3Onw==
+2018-11-26 16:57:23,716 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: 6Oc8csjJoETK79m7id3Onw==
+2018-11-26 16:57:23,716 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 16:57:27,434 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: 1tj8zk0kJckUXkbl08W85g==
+2018-11-26 16:57:27,434 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: 1tj8zk0kJckUXkbl08W85g==
+2018-11-26 16:57:27,434 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 16:57:29,480 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: 1tj8zk0kJckUXkbl08W85g==
+2018-11-26 16:57:29,480 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: 1tj8zk0kJckUXkbl08W85g==
+2018-11-26 16:57:29,480 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 16:57:32,979 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: 1tj8zk0kJckUXkbl08W85g==
+2018-11-26 16:57:32,979 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: 1tj8zk0kJckUXkbl08W85g==
+2018-11-26 16:57:32,979 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 16:57:43,524 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: +jWfCwCGAw5Yqlss/Zzfug==
+2018-11-26 16:57:43,524 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: +jWfCwCGAw5Yqlss/Zzfug==
+2018-11-26 16:57:43,524 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 16:57:47,101 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: DYkY0dNgEC7ioZNd0TvcEA==
+2018-11-26 16:57:47,101 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: DYkY0dNgEC7ioZNd0TvcEA==
+2018-11-26 16:57:47,101 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 16:57:55,240 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
+2018-11-26 17:08:43,496 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-11-26 17:08:52,852 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-11-26 17:08:52,852 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-11-26 17:08:52,852 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 5
+2018-11-26 17:08:52,852 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos detectado el id
+2018-11-26 17:08:52,852 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos asignado el id del master
+2018-11-26 17:08:59,164 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: PmXrok4ejisu/eOhmdzgkQ==
+2018-11-26 17:08:59,164 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: PmXrok4ejisu/eOhmdzgkQ==
+2018-11-26 17:08:59,164 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 17:10:14,115 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
+2018-11-26 17:12:00,872 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-11-26 17:12:09,277 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-11-26 17:12:09,277 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-11-26 17:12:09,277 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 29
+2018-11-26 17:12:09,277 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos detectado el id
+2018-11-26 17:12:09,277 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos asignado el id del master
+2018-11-26 17:12:22,430 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
+2018-11-26 17:13:09,041 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-11-26 17:13:17,676 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-11-26 17:13:17,676 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-11-26 17:13:17,676 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 31
+2018-11-26 17:13:17,676 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos detectado el id
+2018-11-26 17:13:17,676 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos asignado el id del master
+2018-11-26 17:13:27,451 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
+2018-11-26 17:13:40,508 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-11-26 17:13:45,868 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-11-26 17:13:45,868 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-11-26 17:13:45,868 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 16
+2018-11-26 17:13:45,868 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos detectado el id
+2018-11-26 17:13:45,868 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos asignado el id del master
+2018-11-26 17:13:48,696 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: 6YwxF5SxEQRixbiMsQ4U/A==
+2018-11-26 17:13:48,696 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: 6YwxF5SxEQRixbiMsQ4U/A==
+2018-11-26 17:13:48,696 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 17:25:25,346 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
+2018-11-26 17:25:36,867 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-11-26 17:25:44,226 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-11-26 17:25:44,226 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-11-26 17:25:44,226 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 47
+2018-11-26 17:25:44,226 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos detectado el id
+2018-11-26 17:25:44,226 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos asignado el id del master
+2018-11-26 17:25:47,772 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: D5ouxQxg299/XOB34jV7TA==
+2018-11-26 17:25:47,772 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: D5ouxQxg299/XOB34jV7TA==
+2018-11-26 17:25:47,772 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 17:25:58,916 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-11-26 17:25:58,916 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-11-26 17:25:58,916 [Thread-1] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 44
+2018-11-26 17:25:58,916 [Thread-1] INFO  servidorchat.ConexionCliente - Hemos detectado el id
+2018-11-26 17:25:58,916 [Thread-1] INFO  servidorchat.ConexionCliente - Ya esta asignado, mi id es: 44
+2018-11-26 17:25:58,916 [Thread-1] INFO  servidorchat.ConexionCliente - Y el id del master asginado es: 47
+2018-11-26 17:25:59,338 [Thread-1] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: PUK 44 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw5ZJ98VnWYvLfCDdpWszqRkix+eXLEIvqPs+7nmIWey7T71sZdIAeMRvhGMf4etR5cx3z+zSAJANMUZjDzNaI52wgdc71gnamczNIzcd/VB2v3vy5wiJhCRRWt+WIxSYQ2bgN9SZ0Y9yTMHmARlFHmQkptTW+W2/oN0BVpZ2jWclUKozVz94ClFeHZ0bj72A8KgU8RtGTtC1W2H1Yp8mW9s0235RDBZO/kRn0/4s6zKxAM4NpdW3aBjfHq9crrBw1OMnlbRXLtZ3uzy/VMYl9RCX12gph65jsg2bsKg+ArLJLOG2duzkifL1NaT+FvY5uzhWMuJaKNzlXqbheNC/UQIDAQAB
+2018-11-26 17:25:59,338 [Thread-1] INFO  servidorchat.ConexionCliente - Me han enviado una clave publica, con ID: 44
+2018-11-26 17:25:59,338 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 17:25:59,338 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: PUK 44 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw5ZJ98VnWYvLfCDdpWszqRkix+eXLEIvqPs+7nmIWey7T71sZdIAeMRvhGMf4etR5cx3z+zSAJANMUZjDzNaI52wgdc71gnamczNIzcd/VB2v3vy5wiJhCRRWt+WIxSYQ2bgN9SZ0Y9yTMHmARlFHmQkptTW+W2/oN0BVpZ2jWclUKozVz94ClFeHZ0bj72A8KgU8RtGTtC1W2H1Yp8mW9s0235RDBZO/kRn0/4s6zKxAM4NpdW3aBjfHq9crrBw1OMnlbRXLtZ3uzy/VMYl9RCX12gph65jsg2bsKg+ArLJLOG2duzkifL1NaT+FvY5uzhWMuJaKNzlXqbheNC/UQIDAQAB
+2018-11-26 17:25:59,338 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 17:25:59,338 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: CSCIFRADA 44 hrIsni7xIjPO3f9lIiSUWiW46aUBVAhjAemykirvEb3axLXhDZqQcVmyQzVg4dv98jWfGjTBRuQ0aiHMU0e2l0/V32z+BmYe9fSpUDYRCq1aAT+D+d4jxutgeP06RWNvGhRnbaFw8afqYvfiYBzm2mcqFGeWUkikWN0Oo9pe4S5/Te2+2ZXFNUJHZORvn3a+feZOlf0xHYD2bKtJwYtLdmy9M6u8KmTaflbjB0e3WT3azU03mR/TxNXulw/bYP+FSO05PDLn3WCqPrUjOdAsTnMHGMrabNzNyyzMRJJTHzYEDVqOUZZXWCnsH+n/Uwc5Z7JADogLqovK7y9TMVSbNw==
+2018-11-26 17:25:59,338 [Thread-0] INFO  servidorchat.ConexionCliente - Ha llegado la clave AES cifrada para ID: 44
+2018-11-26 17:25:59,354 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 17:25:59,354 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: CSCIFRADA 44 hrIsni7xIjPO3f9lIiSUWiW46aUBVAhjAemykirvEb3axLXhDZqQcVmyQzVg4dv98jWfGjTBRuQ0aiHMU0e2l0/V32z+BmYe9fSpUDYRCq1aAT+D+d4jxutgeP06RWNvGhRnbaFw8afqYvfiYBzm2mcqFGeWUkikWN0Oo9pe4S5/Te2+2ZXFNUJHZORvn3a+feZOlf0xHYD2bKtJwYtLdmy9M6u8KmTaflbjB0e3WT3azU03mR/TxNXulw/bYP+FSO05PDLn3WCqPrUjOdAsTnMHGMrabNzNyyzMRJJTHzYEDVqOUZZXWCnsH+n/Uwc5Z7JADogLqovK7y9TMVSbNw==
+2018-11-26 17:25:59,354 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 17:26:03,150 [Thread-1] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: uWZh4lwMNos9jHz4qgtJIA==
+2018-11-26 17:26:03,150 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 17:26:03,150 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: uWZh4lwMNos9jHz4qgtJIA==
+2018-11-26 17:26:03,150 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 17:26:24,551 [Thread-1] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: xFCis2HCklRb+k6hf2XwAA==
+2018-11-26 17:26:24,551 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 17:26:24,551 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: xFCis2HCklRb+k6hf2XwAA==
+2018-11-26 17:26:24,551 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 17:26:41,469 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
+2018-11-26 17:26:41,469 [Thread-1] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
+2018-11-26 17:31:05,013 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-11-26 17:31:27,363 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-11-26 17:31:27,363 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-11-26 17:31:27,363 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 29
+2018-11-26 17:31:27,363 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos detectado el id
+2018-11-26 17:31:27,363 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos asignado el id del master
+2018-11-26 17:31:31,159 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: RnrbTyE0kc/YBjjkDVrwhA==
+2018-11-26 17:31:31,159 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: RnrbTyE0kc/YBjjkDVrwhA==
+2018-11-26 17:31:31,159 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 17:31:50,029 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
+2018-11-26 17:31:54,203 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-11-26 17:32:04,328 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-11-26 17:32:04,328 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-11-26 17:32:04,328 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 10
+2018-11-26 17:32:04,328 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos detectado el id
+2018-11-26 17:32:04,328 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos asignado el id del master
+2018-11-26 17:32:07,671 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: lUWRN/lhzbkP6QnXFfRDOg==
+2018-11-26 17:32:07,671 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: lUWRN/lhzbkP6QnXFfRDOg==
+2018-11-26 17:32:07,671 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 17:32:29,932 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: UurJXcb8sd9A0qq0wnFd+g==
+2018-11-26 17:32:29,932 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: UurJXcb8sd9A0qq0wnFd+g==
+2018-11-26 17:32:29,932 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 17:32:41,382 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: pht9p6LGeoGh5d6pXjzU4pBWLqV4RjVpZvspZi2obZE=
+2018-11-26 17:32:41,382 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: pht9p6LGeoGh5d6pXjzU4pBWLqV4RjVpZvspZi2obZE=
+2018-11-26 17:32:41,382 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 17:32:51,573 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-11-26 17:32:51,573 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-11-26 17:32:51,573 [Thread-1] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 50
+2018-11-26 17:32:51,573 [Thread-1] INFO  servidorchat.ConexionCliente - Hemos detectado el id
+2018-11-26 17:32:51,573 [Thread-1] INFO  servidorchat.ConexionCliente - Ya esta asignado, mi id es: 50
+2018-11-26 17:32:51,573 [Thread-1] INFO  servidorchat.ConexionCliente - Y el id del master asginado es: 10
+2018-11-26 17:32:51,995 [Thread-1] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: PUK 50 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq2vv0aOC0BgN/+bK5Zn/QKGKBg5cjvuKguL8QnAlLkl536Gw1RfSmM+C0+8cJWTNS7ZT7lg9EN+G6/OUlqv7tFPN6QGt2o1rVRZnvyeBz0wGyP4yG2mOK5O5x+oLUbW0LVV0Cf2+XcP/4tIP8QrKmEpfEV1IalKoKPYaawHZzgPmaxX/aDGXnBhWQpDsh/bMXhdj19VG6aoYZMbX1o/cKcg38oqAL07NQa/ktCIOl5nhrUaDK9I16rovLHjMBEta0OHXtGPpqY+6ksTltqbPVNRt3klw9Dm/BmmfJZZknOYok3skke2rXGJEYYp0RKmuPTM+X1EC/SkWHlmOyhsCaQIDAQAB
+2018-11-26 17:32:51,995 [Thread-1] INFO  servidorchat.ConexionCliente - Me han enviado una clave publica, con ID: 50
+2018-11-26 17:32:51,995 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 17:32:51,995 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: PUK 50 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq2vv0aOC0BgN/+bK5Zn/QKGKBg5cjvuKguL8QnAlLkl536Gw1RfSmM+C0+8cJWTNS7ZT7lg9EN+G6/OUlqv7tFPN6QGt2o1rVRZnvyeBz0wGyP4yG2mOK5O5x+oLUbW0LVV0Cf2+XcP/4tIP8QrKmEpfEV1IalKoKPYaawHZzgPmaxX/aDGXnBhWQpDsh/bMXhdj19VG6aoYZMbX1o/cKcg38oqAL07NQa/ktCIOl5nhrUaDK9I16rovLHjMBEta0OHXtGPpqY+6ksTltqbPVNRt3klw9Dm/BmmfJZZknOYok3skke2rXGJEYYp0RKmuPTM+X1EC/SkWHlmOyhsCaQIDAQAB
+2018-11-26 17:32:51,995 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 17:32:51,995 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: CSCIFRADA 50 MST8bw5aLwNBXAuSOiVl/M2eONCUGzv+Hk/nEwOfevlFCcPFGnHHUnSfX0176FWXMsi7lroxZtRwxR0Qg2wDCccpfi4t4JJv0svSadP7VbZFaBJFIysPVQPR3vIGOGqwQTAF7shZDHLj+/vQsIZjWQkUwyALG7UodMTi+95g1hV9js44s+An4zuoj2K/vJxMrfg/0KOeANtwf7ftFSjquJ7d+g7/z1tCPFiZ2X3o9pMpFx5LwJHWiOwEnn7qGM7aMZhBNK0qy+jHoJ4IFPxqrwjVkhvaC6hEXFjyLP7rxq96lmp3Eq/Uh3E/KtScQzZ+r9daZKDfbi11w0T0HGngDA==
+2018-11-26 17:32:51,995 [Thread-0] INFO  servidorchat.ConexionCliente - Ha llegado la clave AES cifrada para ID: 50
+2018-11-26 17:32:51,995 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 17:32:51,995 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: CSCIFRADA 50 MST8bw5aLwNBXAuSOiVl/M2eONCUGzv+Hk/nEwOfevlFCcPFGnHHUnSfX0176FWXMsi7lroxZtRwxR0Qg2wDCccpfi4t4JJv0svSadP7VbZFaBJFIysPVQPR3vIGOGqwQTAF7shZDHLj+/vQsIZjWQkUwyALG7UodMTi+95g1hV9js44s+An4zuoj2K/vJxMrfg/0KOeANtwf7ftFSjquJ7d+g7/z1tCPFiZ2X3o9pMpFx5LwJHWiOwEnn7qGM7aMZhBNK0qy+jHoJ4IFPxqrwjVkhvaC6hEXFjyLP7rxq96lmp3Eq/Uh3E/KtScQzZ+r9daZKDfbi11w0T0HGngDA==
+2018-11-26 17:32:51,995 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 17:32:54,588 [Thread-1] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: 6z9oXcAdZRsNS1n35lh3jw==
+2018-11-26 17:32:54,588 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 17:32:54,588 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: 6z9oXcAdZRsNS1n35lh3jw==
+2018-11-26 17:32:54,588 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 17:39:02,838 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
+2018-11-26 17:39:02,838 [Thread-1] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
+2018-11-26 17:39:08,591 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-11-26 17:39:15,941 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-11-26 17:39:15,941 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-11-26 17:39:15,941 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 40
+2018-11-26 17:39:15,941 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos detectado el id
+2018-11-26 17:39:15,941 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos asignado el id del master
+2018-11-26 17:39:22,939 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: U3zgfQyGXkVX0qRC4ntweg==
+2018-11-26 17:39:22,939 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: U3zgfQyGXkVX0qRC4ntweg==
+2018-11-26 17:39:22,939 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 17:39:37,914 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
+2018-11-26 17:39:37,914 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-11-26 17:39:37,914 [Thread-1] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 23
+2018-11-26 17:39:37,914 [Thread-1] INFO  servidorchat.ConexionCliente - Hemos detectado el id
+2018-11-26 17:39:37,914 [Thread-1] INFO  servidorchat.ConexionCliente - Ya esta asignado, mi id es: 23
+2018-11-26 17:39:37,914 [Thread-1] INFO  servidorchat.ConexionCliente - Y el id del master asginado es: 40
+2018-11-26 17:39:38,664 [Thread-1] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: PUK 23 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkrCzpnS2IeNsqw8ALTeHxMMVqhjheXg3IZ7yhKafMXd5mhmqdmAQjsZQyguxQYB4j4U2vho/bqFDvn8TrqwKODeJCrMke4JZKRwCSHfdvgrq2uMo84R/NdECs40tPnPy/8Lg2lYNkuQgbHV3YRXyx8xpa9OauuYGBGOvNLwpEUND3plxv9Ad1jqhPVFmYrFbiS2reLiWnccYFnxzQzg7WHKBFjaCGhAFKdmeIfjcTs5gqKyumMu+gc9c17ptbUMH8EaXaQc3ZB+BWh+EQGcmD11dXEzkBfLSomesEZPhwilwQPxmd0Db6GLhpuG+LV1KwW5jgTwQkPiwWaWe353WMwIDAQAB
+2018-11-26 17:39:38,664 [Thread-1] INFO  servidorchat.ConexionCliente - Me han enviado una clave publica, con ID: 23
+2018-11-26 17:39:38,679 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 17:39:38,679 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: PUK 23 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkrCzpnS2IeNsqw8ALTeHxMMVqhjheXg3IZ7yhKafMXd5mhmqdmAQjsZQyguxQYB4j4U2vho/bqFDvn8TrqwKODeJCrMke4JZKRwCSHfdvgrq2uMo84R/NdECs40tPnPy/8Lg2lYNkuQgbHV3YRXyx8xpa9OauuYGBGOvNLwpEUND3plxv9Ad1jqhPVFmYrFbiS2reLiWnccYFnxzQzg7WHKBFjaCGhAFKdmeIfjcTs5gqKyumMu+gc9c17ptbUMH8EaXaQc3ZB+BWh+EQGcmD11dXEzkBfLSomesEZPhwilwQPxmd0Db6GLhpuG+LV1KwW5jgTwQkPiwWaWe353WMwIDAQAB
+2018-11-26 17:39:38,679 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 17:39:38,679 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: CSCIFRADA 23 EZ6QsnPwCOGGkc5ZHhACsdLvNC+GvUpXouyEP6ZHsVMhCkFNTs/Aw+TuxIJkATctzAdvMOV+jBdDX9bl6uX5ws+jK3PG7Q2l/oPIgnMuNhrbH//z71RIIqrFZLmyX2Y2ACSzJ2NpfFkhLIzZ7MjiEsG3yxcr+rVHPO4yLWLOWKA9Wdqg9dZA5our2LNKfIUJAA3qshm2+BtNkVgwjbaVb5Pk/1kYaLY2ZiYbcd0sOJo8OXwdpX0JGH/0zYAuP+dWUhoHyr6Pt+pvW0RDOXnM4DfzLyHHk7xweZ4QR6wOZZ8dJzYCkwRy8vof3Bqhlm0kuDmj4qZpvNJ7qqrrhWtUHw==
+2018-11-26 17:39:38,679 [Thread-0] INFO  servidorchat.ConexionCliente - Ha llegado la clave AES cifrada para ID: 23
+2018-11-26 17:39:38,679 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 17:39:38,679 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: CSCIFRADA 23 EZ6QsnPwCOGGkc5ZHhACsdLvNC+GvUpXouyEP6ZHsVMhCkFNTs/Aw+TuxIJkATctzAdvMOV+jBdDX9bl6uX5ws+jK3PG7Q2l/oPIgnMuNhrbH//z71RIIqrFZLmyX2Y2ACSzJ2NpfFkhLIzZ7MjiEsG3yxcr+rVHPO4yLWLOWKA9Wdqg9dZA5our2LNKfIUJAA3qshm2+BtNkVgwjbaVb5Pk/1kYaLY2ZiYbcd0sOJo8OXwdpX0JGH/0zYAuP+dWUhoHyr6Pt+pvW0RDOXnM4DfzLyHHk7xweZ4QR6wOZZ8dJzYCkwRy8vof3Bqhlm0kuDmj4qZpvNJ7qqrrhWtUHw==
+2018-11-26 17:39:38,679 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 17:39:44,803 [Thread-1] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: fsDn4+Gws/Cu83KmBQ5Rd/O3yBDbSUoZZyQ/FWvCY+I=
+2018-11-26 17:39:44,803 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 17:39:44,803 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: fsDn4+Gws/Cu83KmBQ5Rd/O3yBDbSUoZZyQ/FWvCY+I=
+2018-11-26 17:39:44,803 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 17:39:50,146 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: I9oeTh9PKyzedkuPiS9kmw==
+2018-11-26 17:39:50,146 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 17:39:50,146 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: I9oeTh9PKyzedkuPiS9kmw==
+2018-11-26 17:39:50,146 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 17:39:54,598 [Thread-1] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: jJaSBUPVL1VUmqlZjTv7oA==
+2018-11-26 17:39:54,598 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 17:39:54,598 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: jJaSBUPVL1VUmqlZjTv7oA==
+2018-11-26 17:39:54,598 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 17:39:59,300 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: v91XuK/aIXH86lkeckau5w==
+2018-11-26 17:39:59,300 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 17:39:59,300 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: v91XuK/aIXH86lkeckau5w==
+2018-11-26 17:39:59,300 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-11-26 17:40:04,673 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
+2018-11-26 17:40:05,579 [Thread-1] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.

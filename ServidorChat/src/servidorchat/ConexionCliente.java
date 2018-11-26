@@ -29,6 +29,7 @@ import java.util.Random;
 import java.security.SecureRandom;
 
 
+
 public class ConexionCliente extends Thread implements Observer{
 
     private Logger log = Logger.getLogger(ConexionCliente.class);
@@ -37,6 +38,7 @@ public class ConexionCliente extends Thread implements Observer{
     private DataInputStream entradaDatos;
     private DataOutputStream salidaDatos;
     private boolean isMaster;
+    private static int idMaster=0;
     private int id;
 
     public ConexionCliente (Socket socket, MensajesChat mensajes, boolean isMaster, int identificador){
@@ -49,7 +51,6 @@ public class ConexionCliente extends Thread implements Observer{
         try {
             entradaDatos = new DataInputStream(socket.getInputStream());
             salidaDatos = new DataOutputStream(socket.getOutputStream());
-            salidaDatos.writeUTF("Se asignan los streams");
 
         } catch (IOException ex) {
             log.error("Error al crear los stream de entrada y salida : " + ex.getMessage());
@@ -62,18 +63,45 @@ public class ConexionCliente extends Thread implements Observer{
         boolean conectado = true;
         // Se apunta a la lista de observadores de mensajes
         mensajes.addObserver(this);
-        try {
-            salidaDatos.writeUTF("Mensaje desde el run");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+
         while (conectado) {
             try {
                 // Lee un mensaje enviado por el cliente
                 mensajeRecibido = entradaDatos.readUTF();
                 // Pone el mensaje recibido en mensajes para que se notifique
                 // a sus observadores que hay un nuevo mensaje.
-                mensajes.setMensaje(mensajeRecibido);
+                log.info("Se ha recibido el mensaje: "+mensajeRecibido);
+                String[] splitStr = mensajeRecibido.trim().split("\\s+");
+                if(splitStr[0].equalsIgnoreCase("ID:")) {
+                    log.info("Hemos detectado el id");
+
+                    if(idMaster==0) {
+                        idMaster=Integer.parseInt(splitStr[1]);
+                        id=idMaster;
+                        log.info("Hemos asignado el id del master");
+                        salidaDatos.writeUTF("Master");
+                    }
+                    else {
+                        salidaDatos.writeUTF("Nomaster");
+                        id=Integer.parseInt(splitStr[1]);
+                        log.info("Ya esta asignado, mi id es: "+id);
+                        log.info("Y el id del master asginado es: "+idMaster);
+                    }
+                }
+
+                else if(splitStr[0].equalsIgnoreCase("PUK")) {
+                    log.info("Me han enviado una clave publica, con ID: "+splitStr[1]);
+                    mensajes.setMensaje(mensajeRecibido);
+
+
+                } else if(splitStr[0].equalsIgnoreCase("CSCIFRADA")){
+                    log.info("Ha llegado la clave AES cifrada para ID: "+splitStr[1]);
+                    mensajes.setMensaje(mensajeRecibido);
+                }
+                else {
+                    mensajes.setMensaje(mensajeRecibido);
+                }
+
             } catch (IOException ex) {
                 log.info("Cliente con la IP " + socket.getInetAddress().getHostName() + " desconectado.");
                 conectado = false;
@@ -96,7 +124,6 @@ public class ConexionCliente extends Thread implements Observer{
                 log.info("Ha entrado a update: "+arg.toString());
             }
             salidaDatos.writeUTF(arg.toString());
-            salidaDatos.writeUTF("Mensaje escrito desde el update");
             log.info("ENTRA A CONEXIONCLIENTE, UPDATE");
         } catch (IOException ex) {
             log.error("Error al enviar mensaje al cliente (" + ex.getMessage() + ").");
