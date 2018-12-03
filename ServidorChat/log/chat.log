@@ -1,716 +1,232 @@
-2018-12-03 16:08:38,040 [Thread-2] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:08:38,040 [Thread-2] INFO  servidorchat.ConexionCliente - Ya esta asignado, mi id es: 31
-2018-12-03 16:08:38,040 [Thread-2] INFO  servidorchat.ConexionCliente - Y el id del master asginado es: 29
-2018-12-03 16:08:38,337 [Thread-2] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: PUK 31 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoqsDhdmpNSdzWLfE3WRI1WRgNN7hIVFIR6i+dtYcOBq2Mvzrjx7e266+nU6+9sgBS+TZS5ZIooCd+GMo0HikRBsGalOYOBUKNn1ovq5dTVW91XlkWReCoAeUWOcGKllBZjIqywspZLRXjgwQDHrvSDzh+naPfvErlgd8PjQMx1to3jmKTisgHVhfqyrhFta4u5swiBQo+KS4jzcDbWx2BQR/GwjDHfnSSF/USdt+DcYah1BlLaNkK96CJGTwS4XqewTfo6xNODhXf+4hQTw7Fg688M/FxKnPr58Ei+Y70pX3Tb+nTewenNSClPyC4MkyWBuebWmwLLwLSt+0YCG29wIDAQAB
-2018-12-03 16:08:38,337 [Thread-2] INFO  servidorchat.ConexionCliente - Me han enviado una clave publica, con ID: 31
-2018-12-03 16:08:38,337 [Thread-2] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:08:38,337 [Thread-2] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:08:38,337 [Thread-2] INFO  servidorchat.ConexionCliente - Ha entrado a update: PUK 31 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoqsDhdmpNSdzWLfE3WRI1WRgNN7hIVFIR6i+dtYcOBq2Mvzrjx7e266+nU6+9sgBS+TZS5ZIooCd+GMo0HikRBsGalOYOBUKNn1ovq5dTVW91XlkWReCoAeUWOcGKllBZjIqywspZLRXjgwQDHrvSDzh+naPfvErlgd8PjQMx1to3jmKTisgHVhfqyrhFta4u5swiBQo+KS4jzcDbWx2BQR/GwjDHfnSSF/USdt+DcYah1BlLaNkK96CJGTwS4XqewTfo6xNODhXf+4hQTw7Fg688M/FxKnPr58Ei+Y70pX3Tb+nTewenNSClPyC4MkyWBuebWmwLLwLSt+0YCG29wIDAQAB
-2018-12-03 16:08:38,337 [Thread-2] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:08:38,337 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: CSCIFRADA 31 Zy6fcPtAy/38UBra7rDlv01ssxzBLW6snFM+591SaDdZilDHpMXKg5O0aGUHJOK1V2gQY7Yaof69PT1sKH4j/8/W6y/GPeGOJqobK7+XFiZ27BIus7V5DE8yQRaFa4y2tZNEHnZsoKk1StI7lKAABecinPEG1YlTwaiDZDzUQY0ht++pdCQjfiQOb1eRVc9sToXkhVPSJzOFppoNAxMS6cPM+/Nrqo4QQnG5SS7cGiNuqHn7VAE6a4TTDy9CFQRekF6q48ghsz9416++ro1NyDVlxSlsD+A7gO1OsGlI5iGePxGgw9b9SwPQ3Y4iomyrZBR90jESrVC5dqiyfiQWqg==
-2018-12-03 16:08:38,337 [Thread-0] INFO  servidorchat.ConexionCliente - Ha llegado la clave AES cifrada para ID: 31
-2018-12-03 16:08:38,337 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:08:38,337 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:08:38,337 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: CSCIFRADA 31 Zy6fcPtAy/38UBra7rDlv01ssxzBLW6snFM+591SaDdZilDHpMXKg5O0aGUHJOK1V2gQY7Yaof69PT1sKH4j/8/W6y/GPeGOJqobK7+XFiZ27BIus7V5DE8yQRaFa4y2tZNEHnZsoKk1StI7lKAABecinPEG1YlTwaiDZDzUQY0ht++pdCQjfiQOb1eRVc9sToXkhVPSJzOFppoNAxMS6cPM+/Nrqo4QQnG5SS7cGiNuqHn7VAE6a4TTDy9CFQRekF6q48ghsz9416++ro1NyDVlxSlsD+A7gO1OsGlI5iGePxGgw9b9SwPQ3Y4iomyrZBR90jESrVC5dqiyfiQWqg==
-2018-12-03 16:08:38,337 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:08:40,899 [Thread-2] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-12-03 16:08:45,663 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-12-03 16:08:45,663 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha cambiado el master
-2018-12-03 16:08:45,663 [Thread-0] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:08:45,663 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:08:45,663 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: CAMBIO javiermartinez
-2018-12-03 16:08:45,663 [Thread-0] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 16:08:45,663 [Thread-0] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:08:45,663 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:08:45,663 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA javiermartinez 
-2018-12-03 16:08:45,663 [Thread-0] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 16:08:54,036 [Thread-1] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-12-03 16:09:33,747 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 16:09:42,085 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-12-03 16:09:42,085 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 16:09:42,085 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 12 YE
-2018-12-03 16:09:42,085 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos detectado el id
-2018-12-03 16:09:42,085 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA YE 
-2018-12-03 16:09:42,085 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:09:42,085 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos asignado el id del master
-2018-12-03 16:09:58,329 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-12-03 16:09:58,329 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 16:09:58,329 [Thread-1] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 17 siiii
-2018-12-03 16:09:58,329 [Thread-1] INFO  servidorchat.ConexionCliente - Hemos detectado el id
-2018-12-03 16:09:58,329 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:09:58,329 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA YE siiii 
-2018-12-03 16:09:58,329 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:09:58,329 [Thread-1] INFO  servidorchat.ConexionCliente - Ya esta asignado, mi id es: 17
-2018-12-03 16:09:58,329 [Thread-1] INFO  servidorchat.ConexionCliente - Y el id del master asginado es: 12
-2018-12-03 16:09:58,782 [Thread-1] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: PUK 17 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAh/XbUCqwbZWw/hzxfqbPWTCTnO6ZLdv/M1D2IYEC055c69KpdgGIgIqbufluykADQ6Ek8HuANU4MpO7IRd6ZRzPfHIIs7V4hlcSKdxEeTb8OQv4AtBRfSTiEFU+QHLgtmU2MswzGwlve5E+b+8MdhrnBp3gQCheTna+A2JKN6qvye3h3tdr38t2N1WyNz2czZlIdGTAvl4MrUSUZ6MnFm8UJ94C9s1iEhgfNPLQfsQ2z1NSDt/zUFdPTBn8mZD3mgynoOvWSpkUmaYu/RecVMnJJ+YK/4wMVfyg5Wq7Qoh/F6aHcUObsiYwkQf9NIk2SZI9uiYG6C08/0RRBN8jBbQIDAQAB
-2018-12-03 16:09:58,782 [Thread-1] INFO  servidorchat.ConexionCliente - Me han enviado una clave publica, con ID: 17
-2018-12-03 16:09:58,797 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:09:58,797 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: PUK 17 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAh/XbUCqwbZWw/hzxfqbPWTCTnO6ZLdv/M1D2IYEC055c69KpdgGIgIqbufluykADQ6Ek8HuANU4MpO7IRd6ZRzPfHIIs7V4hlcSKdxEeTb8OQv4AtBRfSTiEFU+QHLgtmU2MswzGwlve5E+b+8MdhrnBp3gQCheTna+A2JKN6qvye3h3tdr38t2N1WyNz2czZlIdGTAvl4MrUSUZ6MnFm8UJ94C9s1iEhgfNPLQfsQ2z1NSDt/zUFdPTBn8mZD3mgynoOvWSpkUmaYu/RecVMnJJ+YK/4wMVfyg5Wq7Qoh/F6aHcUObsiYwkQf9NIk2SZI9uiYG6C08/0RRBN8jBbQIDAQAB
-2018-12-03 16:09:58,797 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:09:58,797 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: CSCIFRADA 17 NIZdYpAA66ub7tYRnuvK40uvwzJj065E/Sl8bFK2jTC447GmP3xVOPD3CP50pHgXGcmWHSNOOqf5wqql5G8LTDPm17NJUULh3LhR1hzK83hWX114oVx0dS7YB3gAqvQsTU9NE1fF3TNNwhzLy6KiviIgcsGc4M3lckqpEfPmjkJlw/eNr8zduJ8qeuuULvKxI5eBZO4w4BioZ2Hk1K29No5UNPJ+b0SgwjFAJ2R/DjL1Oy0pl7VZ+TpU6WRKV4xNKD6GtZ6QjJ4DJAWPP5kYNytUMW0Xdsz5R130LhtDrqpZmup2Cbxf7L9lOlvacmf6RPtT8J0wpUWYaWL1t9S3DQ==
-2018-12-03 16:09:58,797 [Thread-0] INFO  servidorchat.ConexionCliente - Ha llegado la clave AES cifrada para ID: 17
-2018-12-03 16:09:58,797 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:09:58,797 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: CSCIFRADA 17 NIZdYpAA66ub7tYRnuvK40uvwzJj065E/Sl8bFK2jTC447GmP3xVOPD3CP50pHgXGcmWHSNOOqf5wqql5G8LTDPm17NJUULh3LhR1hzK83hWX114oVx0dS7YB3gAqvQsTU9NE1fF3TNNwhzLy6KiviIgcsGc4M3lckqpEfPmjkJlw/eNr8zduJ8qeuuULvKxI5eBZO4w4BioZ2Hk1K29No5UNPJ+b0SgwjFAJ2R/DjL1Oy0pl7VZ+TpU6WRKV4xNKD6GtZ6QjJ4DJAWPP5kYNytUMW0Xdsz5R130LhtDrqpZmup2Cbxf7L9lOlvacmf6RPtT8J0wpUWYaWL1t9S3DQ==
-2018-12-03 16:09:58,797 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:10:02,375 [Thread-1] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-12-03 16:10:09,763 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-12-03 16:10:09,763 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha cambiado el master
-2018-12-03 16:11:00,421 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 16:11:08,645 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-12-03 16:11:08,645 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 16:11:08,645 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 24 aaaaa
-2018-12-03 16:11:08,645 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos detectado el id
-2018-12-03 16:11:08,645 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA aaaaa 
-2018-12-03 16:11:08,645 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:11:08,645 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos asignado el id del master
-2018-12-03 16:11:20,366 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-12-03 16:11:20,366 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 16:11:20,373 [Thread-1] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 14 ho
-2018-12-03 16:11:20,373 [Thread-1] INFO  servidorchat.ConexionCliente - Hemos detectado el id
-2018-12-03 16:11:20,373 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:11:20,373 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA aaaaa ho 
-2018-12-03 16:11:20,373 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:11:20,373 [Thread-1] INFO  servidorchat.ConexionCliente - Ya esta asignado, mi id es: 14
-2018-12-03 16:11:20,373 [Thread-1] INFO  servidorchat.ConexionCliente - Y el id del master asginado es: 24
-2018-12-03 16:11:20,686 [Thread-1] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: PUK 14 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtXjrlMA8CpBovMP3U7GkgvlJYjAcaKknouqKNWdvLo0KnP5yw02XU+2n1WQspzypbS0yFZuaEsK3eyGs2zvAKG0YK+Ib3rrJsU2wOIow+3e1xD/QaqgPVCprQf2A4zZGcj9MoQzp4cOqdf3oy9i7mhKLFV9sm9ggTm8jqPcBWcc5kxrwRmNJU8F11BhnJxQ10M+xDKk1J06ghz6VtzHHGBmI2XcoNZ91UbJMAPnXIdp3a2fxAdq9msMYLbp94+JHjEGHjXfwd+kIzAx0GCjq+avzapr2gY53MExM+2EZK1sUxKcGkH0Y4N2zAMrNeGdf57/UYeI60TfRJWYvL0w9eQIDAQAB
-2018-12-03 16:11:20,686 [Thread-1] INFO  servidorchat.ConexionCliente - Me han enviado una clave publica, con ID: 14
-2018-12-03 16:11:20,686 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:11:20,686 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: PUK 14 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtXjrlMA8CpBovMP3U7GkgvlJYjAcaKknouqKNWdvLo0KnP5yw02XU+2n1WQspzypbS0yFZuaEsK3eyGs2zvAKG0YK+Ib3rrJsU2wOIow+3e1xD/QaqgPVCprQf2A4zZGcj9MoQzp4cOqdf3oy9i7mhKLFV9sm9ggTm8jqPcBWcc5kxrwRmNJU8F11BhnJxQ10M+xDKk1J06ghz6VtzHHGBmI2XcoNZ91UbJMAPnXIdp3a2fxAdq9msMYLbp94+JHjEGHjXfwd+kIzAx0GCjq+avzapr2gY53MExM+2EZK1sUxKcGkH0Y4N2zAMrNeGdf57/UYeI60TfRJWYvL0w9eQIDAQAB
-2018-12-03 16:11:20,686 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:11:20,692 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: CSCIFRADA 14 DZ418/cjc/SMgASvRicb7RbnmsmERvF7krLe2Mho4ke8wr99uWUkV5DebIQCNNMu1/12nq72YO6DpmXLpYjeclsG/AUVrg41ApQyziTlVINZrv09pUeZzl89OTa/+B0xWbPIAxA6tyZeBTgLETDeR6fYAzgFgVuB68J1SS0AuZXNLS5DGy4TlmTBr7VoNa+nvclinYWlKBWIQ3mPCjizUaMz9Tnu1Z55hhcYD8dL0dDKzfA/rTmNMt3tuKJ5FcxhZ3qhU/nY1iBREWPKEcIph6Wmd50aBYi2JwEuPTfHAiMaFgXss1sNXNUEzYw74u0iFpSsFGqk6HU0v9rgRl+fxA==
-2018-12-03 16:11:20,692 [Thread-0] INFO  servidorchat.ConexionCliente - Ha llegado la clave AES cifrada para ID: 14
-2018-12-03 16:11:20,692 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:11:20,696 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: CSCIFRADA 14 DZ418/cjc/SMgASvRicb7RbnmsmERvF7krLe2Mho4ke8wr99uWUkV5DebIQCNNMu1/12nq72YO6DpmXLpYjeclsG/AUVrg41ApQyziTlVINZrv09pUeZzl89OTa/+B0xWbPIAxA6tyZeBTgLETDeR6fYAzgFgVuB68J1SS0AuZXNLS5DGy4TlmTBr7VoNa+nvclinYWlKBWIQ3mPCjizUaMz9Tnu1Z55hhcYD8dL0dDKzfA/rTmNMt3tuKJ5FcxhZ3qhU/nY1iBREWPKEcIph6Wmd50aBYi2JwEuPTfHAiMaFgXss1sNXNUEzYw74u0iFpSsFGqk6HU0v9rgRl+fxA==
-2018-12-03 16:11:20,696 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:11:25,519 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-12-03 16:11:25,519 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:11:25,519 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA ho 
-2018-12-03 16:11:25,519 [Thread-0] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 16:11:25,519 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha cambiado el master
-2018-12-03 16:11:25,519 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:11:25,519 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: CAMBIO ho
-2018-12-03 16:11:25,519 [Thread-0] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 16:11:29,440 [Thread-1] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-12-03 16:11:29,440 [Thread-1] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 16:11:29,440 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA 
-2018-12-03 16:11:29,440 [Thread-1] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:12:16,136 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-12-03 16:12:16,136 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 16:12:16,136 [Thread-2] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 26 master
-2018-12-03 16:12:16,136 [Thread-2] INFO  servidorchat.ConexionCliente - Hemos detectado el id
-2018-12-03 16:12:16,136 [Thread-2] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:12:16,136 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:12:16,136 [Thread-2] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA master 
-2018-12-03 16:12:16,136 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:12:16,136 [Thread-2] INFO  servidorchat.ConexionCliente - Ya esta asignado, mi id es: 26
-2018-12-03 16:12:16,136 [Thread-2] INFO  servidorchat.ConexionCliente - Y el id del master asginado es: 24
-2018-12-03 16:12:16,839 [Thread-2] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: PUK 26 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqN50e4WtjgmmGsWBYOxfpOQmcyztv53XGbRZoHxO+pmAt5iJwLfHHgKHif91esyQkWjIs6ak6cFEj7CzS/DwKksv3XDoZNK1IbSIoirIniCQmC6/7CAwx7aVL4ts7v7sNTsavpy+QCh5mDcJ2CXUHo1fVFaV28Xg1gmjFQP42ibHzP2tjudb9taaaaLrSDiIdrg+CP4ryWXIX519M1HMXfkdfBU3MlO97XoVTOn+L7+d3+GbDtzSQOaH31cbmWoX5mGt/9rUouT9L1Lma1mXt5cZX50XCU9xRkHMKWhJji+4TsuJSNozUhwSKJ/qWrpbWzzwP/gZm1EZ+bTFMvZ7kwIDAQAB
-2018-12-03 16:12:16,839 [Thread-2] INFO  servidorchat.ConexionCliente - Me han enviado una clave publica, con ID: 26
-2018-12-03 16:12:16,839 [Thread-2] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:12:16,839 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:12:16,839 [Thread-2] INFO  servidorchat.ConexionCliente - Ha entrado a update: PUK 26 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqN50e4WtjgmmGsWBYOxfpOQmcyztv53XGbRZoHxO+pmAt5iJwLfHHgKHif91esyQkWjIs6ak6cFEj7CzS/DwKksv3XDoZNK1IbSIoirIniCQmC6/7CAwx7aVL4ts7v7sNTsavpy+QCh5mDcJ2CXUHo1fVFaV28Xg1gmjFQP42ibHzP2tjudb9taaaaLrSDiIdrg+CP4ryWXIX519M1HMXfkdfBU3MlO97XoVTOn+L7+d3+GbDtzSQOaH31cbmWoX5mGt/9rUouT9L1Lma1mXt5cZX50XCU9xRkHMKWhJji+4TsuJSNozUhwSKJ/qWrpbWzzwP/gZm1EZ+bTFMvZ7kwIDAQAB
-2018-12-03 16:12:16,839 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:12:20,619 [Thread-2] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-12-03 16:12:20,619 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 16:12:20,619 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:12:20,619 [Thread-2] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA 
-2018-12-03 16:12:20,619 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:12:32,569 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-12-03 16:12:32,569 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 16:12:32,569 [Thread-3] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 17 master
-2018-12-03 16:12:32,569 [Thread-3] INFO  servidorchat.ConexionCliente - Hemos detectado el id
-2018-12-03 16:12:32,569 [Thread-3] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:12:32,569 [Thread-3] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:12:32,569 [Thread-3] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:12:32,569 [Thread-3] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA master 
-2018-12-03 16:12:32,569 [Thread-3] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:12:32,569 [Thread-3] INFO  servidorchat.ConexionCliente - Ya esta asignado, mi id es: 17
-2018-12-03 16:12:32,569 [Thread-3] INFO  servidorchat.ConexionCliente - Y el id del master asginado es: 24
-2018-12-03 16:12:32,834 [Thread-3] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: PUK 17 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqnVu0TzDlxW8UE5uE2uWiij8b8dyE7uX5JjXJuGWeJ/2hOW2SSa6jG9KhOfVP/ZXvPKwT0iQnNU1tvxL+Vf9Pr1YQIPQr7QqdG59SHiJplIVrgb0hyzVZ7X5MXrYI5zTqHxoHMpkMAT2NiyAXpsS16W/bAdhtCWtriwaGgfXBHIxOOaOpIDAKshRPisHYcjQoVJIO/Q0FhivFEibbnK0fxGvp2uqvDAHMcOJ/4mdJLwRZLzH0taNWRWq78l3kPnoPIDP8zBH3PTIRod9UMnE89kB1wDEJu2L/898R33b8Y/3FaKi2XXGDE2TQ+9fCLvuxS6ARXx0r/gMKq2DnburcQIDAQAB
-2018-12-03 16:12:32,834 [Thread-3] INFO  servidorchat.ConexionCliente - Me han enviado una clave publica, con ID: 17
-2018-12-03 16:12:32,834 [Thread-3] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:12:32,834 [Thread-3] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:12:32,834 [Thread-3] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:12:32,834 [Thread-3] INFO  servidorchat.ConexionCliente - Ha entrado a update: PUK 17 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqnVu0TzDlxW8UE5uE2uWiij8b8dyE7uX5JjXJuGWeJ/2hOW2SSa6jG9KhOfVP/ZXvPKwT0iQnNU1tvxL+Vf9Pr1YQIPQr7QqdG59SHiJplIVrgb0hyzVZ7X5MXrYI5zTqHxoHMpkMAT2NiyAXpsS16W/bAdhtCWtriwaGgfXBHIxOOaOpIDAKshRPisHYcjQoVJIO/Q0FhivFEibbnK0fxGvp2uqvDAHMcOJ/4mdJLwRZLzH0taNWRWq78l3kPnoPIDP8zBH3PTIRod9UMnE89kB1wDEJu2L/898R33b8Y/3FaKi2XXGDE2TQ+9fCLvuxS6ARXx0r/gMKq2DnburcQIDAQAB
-2018-12-03 16:12:32,834 [Thread-3] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:12:41,770 [Thread-3] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-12-03 16:12:41,770 [Thread-3] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 16:12:41,770 [Thread-3] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:12:41,770 [Thread-3] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:12:41,770 [Thread-3] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA 
-2018-12-03 16:12:41,770 [Thread-3] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:12:53,513 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-12-03 16:12:53,513 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 16:12:53,513 [Thread-4] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 12 master
-2018-12-03 16:12:53,513 [Thread-4] INFO  servidorchat.ConexionCliente - Hemos detectado el id
-2018-12-03 16:12:53,513 [Thread-4] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:12:53,513 [Thread-4] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:12:53,513 [Thread-4] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:12:53,513 [Thread-4] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:12:53,513 [Thread-4] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA master 
-2018-12-03 16:12:53,513 [Thread-4] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:12:53,513 [Thread-4] INFO  servidorchat.ConexionCliente - Ya esta asignado, mi id es: 12
-2018-12-03 16:12:53,513 [Thread-4] INFO  servidorchat.ConexionCliente - Y el id del master asginado es: 24
-2018-12-03 16:12:54,450 [Thread-4] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: PUK 12 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAm9hpq3CYt1rB3a2vgu4JdBKGbqyDsv83oBv0mYygSzpodDJK8PspQ4KXI51OXEMrtnqNvG77LoTsi8EIwYZoY7zf+je22xS6LP8/lCOroVTpuyQkrTYT5EQrMmQhgst8+2zDzsqEq9D0CLmzgK6X3/mlLScT0gWbBaCb9KIN7ikMbn68AdIFPvuIcbhwBv4CJqGT4zIZZBqnob+R7LX2Tvh6JsqqdYSuueQNb537pCiRIt2KVpRS/R1+4/DKQWZZkdvAG5kXdMm+nsQ0ybIKaSDQ/rIsCYQYxL8xF5uz9jcYhsY7boGg1U/8BDR4/NkbHfjFZrI90AlTnP/HWP3cQwIDAQAB
-2018-12-03 16:12:54,450 [Thread-4] INFO  servidorchat.ConexionCliente - Me han enviado una clave publica, con ID: 12
-2018-12-03 16:12:54,450 [Thread-4] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:12:54,450 [Thread-4] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:12:54,450 [Thread-4] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:12:54,466 [Thread-4] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:12:54,466 [Thread-4] INFO  servidorchat.ConexionCliente - Ha entrado a update: PUK 12 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAm9hpq3CYt1rB3a2vgu4JdBKGbqyDsv83oBv0mYygSzpodDJK8PspQ4KXI51OXEMrtnqNvG77LoTsi8EIwYZoY7zf+je22xS6LP8/lCOroVTpuyQkrTYT5EQrMmQhgst8+2zDzsqEq9D0CLmzgK6X3/mlLScT0gWbBaCb9KIN7ikMbn68AdIFPvuIcbhwBv4CJqGT4zIZZBqnob+R7LX2Tvh6JsqqdYSuueQNb537pCiRIt2KVpRS/R1+4/DKQWZZkdvAG5kXdMm+nsQ0ybIKaSDQ/rIsCYQYxL8xF5uz9jcYhsY7boGg1U/8BDR4/NkbHfjFZrI90AlTnP/HWP3cQwIDAQAB
-2018-12-03 16:12:54,466 [Thread-4] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:13:02,855 [Thread-4] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-12-03 16:13:02,855 [Thread-4] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 16:13:02,855 [Thread-4] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:13:02,855 [Thread-4] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:13:02,855 [Thread-4] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:13:02,855 [Thread-4] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA 
-2018-12-03 16:13:02,855 [Thread-4] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:13:21,361 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-12-03 16:13:21,361 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 16:13:21,361 [Thread-5] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 14 master
-2018-12-03 16:13:21,361 [Thread-5] INFO  servidorchat.ConexionCliente - Hemos detectado el id
-2018-12-03 16:13:21,361 [Thread-5] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:13:21,361 [Thread-5] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:13:21,361 [Thread-5] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:13:21,361 [Thread-5] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:13:21,361 [Thread-5] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:13:21,361 [Thread-5] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA master 
-2018-12-03 16:13:21,361 [Thread-5] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:13:21,361 [Thread-5] INFO  servidorchat.ConexionCliente - Ya esta asignado, mi id es: 14
-2018-12-03 16:13:21,361 [Thread-5] INFO  servidorchat.ConexionCliente - Y el id del master asginado es: 24
-2018-12-03 16:13:22,001 [Thread-5] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: PUK 14 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiuC1K80s1ayDZ70QNfF8pjzLxkaFCIVXv45rRPhwrdYWmlvE4m2JtFP9dshKz8gu9O9KzkZbVafJ2FGC/6mVZ+77fVKCEujs+Wn5OGFB2hHEAKA//40B+N3nFhAU7ZZgX7cUrIEvdn0D5/+Tb3ijoo6Uowyf9f8pcKNKHXxpMDqESvsbl3Dsh4AJxQ9ViCmTRizQgOSPXb2U+esg+/JVERA2X0Pu5SD1eTrcnnPDLh1i5y56j+clohlVFx7iuJtX6dvkUavuwGaSxuX/34WAqlsj37n9hhhaUdFcrQKzgi80ASxvz43SRd74w14w1n5ANQsIW5mJP9H+sxjtfJTo+QIDAQAB
-2018-12-03 16:13:22,001 [Thread-5] INFO  servidorchat.ConexionCliente - Me han enviado una clave publica, con ID: 14
-2018-12-03 16:13:22,001 [Thread-5] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:13:22,001 [Thread-5] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:13:22,001 [Thread-5] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:13:22,001 [Thread-5] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:13:22,001 [Thread-5] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:13:22,001 [Thread-5] INFO  servidorchat.ConexionCliente - Ha entrado a update: PUK 14 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiuC1K80s1ayDZ70QNfF8pjzLxkaFCIVXv45rRPhwrdYWmlvE4m2JtFP9dshKz8gu9O9KzkZbVafJ2FGC/6mVZ+77fVKCEujs+Wn5OGFB2hHEAKA//40B+N3nFhAU7ZZgX7cUrIEvdn0D5/+Tb3ijoo6Uowyf9f8pcKNKHXxpMDqESvsbl3Dsh4AJxQ9ViCmTRizQgOSPXb2U+esg+/JVERA2X0Pu5SD1eTrcnnPDLh1i5y56j+clohlVFx7iuJtX6dvkUavuwGaSxuX/34WAqlsj37n9hhhaUdFcrQKzgi80ASxvz43SRd74w14w1n5ANQsIW5mJP9H+sxjtfJTo+QIDAQAB
-2018-12-03 16:13:22,001 [Thread-5] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:13:32,751 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-12-03 16:13:32,751 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 16:13:32,751 [Thread-6] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 34 moni
-2018-12-03 16:13:32,751 [Thread-6] INFO  servidorchat.ConexionCliente - Hemos detectado el id
-2018-12-03 16:13:32,751 [Thread-6] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:13:32,751 [Thread-6] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:13:32,751 [Thread-6] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:13:32,751 [Thread-6] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:13:32,751 [Thread-6] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:13:32,751 [Thread-6] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:13:32,751 [Thread-6] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA master moni 
-2018-12-03 16:13:32,751 [Thread-6] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:13:32,751 [Thread-6] INFO  servidorchat.ConexionCliente - Ya esta asignado, mi id es: 34
-2018-12-03 16:13:32,751 [Thread-6] INFO  servidorchat.ConexionCliente - Y el id del master asginado es: 24
-2018-12-03 16:13:33,297 [Thread-6] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: PUK 34 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlBQ4kYbmziQx+UZby3YCCYEY43pHlUvJeYYxKHJKo7JewEnFZ7TsJ1+iAmIB8d0hbEl6+zZAPdlhkrSIGvaa+gU+IgS77X2jjEXvlYBWhcRoyMutxRwYCyKCkB8iTQsgAjFaVg+qQrf1CeZ8u6E2yA/BaWbucA0xtY2r9kLIUbXsKVpHRCKYbKm8FgttbrvbRa7YNXfkCrVe759MoLIav73+VzqX6PPF+OoFpge7th9uzrr5NQgulcEiIXR2ljljHy3EkljRX4GqnAGJa28w9x/PzZhorDRwhwHTmelMePUnjfHl4GWokUluQR1iyu6bxDMi0rGVE1IIRF8X8C+azwIDAQAB
-2018-12-03 16:13:33,297 [Thread-6] INFO  servidorchat.ConexionCliente - Me han enviado una clave publica, con ID: 34
-2018-12-03 16:13:33,297 [Thread-6] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:13:33,297 [Thread-6] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:13:33,297 [Thread-6] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:13:33,297 [Thread-6] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:13:33,297 [Thread-6] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:13:33,297 [Thread-6] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:13:33,297 [Thread-6] INFO  servidorchat.ConexionCliente - Ha entrado a update: PUK 34 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlBQ4kYbmziQx+UZby3YCCYEY43pHlUvJeYYxKHJKo7JewEnFZ7TsJ1+iAmIB8d0hbEl6+zZAPdlhkrSIGvaa+gU+IgS77X2jjEXvlYBWhcRoyMutxRwYCyKCkB8iTQsgAjFaVg+qQrf1CeZ8u6E2yA/BaWbucA0xtY2r9kLIUbXsKVpHRCKYbKm8FgttbrvbRa7YNXfkCrVe759MoLIav73+VzqX6PPF+OoFpge7th9uzrr5NQgulcEiIXR2ljljHy3EkljRX4GqnAGJa28w9x/PzZhorDRwhwHTmelMePUnjfHl4GWokUluQR1iyu6bxDMi0rGVE1IIRF8X8C+azwIDAQAB
-2018-12-03 16:13:33,297 [Thread-6] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:13:52,574 [Thread-5] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-12-03 16:13:52,574 [Thread-5] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:13:52,574 [Thread-5] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 16:13:52,574 [Thread-5] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:13:52,574 [Thread-5] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:13:52,574 [Thread-5] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:13:52,574 [Thread-5] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:13:52,574 [Thread-5] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA moni 
-2018-12-03 16:13:52,574 [Thread-5] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:14:14,585 [Thread-6] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-12-03 16:14:14,585 [Thread-6] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 16:14:14,585 [Thread-6] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:14:14,585 [Thread-6] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:14:14,585 [Thread-6] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:14:14,585 [Thread-6] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:14:14,585 [Thread-6] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:14:14,585 [Thread-6] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA 
-2018-12-03 16:14:14,585 [Thread-6] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:14:28,263 [main] ERROR servidorchat.ServidorChat - Error: Address already in use: JVM_Bind
-2018-12-03 16:14:36,396 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 16:14:42,570 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-12-03 16:14:42,570 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 16:14:42,570 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 34 master
-2018-12-03 16:14:42,570 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos detectado el id
-2018-12-03 16:14:42,570 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA master 
-2018-12-03 16:14:42,570 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:14:42,570 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos asignado el id del master
-2018-12-03 16:14:47,132 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: 0pg6iaR5H/qmEM7jhx+Utxa3UJz3B81vlTaoesg9YcE=
-2018-12-03 16:14:47,132 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: 0pg6iaR5H/qmEM7jhx+Utxa3UJz3B81vlTaoesg9YcE=
-2018-12-03 16:14:47,132 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:15:39,070 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: Sty7Xwiis/55zHd07N8tgw==
-2018-12-03 16:15:39,070 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: Sty7Xwiis/55zHd07N8tgw==
-2018-12-03 16:15:39,070 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:18:55,240 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-12-03 16:18:55,240 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA 
-2018-12-03 16:18:55,240 [Thread-0] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 16:18:55,240 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha cambiado el master
-2018-12-03 16:19:24,904 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-12-03 16:19:24,904 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 16:19:24,904 [Thread-1] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 26 maste
-2018-12-03 16:19:24,904 [Thread-1] INFO  servidorchat.ConexionCliente - Hemos detectado el id
-2018-12-03 16:19:24,904 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:19:24,904 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA maste 
-2018-12-03 16:19:24,904 [Thread-1] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 16:19:24,904 [Thread-1] INFO  servidorchat.ConexionCliente - Ya esta asignado, mi id es: 26
-2018-12-03 16:19:24,904 [Thread-1] INFO  servidorchat.ConexionCliente - Y el id del master asginado es: 34
-2018-12-03 16:19:25,310 [Thread-1] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: PUK 26 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt0BxlsXMaSiC2GKe7XmX0Vqv72kN4X+DZKIDM/KIqf+yTcXWt8gBgB+0msNlfGe7WRTGfRN87VJYZh/c5rlvxv6cWQeMd9CVp3vxsI2r86J5Dtcz4eQ0sbfy1dFyh59leG9PdsJbaL9rMSwlpGremP94yxKpW3MupN4QDIyMRSj6sraOskA401aXRATV54Vg6S4CXS0TJ/v64VMUBxA3B0qbDwyxyqxZjiFS/p6MdzM2U5v9MpXMawqlIjbfSAbVT/ioo5ObTucQDgWI01aMhrV4p9PKgG7F3VCbaR9zqBj+UKE8G3xt+yFu3Hvz0oCMKgPgs+88lQUgKBaKEQkl4QIDAQAB
-2018-12-03 16:19:25,310 [Thread-1] INFO  servidorchat.ConexionCliente - Me han enviado una clave publica, con ID: 26
-2018-12-03 16:19:25,310 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:19:25,310 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: PUK 26 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt0BxlsXMaSiC2GKe7XmX0Vqv72kN4X+DZKIDM/KIqf+yTcXWt8gBgB+0msNlfGe7WRTGfRN87VJYZh/c5rlvxv6cWQeMd9CVp3vxsI2r86J5Dtcz4eQ0sbfy1dFyh59leG9PdsJbaL9rMSwlpGremP94yxKpW3MupN4QDIyMRSj6sraOskA401aXRATV54Vg6S4CXS0TJ/v64VMUBxA3B0qbDwyxyqxZjiFS/p6MdzM2U5v9MpXMawqlIjbfSAbVT/ioo5ObTucQDgWI01aMhrV4p9PKgG7F3VCbaR9zqBj+UKE8G3xt+yFu3Hvz0oCMKgPgs+88lQUgKBaKEQkl4QIDAQAB
-2018-12-03 16:19:25,310 [Thread-1] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 16:19:28,262 [Thread-1] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-12-03 16:19:28,262 [Thread-1] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 16:19:28,262 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA 
-2018-12-03 16:19:28,262 [Thread-1] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 16:21:55,063 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-12-03 16:21:55,063 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 16:21:55,063 [Thread-2] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 33 n
-2018-12-03 16:21:55,063 [Thread-2] INFO  servidorchat.ConexionCliente - Hemos detectado el id
-2018-12-03 16:21:55,063 [Thread-2] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:21:55,063 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:21:55,063 [Thread-2] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA n 
-2018-12-03 16:21:55,063 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 16:21:55,063 [Thread-2] INFO  servidorchat.ConexionCliente - Ya esta asignado, mi id es: 33
-2018-12-03 16:21:55,063 [Thread-2] INFO  servidorchat.ConexionCliente - Y el id del master asginado es: 34
-2018-12-03 16:21:55,704 [Thread-2] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: PUK 33 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgLi+uhC9RI0nna4c86629F24dbV+8k73C3ssGwLLsGpUdiKCbq7jNKMsQs/lUyek5bCi+YIC2+sco6lLOt0aSvtBBtPEHEB0mVrVKiXNzPYLGZPfdfMXMH0VpYngKjSaQYS9Oz3JBvaRuJHbdfe7SoNxDf4wmQQGP6AtIMF808+qCztLbtCB++1yOYattG89eq9MUYbChd23CHvHvkHP1sOGYrvOFiQSKqumsfle+q3gbC+cIEamohWjfB9sPAf6Q5wXQw3Tcku9a5V/mykMH43b5sNZbtb7HVnZuhhXQ4zuXv6FLSUHN2qP1nwcGdG23CgMVoRKe3TeNVR7NFxM5wIDAQAB
-2018-12-03 16:21:55,704 [Thread-2] INFO  servidorchat.ConexionCliente - Me han enviado una clave publica, con ID: 33
-2018-12-03 16:21:55,704 [Thread-2] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:21:55,704 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:21:55,704 [Thread-2] INFO  servidorchat.ConexionCliente - Ha entrado a update: PUK 33 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgLi+uhC9RI0nna4c86629F24dbV+8k73C3ssGwLLsGpUdiKCbq7jNKMsQs/lUyek5bCi+YIC2+sco6lLOt0aSvtBBtPEHEB0mVrVKiXNzPYLGZPfdfMXMH0VpYngKjSaQYS9Oz3JBvaRuJHbdfe7SoNxDf4wmQQGP6AtIMF808+qCztLbtCB++1yOYattG89eq9MUYbChd23CHvHvkHP1sOGYrvOFiQSKqumsfle+q3gbC+cIEamohWjfB9sPAf6Q5wXQw3Tcku9a5V/mykMH43b5sNZbtb7HVnZuhhXQ4zuXv6FLSUHN2qP1nwcGdG23CgMVoRKe3TeNVR7NFxM5wIDAQAB
-2018-12-03 16:21:55,704 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 16:21:57,094 [Thread-2] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-12-03 16:21:57,094 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 16:21:57,094 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:21:57,094 [Thread-2] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA 
-2018-12-03 16:21:57,094 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 16:23:54,135 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-12-03 16:23:54,135 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 16:23:54,135 [Thread-3] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 42 m
-2018-12-03 16:23:54,135 [Thread-3] INFO  servidorchat.ConexionCliente - Hemos detectado el id
-2018-12-03 16:23:54,135 [Thread-3] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:23:54,135 [Thread-3] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:23:54,135 [Thread-3] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:23:54,151 [Thread-3] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA m 
-2018-12-03 16:23:54,151 [Thread-3] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 16:23:54,151 [Thread-3] INFO  servidorchat.ConexionCliente - Ya esta asignado, mi id es: 42
-2018-12-03 16:23:54,151 [Thread-3] INFO  servidorchat.ConexionCliente - Y el id del master asginado es: 34
-2018-12-03 16:23:54,619 [Thread-3] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: PUK 42 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoQ5iOB0IK2pgK0EPiE0S5d1HUrEjOpv3xcQrBnmJhpQBjFNMJlvZ5AEsF4QODrlZfuiDuYpVHawI0buadxqMdO4NoikSo7TIe7sMXn7wp0EP+k1l3GBpHYh0DbDYAIWEDnEyb1d+mNDL5PEt8oHNHB9HRN1mrVcYxbLRvzNm7dasYaKaqt3XUW2oLpVYX4Dx9+HvDD+q58NIAHCetyajq8xm6yxog16262erjXFJs5fIb8pIRhMj1PaSbu08IdTAOkBQ5RUY80k4K8l+Mra3CCTPR72QaNMK/4h4d/cKl9pXCkGLJtjbQ3rig1S1omW2AFS6J8NVnKx948B5tkp0rwIDAQAB
-2018-12-03 16:23:54,619 [Thread-3] INFO  servidorchat.ConexionCliente - Me han enviado una clave publica, con ID: 42
-2018-12-03 16:23:54,619 [Thread-3] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:23:54,619 [Thread-3] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:23:54,619 [Thread-3] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:23:54,619 [Thread-3] INFO  servidorchat.ConexionCliente - Ha entrado a update: PUK 42 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoQ5iOB0IK2pgK0EPiE0S5d1HUrEjOpv3xcQrBnmJhpQBjFNMJlvZ5AEsF4QODrlZfuiDuYpVHawI0buadxqMdO4NoikSo7TIe7sMXn7wp0EP+k1l3GBpHYh0DbDYAIWEDnEyb1d+mNDL5PEt8oHNHB9HRN1mrVcYxbLRvzNm7dasYaKaqt3XUW2oLpVYX4Dx9+HvDD+q58NIAHCetyajq8xm6yxog16262erjXFJs5fIb8pIRhMj1PaSbu08IdTAOkBQ5RUY80k4K8l+Mra3CCTPR72QaNMK/4h4d/cKl9pXCkGLJtjbQ3rig1S1omW2AFS6J8NVnKx948B5tkp0rwIDAQAB
-2018-12-03 16:23:54,619 [Thread-3] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 16:23:56,525 [Thread-3] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-12-03 16:23:56,525 [Thread-3] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 16:23:56,525 [Thread-3] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:23:56,525 [Thread-3] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:23:56,525 [Thread-3] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA 
-2018-12-03 16:23:56,525 [Thread-3] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 16:37:40,412 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 16:37:47,372 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-12-03 16:37:47,372 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 16:37:47,372 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 33 m
-2018-12-03 16:37:47,372 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos detectado el id
-2018-12-03 16:37:47,372 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA  USUARIOS CONECTADOS:m 
-2018-12-03 16:37:47,372 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:37:47,372 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos asignado el id del master
-2018-12-03 16:37:57,698 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: A3YeGdXO54JD2JOR5uwBCA==
-2018-12-03 16:37:57,698 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: A3YeGdXO54JD2JOR5uwBCA==
-2018-12-03 16:37:57,698 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:38:08,992 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-12-03 16:38:08,992 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 16:38:08,992 [Thread-1] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 14 sdf
-2018-12-03 16:38:08,992 [Thread-1] INFO  servidorchat.ConexionCliente - Hemos detectado el id
-2018-12-03 16:38:08,992 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:38:08,992 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA  USUARIOS CONECTADOS:m sdf 
-2018-12-03 16:38:08,992 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:38:08,992 [Thread-1] INFO  servidorchat.ConexionCliente - Ya esta asignado, mi id es: 14
-2018-12-03 16:38:08,992 [Thread-1] INFO  servidorchat.ConexionCliente - Y el id del master asginado es: 33
-2018-12-03 16:38:09,788 [Thread-1] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: PUK 14 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhQhF9JUjtx3yggxhsDzYPlmbJdSffZXY9Wslp+dDkmKQrKRwVY3VG7lbrg71M680LftjDUz0/SnoOLlAWVbnannsIsCAqmjcjuQFHaP3yW9JsqnSQ/GKB/y+b7kZtXfIqUz5FRJLxU4IHnUxicsI/3avGrMwibCtcotIDy65PYIZoFs0HpUT+jhiXG0viysYV5tFpmfXdGD0vPXNXxEEQIpXu/NP3iYuLi+MC+xnUImDtNetdnvg27siGz0OkmQvN6/IYYr4vurqCE3FqBSpizKMkS4MoJXNekRjWvc3rp81a/rHI8szxAs304+paby+PqFUUXQcXqKQ2jgqtTCmWQIDAQAB
-2018-12-03 16:38:09,788 [Thread-1] INFO  servidorchat.ConexionCliente - Me han enviado una clave publica, con ID: 14
-2018-12-03 16:38:09,788 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:38:09,788 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: PUK 14 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhQhF9JUjtx3yggxhsDzYPlmbJdSffZXY9Wslp+dDkmKQrKRwVY3VG7lbrg71M680LftjDUz0/SnoOLlAWVbnannsIsCAqmjcjuQFHaP3yW9JsqnSQ/GKB/y+b7kZtXfIqUz5FRJLxU4IHnUxicsI/3avGrMwibCtcotIDy65PYIZoFs0HpUT+jhiXG0viysYV5tFpmfXdGD0vPXNXxEEQIpXu/NP3iYuLi+MC+xnUImDtNetdnvg27siGz0OkmQvN6/IYYr4vurqCE3FqBSpizKMkS4MoJXNekRjWvc3rp81a/rHI8szxAs304+paby+PqFUUXQcXqKQ2jgqtTCmWQIDAQAB
-2018-12-03 16:38:09,788 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:38:09,788 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: CSCIFRADA 14 DBUjinBqAV44ove0zLA5E9PkLz1T+WR1LLACMq2m6G8qhuz7fAVZ4B22gA6yi4YGQs2XRmtUjSH4HyBk7HSrpQWZngmK7BTpR5bmP5ouoe35aa82mJ8dOO4y561Kxavmdv3Q9YRRbSBubQtCUVKyz+lofmFrOoDFAd1NotqELK0rWpUfgeW/uPn1LJR6/pQHPsZ8NFspnqrhHF9whXO1r1EooqeschYBKmAwnklDpX0NkSvcrJeGw2180hGHcaBOOLmdT2JG2b92MidQ8JIthQF134FwoMFK40gHa8xP0xxMSDrPXoa0lWlMsXyqWquMuAEuXehm6ZatyUKgx5Cc6Q==
-2018-12-03 16:38:09,788 [Thread-0] INFO  servidorchat.ConexionCliente - Ha llegado la clave AES cifrada para ID: 14
-2018-12-03 16:38:09,788 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:38:09,788 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: CSCIFRADA 14 DBUjinBqAV44ove0zLA5E9PkLz1T+WR1LLACMq2m6G8qhuz7fAVZ4B22gA6yi4YGQs2XRmtUjSH4HyBk7HSrpQWZngmK7BTpR5bmP5ouoe35aa82mJ8dOO4y561Kxavmdv3Q9YRRbSBubQtCUVKyz+lofmFrOoDFAd1NotqELK0rWpUfgeW/uPn1LJR6/pQHPsZ8NFspnqrhHF9whXO1r1EooqeschYBKmAwnklDpX0NkSvcrJeGw2180hGHcaBOOLmdT2JG2b92MidQ8JIthQF134FwoMFK40gHa8xP0xxMSDrPXoa0lWlMsXyqWquMuAEuXehm6ZatyUKgx5Cc6Q==
-2018-12-03 16:38:09,788 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:38:13,225 [Thread-1] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: n+9LuRTmXZDcSx0SzQ7MwQ==
-2018-12-03 16:38:13,225 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:38:13,225 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: n+9LuRTmXZDcSx0SzQ7MwQ==
-2018-12-03 16:38:13,225 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:38:53,173 [main] ERROR servidorchat.ServidorChat - Error: Address already in use: JVM_Bind
-2018-12-03 16:38:56,064 [Thread-1] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-12-03 16:38:56,064 [Thread-1] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 16:38:56,064 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA m 
-2018-12-03 16:38:56,064 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:38:59,750 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-12-03 16:38:59,750 [Thread-0] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
-2018-12-03 16:38:59,766 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA 
-2018-12-03 16:38:59,766 [Thread-0] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 16:38:59,766 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha cambiado el master
-2018-12-03 16:39:10,002 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 16:39:17,944 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-12-03 16:39:17,944 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 16:39:17,944 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 8 m
-2018-12-03 16:39:17,944 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos detectado el id
-2018-12-03 16:39:17,944 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA  USUARIOS CONECTADOS:m 
-2018-12-03 16:39:17,944 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:39:17,944 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos asignado el id del master
-2018-12-03 16:40:07,968 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 16:40:14,736 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 16:40:21,195 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-12-03 16:40:21,211 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 16:40:21,211 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 1 m
-2018-12-03 16:40:21,211 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos detectado el id
-2018-12-03 16:40:21,211 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA  USUARIOS CONECTADOS:m 
-2018-12-03 16:40:21,211 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:40:21,211 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos asignado el id del master
-2018-12-03 16:41:00,276 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-12-03 16:41:00,276 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA 
-2018-12-03 16:41:00,276 [Thread-0] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 16:41:00,276 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha cambiado el master
-2018-12-03 16:41:09,431 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 16:41:15,169 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-12-03 16:41:15,169 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 16:41:15,169 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 45 m
-2018-12-03 16:41:15,169 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos detectado el id
-2018-12-03 16:41:15,169 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA USUARIOS CONECTADOS:m 
-2018-12-03 16:41:15,169 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:41:15,169 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos asignado el id del master
-2018-12-03 16:41:19,809 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: Sv5huX+2WwwhZcqaDQni1w==
-2018-12-03 16:41:19,809 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: Sv5huX+2WwwhZcqaDQni1w==
-2018-12-03 16:41:19,809 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:41:22,011 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-12-03 16:41:22,011 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA 
-2018-12-03 16:41:22,011 [Thread-0] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 16:41:22,011 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha cambiado el master
-2018-12-03 16:43:26,871 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 16:43:36,289 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-12-03 16:43:36,289 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 16:43:36,289 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 12 hs
-2018-12-03 16:43:36,289 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos detectado el id
-2018-12-03 16:43:36,289 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA hs 
-2018-12-03 16:43:36,289 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:43:36,289 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos asignado el id del master
-2018-12-03 16:43:46,517 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-12-03 16:43:46,517 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA 
-2018-12-03 16:43:46,517 [Thread-0] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 16:43:46,517 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha cambiado el master
-2018-12-03 16:48:50,497 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 16:48:58,897 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-12-03 16:48:58,897 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 16:48:58,897 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 3 m
-2018-12-03 16:48:58,897 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos detectado el id
-2018-12-03 16:48:58,897 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA m 
-2018-12-03 16:48:58,897 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:48:58,897 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos asignado el id del master
-2018-12-03 16:53:41,472 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-12-03 16:53:41,472 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA 
-2018-12-03 16:53:41,472 [Thread-0] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 16:53:41,472 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha cambiado el master
-2018-12-03 16:53:52,586 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-12-03 16:53:52,586 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 16:53:52,586 [Thread-1] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 23 m
-2018-12-03 16:53:52,586 [Thread-1] INFO  servidorchat.ConexionCliente - Hemos detectado el id
-2018-12-03 16:53:52,586 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:53:52,586 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA m 
-2018-12-03 16:53:52,586 [Thread-1] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 16:53:52,586 [Thread-1] INFO  servidorchat.ConexionCliente - Ya esta asignado, mi id es: 23
-2018-12-03 16:53:52,586 [Thread-1] INFO  servidorchat.ConexionCliente - Y el id del master asginado es: 3
-2018-12-03 16:53:53,148 [Thread-1] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: PUK 23 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvMf7PEYeBjAOm6+6J3Wclfq73r594jJDkWcMwKivLM7TRcreaJCwDqfJdrcnTWVAi/+d2+/0bfKc/xulvo1o2LjG5TCK2SxZpYVjsVBcewD14YkcS10s8MNhHgG9GkG8DiRDkycV3cWpE81MK8dO88IlLaZ/PD8I7kNxIPBaGOzImo23LRpbm7K7X6pKojfOg23PucdFja1M8ZaTa5zWhIBsxH6X+l94OtjzIC1bMaNDMHFY7d9bKyMEd4/hzOVgk3sSDhJ1QkWUj+dXR+0gzluTJqy5c94bM5lfnrHSI54MjxTIfw1JPEwyiJPgoHU6kwo3sRn016aJ7mjte1EuJwIDAQAB
-2018-12-03 16:53:53,148 [Thread-1] INFO  servidorchat.ConexionCliente - Me han enviado una clave publica, con ID: 23
-2018-12-03 16:53:53,148 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 16:53:53,148 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: PUK 23 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvMf7PEYeBjAOm6+6J3Wclfq73r594jJDkWcMwKivLM7TRcreaJCwDqfJdrcnTWVAi/+d2+/0bfKc/xulvo1o2LjG5TCK2SxZpYVjsVBcewD14YkcS10s8MNhHgG9GkG8DiRDkycV3cWpE81MK8dO88IlLaZ/PD8I7kNxIPBaGOzImo23LRpbm7K7X6pKojfOg23PucdFja1M8ZaTa5zWhIBsxH6X+l94OtjzIC1bMaNDMHFY7d9bKyMEd4/hzOVgk3sSDhJ1QkWUj+dXR+0gzluTJqy5c94bM5lfnrHSI54MjxTIfw1JPEwyiJPgoHU6kwo3sRn016aJ7mjte1EuJwIDAQAB
-2018-12-03 16:53:53,148 [Thread-1] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 16:54:57,449 [Thread-1] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-12-03 16:54:57,449 [Thread-1] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 16:54:57,449 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA 
-2018-12-03 16:54:57,449 [Thread-1] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 17:04:25,250 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 17:04:31,519 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-12-03 17:04:31,519 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 17:04:31,519 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 38 m
-2018-12-03 17:04:31,519 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos detectado el id
-2018-12-03 17:04:31,519 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA m 
-2018-12-03 17:04:31,519 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:04:31,519 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos asignado el id del master
-2018-12-03 17:04:55,042 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-12-03 17:04:55,042 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA 
-2018-12-03 17:04:55,042 [Thread-0] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 17:04:55,042 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha cambiado el master
-þÿ 2 0 1 8 - 1 2 - 0 3   1 7 : 0 6 : 0 0 , 8 0 1   [ m a i n ]   I N F O     s e r v i d o r c h a t . S e r v i d o r C h a t   -   S e r v i d o r   a   l a   e s p e r a   d e   c o n e x i o n e s .  
- 2 0 1 8 - 1 2 - 0 3   1 7 : 0 6 : 1 4 , 9 8 8   [ m a i n ]   I N F O     s e r v i d o r c h a t . S e r v i d o r C h a t   -   C l i e n t e   c o n   l a   I P   1 2 7 . 0 . 0 . 1   c o n e c t a d o .  
- 2 0 1 8 - 1 2 - 0 3   1 7 : 0 6 : 1 4 , 9 8 8   [ m a i n ]   I N F O     s e r v i d o r c h a t . S e r v i d o r C h a t   -   S e r v i d o r   a   l a   e s p e r a   d e   c o n e x i o n e s .  
- 2 0 1 8 - 1 2 - 0 3   1 7 : 0 6 : 1 4 , 9 8 8   [ T h r e a d - 0 ]   I N F O     s e r v i d o r c h a t . C o n e x i o n C l i e n t e   -   S e   h a   r e c i b i d o   e l   m e n s a j e :   I D :   2 7   m  
- 2 0 1 8 - 1 2 - 0 3   1 7 : 0 6 : 1 4 , 9 8 8   [ T h r e a d - 0 ]   I N F O     s e r v i d o r c h a t . C o n e x i o n C l i e n t e   -   H e m o s   d e t e c t a d o   e l   i d  
- 2 0 1 8 - 1 2 - 0 3   1 7 : 0 6 : 1 4 , 9 8 8   [ T h r e a d - 0 ]   I N F O     s e r v i d o r c h a t . C o n e x i o n C l i e n t e   -   H a   e n t r a d o   a   u p d a t e :   L I S T A   m    
- 2 0 1 8 - 1 2 - 0 3   1 7 : 0 6 : 1 4 , 9 8 8   [ T h r e a d - 0 ]   I N F O     s e r v i d o r c h a t . C o n e x i o n C l i e n t e   -   E N T R A   A   C O N E X I O N C L I E N T E ,   U P D A T E  
- 2 0 1 8 - 1 2 - 0 3   1 7 : 0 6 : 1 4 , 9 8 8   [ T h r e a d - 0 ]   I N F O     s e r v i d o r c h a t . C o n e x i o n C l i e n t e   -   H e m o s   a s i g n a d o   e l   i d   d e l   m a s t e r  
- 2 0 1 8 - 1 2 - 0 3   1 7 : 0 6 : 2 6 , 6 4 2   [ T h r e a d - 0 ]   I N F O     s e r v i d o r c h a t . C o n e x i o n C l i e n t e   -   C l i e n t e   c o n   l a   I P   1 2 7 . 0 . 0 . 1   d e s c o n e c t a d o .  
- 2 0 1 8 - 1 2 - 0 3   1 7 : 0 6 : 2 6 , 6 4 2   [ T h r e a d - 0 ]   I N F O     s e r v i d o r c h a t . C o n e x i o n C l i e n t e   -   H a   e n t r a d o   a   u p d a t e :   L I S T A    
- 2 0 1 8 - 1 2 - 0 3   1 7 : 0 6 : 2 6 , 6 4 2   [ T h r e a d - 0 ]   E R R O R   s e r v i d o r c h a t . C o n e x i o n C l i e n t e   -   E r r o r   a l   e n v i a r   m e n s a j e   a l   c l i e n t e   ( C o n n e c t i o n   r e s e t   b y   p e e r :   s o c k e t   w r i t e   e r r o r ) .  
- 2 0 1 8 - 1 2 - 0 3   1 7 : 0 6 : 2 6 , 6 4 2   [ T h r e a d - 0 ]   I N F O     s e r v i d o r c h a t . C o n e x i o n C l i e n t e   -   S e   h a   c a m b i a d o   e l   m a s t e r  
-2018-12-03 17:14:35,856 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 17:14:52,549 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-12-03 17:14:52,549 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 17:14:52,549 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 39 m
-2018-12-03 17:14:52,549 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos detectado el id
-2018-12-03 17:14:52,549 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA m 
-2018-12-03 17:14:52,549 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:14:52,549 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos asignado el id del master
-2018-12-03 17:15:02,133 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: XiSiHzpymWY1hRXX7FOaNA==
-2018-12-03 17:15:02,133 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: XiSiHzpymWY1hRXX7FOaNA==
-2018-12-03 17:15:02,133 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:15:33,165 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: XiSiHzpymWY1hRXX7FOaNA==
-2018-12-03 17:15:33,165 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: XiSiHzpymWY1hRXX7FOaNA==
-2018-12-03 17:15:33,165 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:16:42,015 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 17:16:50,649 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-12-03 17:16:50,649 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 17:16:50,649 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 4 m
-2018-12-03 17:16:50,649 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos detectado el id
-2018-12-03 17:16:50,649 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA m 
-2018-12-03 17:16:50,649 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:16:50,649 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos asignado el id del master
-2018-12-03 17:16:56,023 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: V7CNvNqfwAwjdjpCqoi1vQ==
-2018-12-03 17:16:56,023 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: V7CNvNqfwAwjdjpCqoi1vQ==
-2018-12-03 17:16:56,023 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:17:02,818 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: O+gX6qr3Yea1InGu9D9moA==
-2018-12-03 17:17:02,818 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: O+gX6qr3Yea1InGu9D9moA==
-2018-12-03 17:17:02,818 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:17:05,583 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: qZJBy2Fl1zAj0xduOAVjCg==
-2018-12-03 17:17:05,583 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: qZJBy2Fl1zAj0xduOAVjCg==
-2018-12-03 17:17:05,583 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:18:46,948 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 17:18:54,741 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-12-03 17:18:54,741 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 17:18:54,741 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 19 m
-2018-12-03 17:18:54,741 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos detectado el id
-2018-12-03 17:18:54,741 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA m 
-2018-12-03 17:18:54,741 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:18:54,741 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos asignado el id del master
-2018-12-03 17:18:59,522 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: 3Z2ZL6tA1eaQe+AXRmnedA==
-2018-12-03 17:18:59,522 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: 3Z2ZL6tA1eaQe+AXRmnedA==
-2018-12-03 17:18:59,522 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:19:02,334 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: GOXX/9tyvr0xyRfRO4Io4A==
-2018-12-03 17:19:02,334 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: GOXX/9tyvr0xyRfRO4Io4A==
-2018-12-03 17:19:02,334 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:19:05,034 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: 9b3SAZ4ONGdgdC17L0KyaQ==
-2018-12-03 17:19:05,034 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: 9b3SAZ4ONGdgdC17L0KyaQ==
-2018-12-03 17:19:05,034 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:19:06,705 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-12-03 17:19:06,705 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA 
-2018-12-03 17:19:06,705 [Thread-0] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 17:19:06,705 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha cambiado el master
-2018-12-03 17:21:40,024 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 17:21:51,344 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-12-03 17:21:51,344 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 17:21:51,344 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 26 m
-2018-12-03 17:21:51,344 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos detectado el id
-2018-12-03 17:21:51,344 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA m 
-2018-12-03 17:21:51,344 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:21:51,344 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos asignado el id del master
-2018-12-03 17:21:58,171 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: 2sVrEsKFM6LhmSXHg1mgEA==
-2018-12-03 17:21:58,171 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: 2sVrEsKFM6LhmSXHg1mgEA==
-2018-12-03 17:21:58,171 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:32:09,558 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-12-03 17:32:09,558 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA 
-2018-12-03 17:32:09,558 [Thread-0] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 17:32:09,558 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha cambiado el master
-2018-12-03 17:32:18,392 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 17:32:33,006 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-12-03 17:32:33,006 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 17:32:33,006 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 28 m
-2018-12-03 17:32:33,006 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos detectado el id
-2018-12-03 17:32:33,006 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA m 
-2018-12-03 17:32:33,006 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:32:33,006 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos asignado el id del master
-2018-12-03 17:32:53,392 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-12-03 17:32:53,392 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA 
-2018-12-03 17:32:53,392 [Thread-0] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 17:32:53,392 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha cambiado el master
-2018-12-03 17:38:22,878 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 17:38:54,269 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-12-03 17:38:54,284 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 17:38:54,284 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 31 m
-2018-12-03 17:38:54,284 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos detectado el id
-2018-12-03 17:38:54,284 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA m 
-2018-12-03 17:38:54,284 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:38:54,284 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos asignado el id del master
-2018-12-03 17:38:56,768 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: HSCccyvnOpJWM4mPfmb/wA==
-2018-12-03 17:38:56,768 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: HSCccyvnOpJWM4mPfmb/wA==
-2018-12-03 17:38:56,768 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:38:59,383 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: M0IJ3vGDgk+YOlIAzn0A9Q==
-2018-12-03 17:38:59,383 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: M0IJ3vGDgk+YOlIAzn0A9Q==
-2018-12-03 17:38:59,383 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:38:59,555 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: 6fQ2pkkZ9u0h2hle7N405Q==
-2018-12-03 17:38:59,555 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: 6fQ2pkkZ9u0h2hle7N405Q==
-2018-12-03 17:38:59,555 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:38:59,695 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: HSCccyvnOpJWM4mPfmb/wA==
-2018-12-03 17:38:59,695 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: HSCccyvnOpJWM4mPfmb/wA==
-2018-12-03 17:38:59,695 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:38:59,820 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: HPcw4ruOrHyt31Kor0+6Ig==
-2018-12-03 17:38:59,820 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: HPcw4ruOrHyt31Kor0+6Ig==
-2018-12-03 17:38:59,820 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:38:59,946 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: 6fQ2pkkZ9u0h2hle7N405Q==
-2018-12-03 17:38:59,946 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: 6fQ2pkkZ9u0h2hle7N405Q==
-2018-12-03 17:38:59,946 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:39:00,086 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: sGL4HCnoMYMSYbSrK4jXow==
-2018-12-03 17:39:00,086 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: sGL4HCnoMYMSYbSrK4jXow==
-2018-12-03 17:39:00,086 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:39:00,211 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: +vVBHY7Fi8XSK8isUoEvxA==
-2018-12-03 17:39:00,211 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: +vVBHY7Fi8XSK8isUoEvxA==
-2018-12-03 17:39:00,211 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:39:00,320 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: 6fQ2pkkZ9u0h2hle7N405Q==
-2018-12-03 17:39:00,320 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: 6fQ2pkkZ9u0h2hle7N405Q==
-2018-12-03 17:39:00,320 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:44:56,271 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-12-03 17:44:56,271 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA 
-2018-12-03 17:44:56,271 [Thread-0] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 17:44:56,271 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha cambiado el master
-2018-12-03 17:45:13,511 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 17:45:22,702 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-12-03 17:45:22,702 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 17:45:22,702 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 30 m
-2018-12-03 17:45:22,702 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos detectado el id
-2018-12-03 17:45:22,702 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA m 
-2018-12-03 17:45:22,702 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:45:22,702 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos asignado el id del master
-2018-12-03 17:45:25,060 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: p3rpkBOxVEU0sG/+W2C8rA==
-2018-12-03 17:45:25,060 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: p3rpkBOxVEU0sG/+W2C8rA==
-2018-12-03 17:45:25,060 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:45:27,107 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: q5Y1lghQr4A1lQ3A2cc67Q==
-2018-12-03 17:45:27,107 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: q5Y1lghQr4A1lQ3A2cc67Q==
-2018-12-03 17:45:27,107 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:45:28,263 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: imesJfrlbnSSpPfCajqiqA==
-2018-12-03 17:45:28,263 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: imesJfrlbnSSpPfCajqiqA==
-2018-12-03 17:45:28,263 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:48:41,761 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 17:48:48,689 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-12-03 17:48:48,689 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 17:48:48,705 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 5 m
-2018-12-03 17:48:48,705 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos detectado el id
-2018-12-03 17:48:48,705 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA m 
-2018-12-03 17:48:48,705 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:48:48,705 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos asignado el id del master
-2018-12-03 17:48:53,782 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: fJhVrQdfrGX2NP+XLhumLA==
-2018-12-03 17:48:53,782 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: fJhVrQdfrGX2NP+XLhumLA==
-2018-12-03 17:48:53,782 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:49:02,452 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: 5bz2bMryA49oExd9hYNWjg==
-2018-12-03 17:49:02,452 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: 5bz2bMryA49oExd9hYNWjg==
-2018-12-03 17:49:02,452 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:49:15,652 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: 9d3ZN0lSO8WgZOBrBAzcAQ==
-2018-12-03 17:49:15,652 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: 9d3ZN0lSO8WgZOBrBAzcAQ==
-2018-12-03 17:49:15,652 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:49:21,669 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: 3L0p9wsB0aBrrz2zKxnqMQ==
-2018-12-03 17:49:21,669 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: 3L0p9wsB0aBrrz2zKxnqMQ==
-2018-12-03 17:49:21,669 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:49:35,244 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: Q4ghtL6QxJ3f5tZxSjGi4g==
-2018-12-03 17:49:35,244 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: Q4ghtL6QxJ3f5tZxSjGi4g==
-2018-12-03 17:49:35,244 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:49:44,632 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: /PjfMebCy7pyy6Ls8Q1Fgg==
-2018-12-03 17:49:44,632 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: /PjfMebCy7pyy6Ls8Q1Fgg==
-2018-12-03 17:49:44,648 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:49:48,303 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: XgIVA1AGm12y68FZhVLzmg==
-2018-12-03 17:49:48,303 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: XgIVA1AGm12y68FZhVLzmg==
-2018-12-03 17:49:48,303 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:50:01,789 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: GzD64fEHawrBc8Nwx+Lk9Q==
-2018-12-03 17:50:01,789 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: GzD64fEHawrBc8Nwx+Lk9Q==
-2018-12-03 17:50:01,789 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:50:16,957 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: 3vpcitdZZr9gi17Pg+0Qiw==
-2018-12-03 17:50:16,957 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: 3vpcitdZZr9gi17Pg+0Qiw==
-2018-12-03 17:50:16,957 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:50:20,623 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: TzMgzyVfkwEmsOJtMEssAw==
-2018-12-03 17:50:20,623 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: TzMgzyVfkwEmsOJtMEssAw==
-2018-12-03 17:50:20,623 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:50:37,879 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: pPK6K/0NFAy5QNITAUa4NQ==
-2018-12-03 17:50:37,879 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: pPK6K/0NFAy5QNITAUa4NQ==
-2018-12-03 17:50:37,879 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:50:47,018 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: G0BExD1SH6jmpkkBZDk1TQ==
-2018-12-03 17:50:47,018 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: G0BExD1SH6jmpkkBZDk1TQ==
-2018-12-03 17:50:47,018 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:52:11,349 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 17:52:18,878 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-12-03 17:52:18,878 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 17:52:18,878 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 49 m
-2018-12-03 17:52:18,878 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos detectado el id
-2018-12-03 17:52:18,878 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA m 
-2018-12-03 17:52:18,878 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:52:18,878 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos asignado el id del master
-2018-12-03 17:52:25,325 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: 5k+g4ts/fcCI9P+omz1odg==
-2018-12-03 17:52:25,325 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: 5k+g4ts/fcCI9P+omz1odg==
-2018-12-03 17:52:25,325 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:52:35,198 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: a37HmpEyXAY/7uFPBzkyyFCrR++HNqPAlnuzX2/out4=
-2018-12-03 17:52:35,198 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: a37HmpEyXAY/7uFPBzkyyFCrR++HNqPAlnuzX2/out4=
-2018-12-03 17:52:35,198 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:53:32,973 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: Wl8T1eyJQesW+S/9asdKpw==
-2018-12-03 17:53:32,973 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: Wl8T1eyJQesW+S/9asdKpw==
-2018-12-03 17:53:32,973 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:54:14,370 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: unwN61OV+ZCC0RYa/nnupA==
-2018-12-03 17:54:14,370 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: unwN61OV+ZCC0RYa/nnupA==
-2018-12-03 17:54:14,370 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:54:18,510 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: 6PbLkzKqY0gaCdz2WFuOvg==
-2018-12-03 17:54:18,525 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: 6PbLkzKqY0gaCdz2WFuOvg==
-2018-12-03 17:54:18,525 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:54:23,165 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: sx6DMMSpKG6QQ98pGMVNFg==
-2018-12-03 17:54:23,165 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: sx6DMMSpKG6QQ98pGMVNFg==
-2018-12-03 17:54:23,165 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:54:28,961 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: HsId0a2we+DaRNIr8wqWDg==
-2018-12-03 17:54:28,961 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: HsId0a2we+DaRNIr8wqWDg==
-2018-12-03 17:54:28,961 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:54:34,053 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: pzQTLyavi7ICBVOaU9pbRA==
-2018-12-03 17:54:34,053 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: pzQTLyavi7ICBVOaU9pbRA==
-2018-12-03 17:54:34,053 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:54:50,233 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: 5k+g4ts/fcCI9P+omz1odg==
-2018-12-03 17:54:50,233 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: 5k+g4ts/fcCI9P+omz1odg==
-2018-12-03 17:54:50,233 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:59:13,823 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-12-03 17:59:13,823 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA 
-2018-12-03 17:59:13,823 [Thread-0] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 17:59:13,823 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha cambiado el master
-2018-12-03 17:59:27,084 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 17:59:35,009 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-12-03 17:59:35,009 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 17:59:35,009 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 19 m
-2018-12-03 17:59:35,009 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos detectado el id
-2018-12-03 17:59:35,009 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA m 
-2018-12-03 17:59:35,009 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:59:35,009 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos asignado el id del master
-2018-12-03 17:59:38,712 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: Fkc3OeaJJMR4pqMw+vV6Xw==
-2018-12-03 17:59:38,712 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: Fkc3OeaJJMR4pqMw+vV6Xw==
-2018-12-03 17:59:38,712 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:59:48,225 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: 1o/Qg7ycvghWEiL5e5HvCw==
-2018-12-03 17:59:48,225 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: 1o/Qg7ycvghWEiL5e5HvCw==
-2018-12-03 17:59:48,225 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:59:55,020 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: jwZxNKahX/qEROM9gY1M+A==
-2018-12-03 17:59:55,020 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: jwZxNKahX/qEROM9gY1M+A==
-2018-12-03 17:59:55,020 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 17:59:59,713 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: 1o/Qg7ycvghWEiL5e5HvCw==
-2018-12-03 17:59:59,713 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: 1o/Qg7ycvghWEiL5e5HvCw==
-2018-12-03 17:59:59,713 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 18:02:33,065 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 18:02:41,363 [main] INFO  servidorchat.ServidorChat - Cliente con la IP 127.0.0.1 conectado.
-2018-12-03 18:02:41,363 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
-2018-12-03 18:02:41,363 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 37 m
-2018-12-03 18:02:41,363 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos detectado el id
-2018-12-03 18:02:41,363 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA m 
-2018-12-03 18:02:41,363 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 18:02:41,363 [Thread-0] INFO  servidorchat.ConexionCliente - Hemos asignado el id del master
-2018-12-03 18:02:45,116 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: 7/vuyJs3wM/IiuxFbyE0HQ==
-2018-12-03 18:02:45,116 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: 7/vuyJs3wM/IiuxFbyE0HQ==
-2018-12-03 18:02:45,116 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 18:03:02,143 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ZJ45oIE3H764PvRkPpSblw==
-2018-12-03 18:03:02,159 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: ZJ45oIE3H764PvRkPpSblw==
-2018-12-03 18:03:02,159 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
-2018-12-03 18:03:35,255 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP 127.0.0.1 desconectado.
-2018-12-03 18:03:35,255 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA 
-2018-12-03 18:03:35,255 [Thread-0] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
-2018-12-03 18:03:35,255 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha cambiado el master
+2018-12-03 18:52:58,470 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:03,850 [Thread-1] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: xvDwHhwL7RQH53+8sgBbo3SKRkhjHEPej8eozorZ8oAS85CcrxNnqu4hewnjZ9CD
+2018-12-03 18:53:03,850 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:03,850 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: xvDwHhwL7RQH53+8sgBbo3SKRkhjHEPej8eozorZ8oAS85CcrxNnqu4hewnjZ9CD
+2018-12-03 18:53:03,850 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:05,756 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: Jo4DFv7IWEp9lYiNZIg7kg==
+2018-12-03 18:53:05,756 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:05,756 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: Jo4DFv7IWEp9lYiNZIg7kg==
+2018-12-03 18:53:05,756 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:05,912 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: dE7OsjxprwQjpaqYh3plcw==
+2018-12-03 18:53:05,912 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:05,912 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: dE7OsjxprwQjpaqYh3plcw==
+2018-12-03 18:53:05,912 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:06,068 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: cfTLqAjIiV2uG/XnyZMCKQ==
+2018-12-03 18:53:06,068 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:06,068 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: cfTLqAjIiV2uG/XnyZMCKQ==
+2018-12-03 18:53:06,068 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:06,193 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: n6UK2YEJW3k3JU/rArPAVQ==
+2018-12-03 18:53:06,193 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:06,193 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: n6UK2YEJW3k3JU/rArPAVQ==
+2018-12-03 18:53:06,193 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:06,303 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: POGgTKin5dFElV1J2CcWVg==
+2018-12-03 18:53:06,303 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:06,303 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: POGgTKin5dFElV1J2CcWVg==
+2018-12-03 18:53:06,303 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:09,942 [Thread-1] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: y9i8v4mKR/btzyVKagMmZZS5Wcj5OJT/9BmjsWhKKKs=
+2018-12-03 18:53:09,942 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:09,942 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: y9i8v4mKR/btzyVKagMmZZS5Wcj5OJT/9BmjsWhKKKs=
+2018-12-03 18:53:09,942 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:12,348 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: NzxSJXG4sQmpX97ofoDxBw==
+2018-12-03 18:53:12,348 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:12,348 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: NzxSJXG4sQmpX97ofoDxBw==
+2018-12-03 18:53:12,348 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:17,940 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: apvDkrh5ydQafFCIuvaZ9w==
+2018-12-03 18:53:17,940 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:17,940 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: apvDkrh5ydQafFCIuvaZ9w==
+2018-12-03 18:53:17,940 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:21,236 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: NzxSJXG4sQmpX97ofoDxBw==
+2018-12-03 18:53:21,236 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:21,236 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: NzxSJXG4sQmpX97ofoDxBw==
+2018-12-03 18:53:21,236 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:24,158 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: NzxSJXG4sQmpX97ofoDxBw==
+2018-12-03 18:53:24,158 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:24,158 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: NzxSJXG4sQmpX97ofoDxBw==
+2018-12-03 18:53:24,158 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:25,329 [Thread-1] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: 2CiCJtvSDKNGEbPk7SotgJS5Wcj5OJT/9BmjsWhKKKs=
+2018-12-03 18:53:25,329 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:25,329 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: 2CiCJtvSDKNGEbPk7SotgJS5Wcj5OJT/9BmjsWhKKKs=
+2018-12-03 18:53:25,329 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:30,427 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: PMy59O7n6cG4gwYpESBgPg==
+2018-12-03 18:53:30,427 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:30,427 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: PMy59O7n6cG4gwYpESBgPg==
+2018-12-03 18:53:30,427 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:34,192 [Thread-1] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: UJqmiJ1gvgu/4Um2z/fM0mkVQBkCeoo0btdws2v6ps8=
+2018-12-03 18:53:34,192 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:34,192 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: UJqmiJ1gvgu/4Um2z/fM0mkVQBkCeoo0btdws2v6ps8=
+2018-12-03 18:53:34,192 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:34,989 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: +QvqiVkz/grH+vyN2I7P4g==
+2018-12-03 18:53:34,989 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:34,989 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: +QvqiVkz/grH+vyN2I7P4g==
+2018-12-03 18:53:34,989 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:38,191 [Thread-1] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: UAEmVe9vxLWJGNFAEy9JxQ==
+2018-12-03 18:53:38,191 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:38,191 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: UAEmVe9vxLWJGNFAEy9JxQ==
+2018-12-03 18:53:38,191 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:51,657 [Thread-1] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: 87jIx7bS/nMGs84hVuG3PZS5Wcj5OJT/9BmjsWhKKKs=
+2018-12-03 18:53:51,657 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:51,657 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: 87jIx7bS/nMGs84hVuG3PZS5Wcj5OJT/9BmjsWhKKKs=
+2018-12-03 18:53:51,657 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:51,969 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: cSrtYQfDAt0Vk3cUSd+tZA==
+2018-12-03 18:53:51,969 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:53:51,969 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: cSrtYQfDAt0Vk3cUSd+tZA==
+2018-12-03 18:53:51,969 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:54:06,924 [Thread-0] INFO  servidorchat.ConexionCliente - Cliente con la IP DESKTOP-RMHJU8F desconectado.
+2018-12-03 18:54:06,924 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:54:06,924 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA Moigikarp 
+2018-12-03 18:54:06,924 [Thread-0] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
+2018-12-03 18:54:06,924 [Thread-0] INFO  servidorchat.ConexionCliente - Se ha cambiado el master
+2018-12-03 18:54:06,924 [Thread-0] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:54:06,924 [Thread-0] INFO  servidorchat.ConexionCliente - Ha entrado a update: CAMBIO Moigikarp
+2018-12-03 18:54:06,924 [Thread-0] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
+2018-12-03 18:54:12,271 [Thread-1] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: QudZvfHojlLcLi+aTiENnJMHs+/vusA4Hp+axu2evJc=
+2018-12-03 18:54:12,271 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:54:12,271 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: QudZvfHojlLcLi+aTiENnJMHs+/vusA4Hp+axu2evJc=
+2018-12-03 18:54:12,271 [Thread-1] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:54:34,904 [main] INFO  servidorchat.ServidorChat - Cliente con la IP DESKTOP-RMHJU8F conectado.
+2018-12-03 18:54:34,904 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-12-03 18:54:34,904 [Thread-2] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 43 1 chaval
+2018-12-03 18:54:34,904 [Thread-2] INFO  servidorchat.ConexionCliente - Hemos detectado el id
+2018-12-03 18:54:34,904 [Thread-2] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:54:34,904 [Thread-2] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:54:34,904 [Thread-2] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA Moigikarp 1chaval 
+2018-12-03 18:54:34,904 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:54:34,904 [Thread-2] INFO  servidorchat.ConexionCliente - Ya esta asignado, mi id es: 43
+2018-12-03 18:54:34,904 [Thread-2] INFO  servidorchat.ConexionCliente - Y el id del master asginado es: 15
+2018-12-03 18:54:35,420 [Thread-2] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: PUK 43 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkCrUQOiIl7MP8fXXaMz4lOzB+ekb2LDF0GwDoTHFIqsED8fwXtkTsLYVzftBE3RyoNUKWsr6Vk0liRMdhZrlcf2hiSTuHbv4hvmNN4FfKd1MdWlJZMTqJFSr8K+1bgcw9fLsXaCwSMG+jICfeXD8E1X2O/5qOLKy+9MEoONPHRDTuNPl65SXe+/zKNfcrgS4u/tWlKltvm15QfYDnmy9fXrZH5BVRCzKVVIenxEDyYnEBcjsOHEBZz7AcOP4JNGZ3VO2upNykbOFfIjCapmUeU9oIcwBCZbS7pY6gP+XIcZ01fR2LmGiFCKK09Axtonx1O+ZGemcpeY8plTiWInqnQIDAQAB
+2018-12-03 18:54:35,420 [Thread-2] INFO  servidorchat.ConexionCliente - Me han enviado una clave publica, con ID: 43
+2018-12-03 18:54:35,420 [Thread-2] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:54:35,420 [Thread-2] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:54:35,420 [Thread-2] INFO  servidorchat.ConexionCliente - Ha entrado a update: PUK 43 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkCrUQOiIl7MP8fXXaMz4lOzB+ekb2LDF0GwDoTHFIqsED8fwXtkTsLYVzftBE3RyoNUKWsr6Vk0liRMdhZrlcf2hiSTuHbv4hvmNN4FfKd1MdWlJZMTqJFSr8K+1bgcw9fLsXaCwSMG+jICfeXD8E1X2O/5qOLKy+9MEoONPHRDTuNPl65SXe+/zKNfcrgS4u/tWlKltvm15QfYDnmy9fXrZH5BVRCzKVVIenxEDyYnEBcjsOHEBZz7AcOP4JNGZ3VO2upNykbOFfIjCapmUeU9oIcwBCZbS7pY6gP+XIcZ01fR2LmGiFCKK09Axtonx1O+ZGemcpeY8plTiWInqnQIDAQAB
+2018-12-03 18:54:35,420 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:54:35,436 [Thread-1] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: CSCIFRADA 43 J3O+lSRfs8wcCbssrZG5PfDqc2bS+O0Uaf5hLdoZ1ThPHZRNyW2yWvQWit8//8dq5MeffQLvM5tKY8EtnypB1mDoIG3ID34Dpzq32JDhfWty45gUmAkbyfHc8mH9iUZHvSFwNAWDatdDTN4FF4VoJYy6wUKmOGpoixbFpXxJPtQJYtw1iJ3TTumax0V7Kav79+z078P52th0PM87kL0Bn0AxRhzn69tTf0hXMxk/eYD45Id4wYINm2SeSOhsx6lDbjBJMwM3bUgG7CgypYkRYoJvDDrHGttPd+NZikR2i73dxgdEcDKt4bUyTELY2ZtQijmon5ktCR8TDlZl7phasQ==
+2018-12-03 18:54:35,436 [Thread-1] INFO  servidorchat.ConexionCliente - Ha llegado la clave AES cifrada para ID: 43
+2018-12-03 18:54:35,436 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:54:35,436 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:54:35,436 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: CSCIFRADA 43 J3O+lSRfs8wcCbssrZG5PfDqc2bS+O0Uaf5hLdoZ1ThPHZRNyW2yWvQWit8//8dq5MeffQLvM5tKY8EtnypB1mDoIG3ID34Dpzq32JDhfWty45gUmAkbyfHc8mH9iUZHvSFwNAWDatdDTN4FF4VoJYy6wUKmOGpoixbFpXxJPtQJYtw1iJ3TTumax0V7Kav79+z078P52th0PM87kL0Bn0AxRhzn69tTf0hXMxk/eYD45Id4wYINm2SeSOhsx6lDbjBJMwM3bUgG7CgypYkRYoJvDDrHGttPd+NZikR2i73dxgdEcDKt4bUyTELY2ZtQijmon5ktCR8TDlZl7phasQ==
+2018-12-03 18:54:35,436 [Thread-1] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:54:39,653 [Thread-1] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: y9zB+oc4QejD1wotThVf4w==
+2018-12-03 18:54:39,653 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:54:39,653 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:54:39,653 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: y9zB+oc4QejD1wotThVf4w==
+2018-12-03 18:54:39,653 [Thread-1] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:54:40,450 [Thread-2] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: MIylEOukQFsSXt8uBlG+amr0Mp8XnlEZzblxFDvK/Vg=
+2018-12-03 18:54:40,450 [Thread-2] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:54:40,450 [Thread-2] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:54:40,450 [Thread-2] INFO  servidorchat.ConexionCliente - Ha entrado a update: MIylEOukQFsSXt8uBlG+amr0Mp8XnlEZzblxFDvK/Vg=
+2018-12-03 18:54:40,450 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:54:42,169 [Thread-1] INFO  servidorchat.ConexionCliente - Cliente con la IP LAPTOP-IM04LPM2 desconectado.
+2018-12-03 18:54:42,169 [Thread-1] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:54:42,184 [Thread-1] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
+2018-12-03 18:54:42,184 [Thread-1] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA 1chaval 
+2018-12-03 18:54:42,184 [Thread-1] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:54:51,901 [Thread-2] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: +T8OGR4KSo0usRLbrvuj2/EauXQBagM6tFPqP99KlJc=
+2018-12-03 18:54:51,901 [Thread-2] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:54:51,901 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:54:51,901 [Thread-2] INFO  servidorchat.ConexionCliente - Ha entrado a update: +T8OGR4KSo0usRLbrvuj2/EauXQBagM6tFPqP99KlJc=
+2018-12-03 18:54:51,901 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:54:59,603 [main] INFO  servidorchat.ServidorChat - Cliente con la IP LAPTOP-IM04LPM2 conectado.
+2018-12-03 18:54:59,603 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-12-03 18:54:59,603 [Thread-3] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 16 1 chaval
+2018-12-03 18:54:59,603 [Thread-3] INFO  servidorchat.ConexionCliente - Hemos detectado el id
+2018-12-03 18:54:59,603 [Thread-3] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:54:59,603 [Thread-3] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:54:59,603 [Thread-3] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:54:59,603 [Thread-3] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA 1chaval 1chaval31 
+2018-12-03 18:54:59,603 [Thread-3] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:54:59,603 [Thread-3] INFO  servidorchat.ConexionCliente - Ya esta asignado, mi id es: 16
+2018-12-03 18:54:59,603 [Thread-3] INFO  servidorchat.ConexionCliente - Y el id del master asginado es: 15
+2018-12-03 18:55:01,838 [Thread-3] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: PUK 16 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhSP4HP5kBEs+r7WH12GBXsGZEOrt0qc6/kkAwqoSPH+1mOJ9E84Y9sRsHQl5vKwEn2/oRnAUSvHCtfy3Zf50/nChv1SZw1QDVV4uqn95b9H+Vqdu91YKANiHuE/fxSfw/9R2pw1rW/3UtSRflPbRhwE1B4ORIzRyXCo7a1C/JK3WhDlj9ylguiI0OfGQigBdrUPq2i7453BMSEXKcrYcOdA8dXm3BoqOTS+DIzZFaDVru3pfzSbL3l8Q9LmuflcWRfAhliLTj19f2KlEE95A8jjbMICEw1MqwWKTBdNV0ngKI17xUNMhGFWcj4OUualrYUeSa5+aOjKlRmurNlqunwIDAQAB
+2018-12-03 18:55:01,838 [Thread-3] INFO  servidorchat.ConexionCliente - Me han enviado una clave publica, con ID: 16
+2018-12-03 18:55:01,838 [Thread-3] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:55:01,838 [Thread-3] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:55:01,838 [Thread-3] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:55:01,838 [Thread-3] INFO  servidorchat.ConexionCliente - Ha entrado a update: PUK 16 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhSP4HP5kBEs+r7WH12GBXsGZEOrt0qc6/kkAwqoSPH+1mOJ9E84Y9sRsHQl5vKwEn2/oRnAUSvHCtfy3Zf50/nChv1SZw1QDVV4uqn95b9H+Vqdu91YKANiHuE/fxSfw/9R2pw1rW/3UtSRflPbRhwE1B4ORIzRyXCo7a1C/JK3WhDlj9ylguiI0OfGQigBdrUPq2i7453BMSEXKcrYcOdA8dXm3BoqOTS+DIzZFaDVru3pfzSbL3l8Q9LmuflcWRfAhliLTj19f2KlEE95A8jjbMICEw1MqwWKTBdNV0ngKI17xUNMhGFWcj4OUualrYUeSa5+aOjKlRmurNlqunwIDAQAB
+2018-12-03 18:55:01,838 [Thread-3] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:55:03,291 [Thread-2] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: lzZa80ASxGT1Gc6pezYI3Q==
+2018-12-03 18:55:03,291 [Thread-2] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:55:03,291 [Thread-2] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:55:03,291 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:55:03,291 [Thread-2] INFO  servidorchat.ConexionCliente - Ha entrado a update: lzZa80ASxGT1Gc6pezYI3Q==
+2018-12-03 18:55:03,291 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:55:18,679 [Thread-2] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: FPU1YCoJrjBhkmm/N1qFOHYVth3m5pFUI71sQBx/OOY=
+2018-12-03 18:55:18,679 [Thread-2] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:55:18,679 [Thread-2] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:55:18,679 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:55:18,679 [Thread-2] INFO  servidorchat.ConexionCliente - Ha entrado a update: FPU1YCoJrjBhkmm/N1qFOHYVth3m5pFUI71sQBx/OOY=
+2018-12-03 18:55:18,679 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:55:22,428 [Thread-3] INFO  servidorchat.ConexionCliente - Cliente con la IP LAPTOP-IM04LPM2 desconectado.
+2018-12-03 18:55:22,428 [Thread-3] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
+2018-12-03 18:55:22,428 [Thread-3] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:55:22,428 [Thread-3] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:55:22,428 [Thread-3] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA 1chaval 
+2018-12-03 18:55:22,428 [Thread-3] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:55:30,208 [main] INFO  servidorchat.ServidorChat - Cliente con la IP LAPTOP-IM04LPM2 conectado.
+2018-12-03 18:55:30,208 [main] INFO  servidorchat.ServidorChat - Servidor a la espera de conexiones.
+2018-12-03 18:55:30,208 [Thread-4] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: ID: 34 fjkeg
+2018-12-03 18:55:30,208 [Thread-4] INFO  servidorchat.ConexionCliente - Hemos detectado el id
+2018-12-03 18:55:30,208 [Thread-4] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:55:30,208 [Thread-4] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:55:30,208 [Thread-4] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:55:30,208 [Thread-4] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:55:30,208 [Thread-4] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA 1chaval fjkeg 
+2018-12-03 18:55:30,208 [Thread-4] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:55:30,208 [Thread-4] INFO  servidorchat.ConexionCliente - Ya esta asignado, mi id es: 34
+2018-12-03 18:55:30,208 [Thread-4] INFO  servidorchat.ConexionCliente - Y el id del master asginado es: 15
+2018-12-03 18:55:31,441 [Thread-4] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: PUK 34 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAk3+2sncd2XX8fprmaqU9HKs8FmSRw6xke7nZL/vnzBSI8uGi0C0lHaNa+LL2g8mGcWFjtgyWXUUaoYzMBfmeOLBxqocH0bLFxqVmUmILa8wKZD6jUJ4RwO6rHU8UxBJKNIw9lz0BpqSJ/mG3FSInAo/kne/vTRXKHsmkmj1vh5MV7meWmWn6PFCsdG9OyrVw3L2HEVH4xJCOxrcdW7awagkXkIwrMoe78b7IEHH5nijFkA5GHy7in3Ist0yMpPoxaIAqWQ24fngsFn+ZhhvdfLnGvDGEOp4nMuEydIhyZlmTUT1qr+vaADf1eqEDeyTZppqaGs/3hJn4ikG/y8OjLQIDAQAB
+2018-12-03 18:55:31,441 [Thread-4] INFO  servidorchat.ConexionCliente - Me han enviado una clave publica, con ID: 34
+2018-12-03 18:55:31,441 [Thread-4] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:55:31,441 [Thread-4] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:55:31,441 [Thread-4] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:55:31,441 [Thread-4] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:55:31,441 [Thread-4] INFO  servidorchat.ConexionCliente - Ha entrado a update: PUK 34 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAk3+2sncd2XX8fprmaqU9HKs8FmSRw6xke7nZL/vnzBSI8uGi0C0lHaNa+LL2g8mGcWFjtgyWXUUaoYzMBfmeOLBxqocH0bLFxqVmUmILa8wKZD6jUJ4RwO6rHU8UxBJKNIw9lz0BpqSJ/mG3FSInAo/kne/vTRXKHsmkmj1vh5MV7meWmWn6PFCsdG9OyrVw3L2HEVH4xJCOxrcdW7awagkXkIwrMoe78b7IEHH5nijFkA5GHy7in3Ist0yMpPoxaIAqWQ24fngsFn+ZhhvdfLnGvDGEOp4nMuEydIhyZlmTUT1qr+vaADf1eqEDeyTZppqaGs/3hJn4ikG/y8OjLQIDAQAB
+2018-12-03 18:55:31,441 [Thread-4] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:55:34,956 [Thread-2] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: qMVhilGGawQhkIm/8iNU8Q==
+2018-12-03 18:55:34,956 [Thread-2] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:55:34,956 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:55:34,956 [Thread-2] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:55:34,956 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:55:34,956 [Thread-2] INFO  servidorchat.ConexionCliente - Ha entrado a update: qMVhilGGawQhkIm/8iNU8Q==
+2018-12-03 18:55:34,956 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:55:35,581 [Thread-2] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: qMVhilGGawQhkIm/8iNU8Q==
+2018-12-03 18:55:35,581 [Thread-2] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:55:35,581 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:55:35,581 [Thread-2] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:55:35,581 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:55:35,581 [Thread-2] INFO  servidorchat.ConexionCliente - Ha entrado a update: qMVhilGGawQhkIm/8iNU8Q==
+2018-12-03 18:55:35,581 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:55:36,175 [Thread-2] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: qMVhilGGawQhkIm/8iNU8Q==
+2018-12-03 18:55:36,175 [Thread-2] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:55:36,175 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:55:36,175 [Thread-2] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:55:36,175 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:55:36,175 [Thread-2] INFO  servidorchat.ConexionCliente - Ha entrado a update: qMVhilGGawQhkIm/8iNU8Q==
+2018-12-03 18:55:36,175 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:55:37,081 [Thread-2] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: qMVhilGGawQhkIm/8iNU8Q==
+2018-12-03 18:55:37,081 [Thread-2] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:55:37,081 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:55:37,081 [Thread-2] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:55:37,081 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:55:37,081 [Thread-2] INFO  servidorchat.ConexionCliente - Ha entrado a update: qMVhilGGawQhkIm/8iNU8Q==
+2018-12-03 18:55:37,081 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:55:51,853 [Thread-4] INFO  servidorchat.ConexionCliente - Cliente con la IP LAPTOP-IM04LPM2 desconectado.
+2018-12-03 18:55:51,853 [Thread-4] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
+2018-12-03 18:55:51,853 [Thread-4] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:55:51,853 [Thread-4] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:55:51,853 [Thread-4] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:55:51,853 [Thread-4] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA 1chaval 
+2018-12-03 18:55:51,853 [Thread-4] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:56:08,620 [Thread-2] INFO  servidorchat.ConexionCliente - Se ha recibido el mensaje: qMVhilGGawQhkIm/8iNU8Q==
+2018-12-03 18:56:08,620 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:56:08,620 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:56:08,620 [Thread-2] INFO  servidorchat.ConexionCliente - ENTRA A CONEXIONCLIENTE, UPDATE
+2018-12-03 18:56:08,620 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:56:08,620 [Thread-2] INFO  servidorchat.ConexionCliente - Ha entrado a update: qMVhilGGawQhkIm/8iNU8Q==
+2018-12-03 18:56:08,620 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:56:18,946 [Thread-2] INFO  servidorchat.ConexionCliente - Cliente con la IP DESKTOP-RMHJU8F desconectado.
+2018-12-03 18:56:18,946 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:56:18,946 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:56:18,946 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Connection reset by peer: socket write error).
+2018-12-03 18:56:18,946 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).
+2018-12-03 18:56:18,946 [Thread-2] INFO  servidorchat.ConexionCliente - Ha entrado a update: LISTA 
+2018-12-03 18:56:18,946 [Thread-2] ERROR servidorchat.ConexionCliente - Error al enviar mensaje al cliente (Socket closed).

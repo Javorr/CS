@@ -106,6 +106,8 @@ public class ClienteChat extends JFrame {
         puerto = vc.getPuerto();
         usuario = vc.getUsuario();
 
+        //VentanaTutorial vt = new VentanaTutorial(this);
+
         log.info("Quieres conectarte a " + host + " en el puerto " + puerto + " con el nombre de ususario: " + usuario + ".");
 
         // Se crea el socket para conectar con el Sevidor del Chat

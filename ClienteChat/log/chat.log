@@ -422,3 +422,17 @@
 2018-12-03 18:03:02,159 [main] INFO  clientechat.ClienteChat - DEFAULT ZJ45oIE3H764PvRkPpSblw==
 2018-12-03 18:03:02,159 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje ZJ45oIE3H764PvRkPpSblw==
 2018-12-03 18:03:02,159 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: :joyful:
+2018-12-03 18:35:06,094 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: m.
+2018-12-03 18:35:06,110 [main] INFO  clientechat.ConexionServidor - Se esta creando la ConexionServidor
+2018-12-03 18:35:06,391 [main] INFO  clientechat.ConexionServidor - javax.crypto.KeyGenerator@68be2bc2
+2018-12-03 18:35:06,500 [main] INFO  clientechat.ConexionServidor - javax.crypto.spec.SecretKeySpec@fffe91f8
+2018-12-03 18:35:06,500 [main] INFO  clientechat.ConexionServidor - He generado la clave AES
+2018-12-03 18:35:06,500 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN KEY: javax.crypto.spec.SecretKeySpec@fffe91f8
+2018-12-03 18:35:06,500 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN STRING: 5DmMGqyRLpHc4F9Oo5KIpg==
+2018-12-03 18:38:47,836 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: m.
+2018-12-03 18:38:47,836 [main] INFO  clientechat.ConexionServidor - Se esta creando la ConexionServidor
+2018-12-03 18:38:48,133 [main] INFO  clientechat.ConexionServidor - javax.crypto.KeyGenerator@20e2cbe0
+2018-12-03 18:38:48,227 [main] INFO  clientechat.ConexionServidor - javax.crypto.spec.SecretKeySpec@17fe4
+2018-12-03 18:38:48,227 [main] INFO  clientechat.ConexionServidor - He generado la clave AES
+2018-12-03 18:38:48,227 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN KEY: javax.crypto.spec.SecretKeySpec@17fe4
+2018-12-03 18:38:48,227 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN STRING: qlCJAA2ZkEJ2e8RNm5l+TQ==

@@ -1,28 +1,34 @@
 package clientechat;
 
-import java.awt.Container;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import javax.swing.*;
 import org.apache.log4j.Logger;
 
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.net.MalformedURLException;
+import java.net.URL;
 
-public class VentanaConfiguracion extends JDialog{
+
+public class VentanaTutorial extends JDialog{
 
     private Logger log = Logger.getLogger(VentanaConfiguracion.class);
 
     public VentanaTutorial(JFrame padre) {
         super(padre, "Configuracion inicial", true);
 
-        URL url = new URL("C:\\gif");
-        Icon icon = new ImageIcon(url);
+        URL url = null;
+        try {
+            url = new URL("file:///C:/cs.gif");
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        }
+        Icon icon = new ImageIcon(String.valueOf(url));
         JLabel lbGif = new JLabel(icon);
 
         JFrame f = new JFrame("Animation");
-        f.getContentPane().add(lbGIF);
+
+        f.getContentPane().add(lbGif);
 
         JButton btAceptar = new JButton("Aceptar");
         btAceptar.addActionListener(new ActionListener() {
@@ -36,7 +42,7 @@ public class VentanaConfiguracion extends JDialog{
         c.setLayout(new GridBagLayout());
         GridBagConstraints gbc = new GridBagConstraints();
 
-        gbc.insets = new Insets(20, 20, 0, 20);
+        gbc.insets = new Insets(1000, 1000, 1000, 1000);
 
         gbc.gridx = 0;
         gbc.gridy = 0;
