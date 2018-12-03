@@ -6,8 +6,8 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
 import java.security.*;
-import java.util.Observable;
-import java.util.Observer;
+import java.util.*;
+
 import org.apache.log4j.Logger;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -16,8 +16,6 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.util.Base64;
-import java.util.Arrays;
 import java.security.spec.PKCS8EncodedKeySpec;
 import java.security.spec.X509EncodedKeySpec;
 import javax.crypto.Cipher;
@@ -25,7 +23,6 @@ import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;
 import javax.crypto.spec.IvParameterSpec;
-import java.util.Random;
 import java.security.SecureRandom;
 
 
@@ -37,9 +34,13 @@ public class ConexionCliente extends Thread implements Observer{
     private MensajesChat mensajes;
     private DataInputStream entradaDatos;
     private DataOutputStream salidaDatos;
+    private int rand=(int)(Math.random() * 50 + 1);
     private boolean isMaster;
     private static int idMaster=0;
+    private static ArrayList<String> usuarios = new ArrayList<String>();
     private int id;
+    private String nombre;
+    private String lista = "";
 
     public ConexionCliente (Socket socket, MensajesChat mensajes, boolean isMaster, int identificador){
         this.socket = socket;
@@ -55,6 +56,28 @@ public class ConexionCliente extends Thread implements Observer{
         } catch (IOException ex) {
             log.error("Error al crear los stream de entrada y salida : " + ex.getMessage());
         }
+    }
+
+    public void asignarNombre(String nombre){
+
+        boolean encontrado = false;
+        for (Iterator<String> iterator = usuarios.iterator(); iterator.hasNext(); ) {
+            String u = iterator.next();
+
+            if (nombre != null && u.equalsIgnoreCase(nombre)) {
+                encontrado = true;
+            }
+        }
+
+        if(encontrado==false){
+            usuarios.add(nombre);
+            this.nombre = nombre;
+        }
+        else {
+            nombre = nombre + rand;
+            asignarNombre(nombre);
+        }
+
     }
 
     @Override
@@ -75,6 +98,22 @@ public class ConexionCliente extends Thread implements Observer{
                 if(splitStr[0].equalsIgnoreCase("ID:")) {
                     log.info("Hemos detectado el id");
 
+                    int huecosnombre = splitStr.length - 2;
+                    String nombre = "";
+
+                    for(int i =0; i<huecosnombre; i++){
+                        nombre += splitStr[2+i];
+                    }
+
+                    lista = "";
+                    asignarNombre(nombre);
+                    for(String u:usuarios){
+                        System.out.println(u);
+                        lista += u + " ";
+                    }
+
+                    mensajes.setMensaje("LISTA " + lista);
+
                     if(idMaster==0) {
                         idMaster=Integer.parseInt(splitStr[1]);
                         id=idMaster;
@@ -82,11 +121,12 @@ public class ConexionCliente extends Thread implements Observer{
                         salidaDatos.writeUTF("Master");
                     }
                     else {
-                        salidaDatos.writeUTF("Nomaster");
+                        salidaDatos.writeUTF("Nomaster " + usuarios.get(usuarios.size()-1));
                         id=Integer.parseInt(splitStr[1]);
                         log.info("Ya esta asignado, mi id es: "+id);
                         log.info("Y el id del master asginado es: "+idMaster);
                     }
+
                 }
 
                 else if(splitStr[0].equalsIgnoreCase("PUK")) {
@@ -105,6 +145,22 @@ public class ConexionCliente extends Thread implements Observer{
             } catch (IOException ex) {
                 log.info("Cliente con la IP " + socket.getInetAddress().getHostName() + " desconectado.");
                 conectado = false;
+                usuarios.remove(nombre);
+
+                lista = "";
+                for(String u:usuarios){
+                    System.out.println(u);
+                    lista += u + " ";
+                }
+
+                mensajes.setMensaje("LISTA " + lista);
+
+                if(isMaster){
+                    log.info("Se ha cambiado el master");
+                    mensajes.setMensaje("CAMBIO " + usuarios.get(0));
+                    idMaster=this.id;
+                }
+
                 // Si se ha producido un error al recibir datos del cliente se cierra la conexion con el.
                 try {
                     entradaDatos.close();

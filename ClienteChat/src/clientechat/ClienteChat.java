@@ -16,6 +16,8 @@ public class ClienteChat extends JFrame {
 
     private Logger log = Logger.getLogger(ClienteChat.class);
     private JTextArea mensajesChat;
+    private JTextArea usuariosChat;
+    private Font font;
     private Socket socket;
 
     private int puerto;
@@ -28,12 +30,26 @@ public class ClienteChat extends JFrame {
 
         // Elementos de la ventana
         mensajesChat = new JTextArea();
+        font = new Font("Arial", Font.BOLD, 20);
+        mensajesChat.setFont(font);
+        mensajesChat.setForeground(Color.BLUE);
         mensajesChat.setEnabled(false); // El area de mensajes del chat no se debe de poder editar
         mensajesChat.setLineWrap(true); // Las lineas se parten al llegar al ancho del textArea
         mensajesChat.setWrapStyleWord(true); // Las lineas se parten entre palabras (por los espacios blancos)
+
+        usuariosChat = new JTextArea();
+        usuariosChat.setFont(font);
+        usuariosChat.setEnabled(false); // El area de mensajes del chat no se debe de poder editar
+        usuariosChat.setLineWrap(true); // Las lineas se parten al llegar al ancho del textArea
+        usuariosChat.setWrapStyleWord(true); // Las lineas se parten entre palabras (por los espacios blancos)
+
         JScrollPane scrollMensajesChat = new JScrollPane(mensajesChat);
+
+        JScrollPane scrollusuariosChat = new JScrollPane(usuariosChat);
+
         JTextField tfMensaje = new JTextField("");
         JButton btEnviar = new JButton("Enviar");
+        tfMensaje.setForeground(Color.BLUE);
 
         // Colocacion de los componentes en la ventana
         Container c = this.getContentPane();
@@ -42,7 +58,7 @@ public class ClienteChat extends JFrame {
 
         GridBagConstraints gbc = new GridBagConstraints();
 
-        gbc.insets = new Insets(20, 20, 20, 20);
+        gbc.insets = new Insets(20, 20, 20, 380);
 
         gbc.gridx = 0;
         gbc.gridy = 0;
@@ -56,11 +72,13 @@ public class ClienteChat extends JFrame {
         gbc.weighty = 0;
 
         gbc.fill = GridBagConstraints.HORIZONTAL;
-        gbc.insets = new Insets(0, 20, 20, 20);
+        gbc.insets = new Insets(0, 20, 20, 10);
 
         gbc.gridx = 0;
         gbc.gridy = 1;
         c.add(tfMensaje, gbc);
+
+
         // Restaura valores por defecto
         gbc.weightx = 0;
 
@@ -68,7 +86,17 @@ public class ClienteChat extends JFrame {
         gbc.gridy = 1;
         c.add(btEnviar, gbc);
 
-        this.setBounds(400, 100, 400, 500);
+
+        gbc.insets = new Insets(20, 850, 20, -40);
+
+        gbc.gridx = 0;
+        gbc.gridy = 0;
+        gbc.weightx = 1;
+        gbc.weighty = 1;
+        gbc.fill = GridBagConstraints.BOTH;
+        c.add(scrollusuariosChat, gbc);
+
+        this.setBounds(400, 100, 1200, 600);
         this.setVisible(true);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -123,7 +151,7 @@ public class ClienteChat extends JFrame {
                         break;
 
                     case "Nomaster":
-                        cs.enviar_puk();
+                        cs.enviar_puk(splitStr);
                         break;
 
                     case"PUK":
@@ -134,9 +162,23 @@ public class ClienteChat extends JFrame {
                         cs.descifrar_AES(splitStr);
                         break;
 
+                    case "CAMBIO":
+                        log.info("VAMOS A CAMBIAR DE MASTER " + mensaje);
+                        cs.cambio_master(splitStr);
+                        break;
+
+                    case "LISTA":
+                        usuariosChat.setText(" " + System.lineSeparator() + System.lineSeparator());
+                        for(int i = 0; i<splitStr.length-1; i++){
+                            usuariosChat.append(" " + splitStr[i+1] + System.lineSeparator());
+                        }
+                        break;
+
                     default:
+                        log.info("DEFAULT " + mensaje);
                         mensaje = cs.descifrarmensaje(mensaje);
-                        mensajesChat.append(mensaje + System.lineSeparator());
+                        String[] splitStr2 = mensaje.trim().split("\\s+");
+                        if(splitStr2.length>1) mensajesChat.append(mensaje + System.lineSeparator());
                         break;
                 }
 

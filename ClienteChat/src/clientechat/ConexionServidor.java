@@ -41,7 +41,7 @@ public class ConexionServidor implements ActionListener {
         log.info("Se esta creando la ConexionServidor");
         try {
             this.salidaDatos = new DataOutputStream(socket.getOutputStream());
-            salidaDatos.writeUTF("ID: "+id);
+            salidaDatos.writeUTF("ID: "+id + " " + usuario);
         } catch (IOException ex) {
             log.error("Error al crear el stream de salida : " + ex.getMessage());
         } catch (NullPointerException ex) {
@@ -87,7 +87,8 @@ public class ConexionServidor implements ActionListener {
     }
 
 
-    public void enviar_puk() {
+    public void enviar_puk(String[] splitStr) {
+        usuario = splitStr[1];
         Key pub;
         Key priv;
         String pubstrKey;
@@ -242,6 +243,13 @@ public class ConexionServidor implements ActionListener {
     return textoplano;
 
     }
+
+    public void cambio_master(String[] splitStr) {
+        if(splitStr[1].equalsIgnoreCase(this.usuario)) {
+            isMaster = true;
+        }
+    }
+
 
     @Override
     public void actionPerformed(ActionEvent e) {
