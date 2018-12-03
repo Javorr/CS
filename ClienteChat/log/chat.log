@@ -3,3 +3,422 @@
 2018-12-03 16:23:54,151 [main] INFO  clientechat.ConexionServidor - java.security.KeyPairGenerator$Delegate@73a28541
 2018-12-03 16:23:54,619 [main] INFO  clientechat.ConexionServidor - java.security.KeyPair@3b192d32
 2018-12-03 16:23:54,619 [main] INFO  clientechat.ConexionServidor - Esto es lo que enviamos a servidor: PUK 42 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoQ5iOB0IK2pgK0EPiE0S5d1HUrEjOpv3xcQrBnmJhpQBjFNMJlvZ5AEsF4QODrlZfuiDuYpVHawI0buadxqMdO4NoikSo7TIe7sMXn7wp0EP+k1l3GBpHYh0DbDYAIWEDnEyb1d+mNDL5PEt8oHNHB9HRN1mrVcYxbLRvzNm7dasYaKaqt3XUW2oLpVYX4Dx9+HvDD+q58NIAHCetyajq8xm6yxog16262erjXFJs5fIb8pIRhMj1PaSbu08IdTAOkBQ5RUY80k4K8l+Mra3CCTPR72QaNMK/4h4d/cKl9pXCkGLJtjbQ3rig1S1omW2AFS6J8NVnKx948B5tkp0rwIDAQAB
+2018-12-03 16:31:58,892 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: m.
+2018-12-03 16:31:59,923 [main] ERROR clientechat.ClienteChat - No se ha podido conectar con el servidor (Connection refused: connect).
+2018-12-03 16:31:59,923 [main] INFO  clientechat.ConexionServidor - Se esta creando la ConexionServidor
+2018-12-03 16:31:59,923 [main] ERROR clientechat.ConexionServidor - El socket no se creo correctamente. 
+2018-12-03 16:31:59,923 [main] ERROR clientechat.ClienteChat - El socket no se creo correctamente. 
+2018-12-03 16:31:59,923 [main] ERROR clientechat.ClienteChat - El socket no se creo correctamente. 
+2018-12-03 16:31:59,923 [main] INFO  clientechat.ClienteChat - Me he conectado, fin del main
+2018-12-03 16:37:47,356 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: m.
+2018-12-03 16:37:47,372 [main] INFO  clientechat.ConexionServidor - Se esta creando la ConexionServidor
+2018-12-03 16:37:47,684 [main] INFO  clientechat.ConexionServidor - javax.crypto.KeyGenerator@62ee68d8
+2018-12-03 16:37:47,794 [main] INFO  clientechat.ConexionServidor - javax.crypto.spec.SecretKeySpec@fffe836f
+2018-12-03 16:37:47,794 [main] INFO  clientechat.ConexionServidor - He generado la clave AES
+2018-12-03 16:37:47,794 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN KEY: javax.crypto.spec.SecretKeySpec@fffe836f
+2018-12-03 16:37:47,794 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN STRING: tbN3S/p4IsynmeO98eLobg==
+2018-12-03 16:37:57,682 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: sdf
+2018-12-03 16:37:57,698 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: A3YeGdXO54JD2JOR5uwBCA==
+2018-12-03 16:37:57,698 [main] INFO  clientechat.ClienteChat - DEFAULT A3YeGdXO54JD2JOR5uwBCA==
+2018-12-03 16:37:57,698 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje A3YeGdXO54JD2JOR5uwBCA==
+2018-12-03 16:37:57,698 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: sdf
+2018-12-03 16:38:08,976 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: sdf.
+2018-12-03 16:38:08,992 [main] INFO  clientechat.ConexionServidor - Se esta creando la ConexionServidor
+2018-12-03 16:38:09,007 [main] INFO  clientechat.ConexionServidor - java.security.KeyPairGenerator$Delegate@73a28541
+2018-12-03 16:38:09,788 [main] INFO  clientechat.ConexionServidor - java.security.KeyPair@3b192d32
+2018-12-03 16:38:09,788 [main] INFO  clientechat.ConexionServidor - Esto es lo que enviamos a servidor: PUK 14 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhQhF9JUjtx3yggxhsDzYPlmbJdSffZXY9Wslp+dDkmKQrKRwVY3VG7lbrg71M680LftjDUz0/SnoOLlAWVbnannsIsCAqmjcjuQFHaP3yW9JsqnSQ/GKB/y+b7kZtXfIqUz5FRJLxU4IHnUxicsI/3avGrMwibCtcotIDy65PYIZoFs0HpUT+jhiXG0viysYV5tFpmfXdGD0vPXNXxEEQIpXu/NP3iYuLi+MC+xnUImDtNetdnvg27siGz0OkmQvN6/IYYr4vurqCE3FqBSpizKMkS4MoJXNekRjWvc3rp81a/rHI8szxAs304+paby+PqFUUXQcXqKQ2jgqtTCmWQIDAQAB
+2018-12-03 16:38:09,788 [main] INFO  clientechat.ConexionServidor - Entra en gestionar la puk del cliente con id: 14
+2018-12-03 16:38:09,788 [main] INFO  clientechat.ConexionServidor - ESTA ES LA CLAVE SECRETA CIFRADA: DBUjinBqAV44ove0zLA5E9PkLz1T+WR1LLACMq2m6G8qhuz7fAVZ4B22gA6yi4YGQs2XRmtUjSH4HyBk7HSrpQWZngmK7BTpR5bmP5ouoe35aa82mJ8dOO4y561Kxavmdv3Q9YRRbSBubQtCUVKyz+lofmFrOoDFAd1NotqELK0rWpUfgeW/uPn1LJR6/pQHPsZ8NFspnqrhHF9whXO1r1EooqeschYBKmAwnklDpX0NkSvcrJeGw2180hGHcaBOOLmdT2JG2b92MidQ8JIthQF134FwoMFK40gHa8xP0xxMSDrPXoa0lWlMsXyqWquMuAEuXehm6ZatyUKgx5Cc6Q==
+2018-12-03 16:38:09,788 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES RECIBIDA EN STRING: DBUjinBqAV44ove0zLA5E9PkLz1T+WR1LLACMq2m6G8qhuz7fAVZ4B22gA6yi4YGQs2XRmtUjSH4HyBk7HSrpQWZngmK7BTpR5bmP5ouoe35aa82mJ8dOO4y561Kxavmdv3Q9YRRbSBubQtCUVKyz+lofmFrOoDFAd1NotqELK0rWpUfgeW/uPn1LJR6/pQHPsZ8NFspnqrhHF9whXO1r1EooqeschYBKmAwnklDpX0NkSvcrJeGw2180hGHcaBOOLmdT2JG2b92MidQ8JIthQF134FwoMFK40gHa8xP0xxMSDrPXoa0lWlMsXyqWquMuAEuXehm6ZatyUKgx5Cc6Q==
+2018-12-03 16:38:10,054 [main] INFO  clientechat.ConexionServidor - SOY EL USUARIO: 14 y tengo la clave AES tbN3S/p4IsynmeO98eLobg==
+2018-12-03 16:38:13,209 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: sdf: dsf
+2018-12-03 16:38:13,225 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: n+9LuRTmXZDcSx0SzQ7MwQ==
+2018-12-03 16:38:13,225 [main] INFO  clientechat.ClienteChat - DEFAULT n+9LuRTmXZDcSx0SzQ7MwQ==
+2018-12-03 16:38:13,225 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje n+9LuRTmXZDcSx0SzQ7MwQ==
+2018-12-03 16:38:13,225 [main] INFO  clientechat.ClienteChat - DEFAULT n+9LuRTmXZDcSx0SzQ7MwQ==
+2018-12-03 16:38:13,225 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje n+9LuRTmXZDcSx0SzQ7MwQ==
+2018-12-03 16:38:13,225 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: sdf: dsf
+2018-12-03 16:38:13,225 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: sdf: dsf
+2018-12-03 16:39:17,928 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: m.
+2018-12-03 16:39:17,944 [main] INFO  clientechat.ConexionServidor - Se esta creando la ConexionServidor
+2018-12-03 16:39:18,225 [main] INFO  clientechat.ConexionServidor - javax.crypto.KeyGenerator@62ee68d8
+2018-12-03 16:39:18,334 [main] INFO  clientechat.ConexionServidor - javax.crypto.spec.SecretKeySpec@1785b
+2018-12-03 16:39:18,334 [main] INFO  clientechat.ConexionServidor - He generado la clave AES
+2018-12-03 16:39:18,334 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN KEY: javax.crypto.spec.SecretKeySpec@1785b
+2018-12-03 16:39:18,334 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN STRING: 9+72Fsbn1gmrVM1kjr9/HQ==
+2018-12-03 16:40:02,780 [main] ERROR clientechat.ClienteChat - Error al leer del stream de entrada: Connection reset
+2018-12-03 16:40:02,780 [main] INFO  clientechat.ClienteChat - Me he conectado, fin del main
+2018-12-03 16:40:21,195 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: m.
+2018-12-03 16:40:21,195 [main] INFO  clientechat.ConexionServidor - Se esta creando la ConexionServidor
+2018-12-03 16:40:21,492 [main] INFO  clientechat.ConexionServidor - javax.crypto.KeyGenerator@62ee68d8
+2018-12-03 16:40:21,601 [main] INFO  clientechat.ConexionServidor - javax.crypto.spec.SecretKeySpec@fffe8396
+2018-12-03 16:40:21,601 [main] INFO  clientechat.ConexionServidor - He generado la clave AES
+2018-12-03 16:40:21,601 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN KEY: javax.crypto.spec.SecretKeySpec@fffe8396
+2018-12-03 16:40:21,601 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN STRING: E0XpQkw+EW74jGDCaMmOvQ==
+2018-12-03 16:41:15,154 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: m.
+2018-12-03 16:41:15,169 [main] INFO  clientechat.ConexionServidor - Se esta creando la ConexionServidor
+2018-12-03 16:41:15,451 [main] INFO  clientechat.ConexionServidor - javax.crypto.KeyGenerator@62ee68d8
+2018-12-03 16:41:15,560 [main] INFO  clientechat.ConexionServidor - javax.crypto.spec.SecretKeySpec@17ca1
+2018-12-03 16:41:15,560 [main] INFO  clientechat.ConexionServidor - He generado la clave AES
+2018-12-03 16:41:15,560 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN KEY: javax.crypto.spec.SecretKeySpec@17ca1
+2018-12-03 16:41:15,560 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN STRING: pFW1ULiknP9RW3oDSFyOxg==
+2018-12-03 16:41:19,793 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: sdf
+2018-12-03 16:41:19,809 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: Sv5huX+2WwwhZcqaDQni1w==
+2018-12-03 16:41:19,809 [main] INFO  clientechat.ClienteChat - DEFAULT Sv5huX+2WwwhZcqaDQni1w==
+2018-12-03 16:41:19,809 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje Sv5huX+2WwwhZcqaDQni1w==
+2018-12-03 16:41:19,809 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: sdf
+2018-12-03 16:43:36,273 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: hs.
+2018-12-03 16:43:36,273 [main] INFO  clientechat.ConexionServidor - Se esta creando la ConexionServidor
+2018-12-03 16:43:36,570 [main] INFO  clientechat.ConexionServidor - javax.crypto.KeyGenerator@62ee68d8
+2018-12-03 16:43:36,676 [main] INFO  clientechat.ConexionServidor - javax.crypto.spec.SecretKeySpec@fffe8fa9
+2018-12-03 16:43:36,676 [main] INFO  clientechat.ConexionServidor - He generado la clave AES
+2018-12-03 16:43:36,676 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN KEY: javax.crypto.spec.SecretKeySpec@fffe8fa9
+2018-12-03 16:43:36,676 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN STRING: K/+Mu14k927ECjmlWumvhA==
+2018-12-03 16:48:58,881 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: m.
+2018-12-03 16:48:58,897 [main] INFO  clientechat.ConexionServidor - Se esta creando la ConexionServidor
+2018-12-03 16:48:59,194 [main] INFO  clientechat.ConexionServidor - javax.crypto.KeyGenerator@62ee68d8
+2018-12-03 16:48:59,303 [main] INFO  clientechat.ConexionServidor - javax.crypto.spec.SecretKeySpec@fffe8621
+2018-12-03 16:48:59,303 [main] INFO  clientechat.ConexionServidor - He generado la clave AES
+2018-12-03 16:48:59,303 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN KEY: javax.crypto.spec.SecretKeySpec@fffe8621
+2018-12-03 16:48:59,303 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN STRING: z4dS7IXIJvws3RWxKPgYDw==
+2018-12-03 16:53:52,570 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: m.
+2018-12-03 16:53:52,586 [main] INFO  clientechat.ConexionServidor - Se esta creando la ConexionServidor
+2018-12-03 16:53:52,601 [main] INFO  clientechat.ConexionServidor - java.security.KeyPairGenerator$Delegate@73a28541
+2018-12-03 16:53:53,148 [main] INFO  clientechat.ConexionServidor - java.security.KeyPair@3b192d32
+2018-12-03 16:53:53,148 [main] INFO  clientechat.ConexionServidor - Esto es lo que enviamos a servidor: PUK 23 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvMf7PEYeBjAOm6+6J3Wclfq73r594jJDkWcMwKivLM7TRcreaJCwDqfJdrcnTWVAi/+d2+/0bfKc/xulvo1o2LjG5TCK2SxZpYVjsVBcewD14YkcS10s8MNhHgG9GkG8DiRDkycV3cWpE81MK8dO88IlLaZ/PD8I7kNxIPBaGOzImo23LRpbm7K7X6pKojfOg23PucdFja1M8ZaTa5zWhIBsxH6X+l94OtjzIC1bMaNDMHFY7d9bKyMEd4/hzOVgk3sSDhJ1QkWUj+dXR+0gzluTJqy5c94bM5lfnrHSI54MjxTIfw1JPEwyiJPgoHU6kwo3sRn016aJ7mjte1EuJwIDAQAB
+2018-12-03 16:54:44,889 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: "\\u" + s
+2018-12-03 16:54:46,952 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: "\\u" + s
+2018-12-03 16:54:47,998 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: "\\u" + s
+2018-12-03 16:54:48,279 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: "\\u" + s
+2018-12-03 16:54:49,482 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: "\\u" + s
+2018-12-03 17:04:31,504 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: m.
+2018-12-03 17:04:31,519 [main] INFO  clientechat.ConexionServidor - Se esta creando la ConexionServidor
+2018-12-03 17:04:31,816 [main] INFO  clientechat.ConexionServidor - javax.crypto.KeyGenerator@548a9f61
+2018-12-03 17:04:31,925 [main] INFO  clientechat.ConexionServidor - javax.crypto.spec.SecretKeySpec@fffe89ae
+2018-12-03 17:04:31,925 [main] INFO  clientechat.ConexionServidor - He generado la clave AES
+2018-12-03 17:04:31,925 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN KEY: javax.crypto.spec.SecretKeySpec@fffe89ae
+2018-12-03 17:04:31,925 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN STRING: 0rLC4AfdPpeCo5ao7CC4dg==
+þÿ 2 0 1 8 - 1 2 - 0 3   1 7 : 0 6 : 1 4 , 9 7 3   [ m a i n ]   I N F O     c l i e n t e c h a t . C l i e n t e C h a t   -   Q u i e r e s   c o n e c t a r t e   a   l o c a l h o s t   e n   e l   p u e r t o   1 2 3 4   c o n   e l   n o m b r e   d e   u s u s a r i o :   m .  
+ 2 0 1 8 - 1 2 - 0 3   1 7 : 0 6 : 1 4 , 9 7 3   [ m a i n ]   I N F O     c l i e n t e c h a t . C o n e x i o n S e r v i d o r   -   S e   e s t a   c r e a n d o   l a   C o n e x i o n S e r v i d o r  
+2018-12-03 17:14:52,533 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: m.
+2018-12-03 17:14:52,549 [main] INFO  clientechat.ConexionServidor - Se esta creando la ConexionServidor
+2018-12-03 17:14:52,986 [main] INFO  clientechat.ConexionServidor - javax.crypto.KeyGenerator@396a51ab
+2018-12-03 17:14:53,096 [main] INFO  clientechat.ConexionServidor - javax.crypto.spec.SecretKeySpec@fffe9998
+2018-12-03 17:14:53,096 [main] INFO  clientechat.ConexionServidor - He generado la clave AES
+2018-12-03 17:14:53,096 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN KEY: javax.crypto.spec.SecretKeySpec@fffe9998
+2018-12-03 17:14:53,096 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN STRING: W0VHsv3Czt0VsYe+ypK3pA==
+2018-12-03 17:15:02,117 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: :happy:
+2018-12-03 17:15:02,133 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: XiSiHzpymWY1hRXX7FOaNA==
+2018-12-03 17:15:02,133 [main] INFO  clientechat.ClienteChat - DEFAULT XiSiHzpymWY1hRXX7FOaNA==
+2018-12-03 17:15:02,133 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje XiSiHzpymWY1hRXX7FOaNA==
+2018-12-03 17:15:02,133 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: :happy:
+2018-12-03 17:15:33,165 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: :happy:
+2018-12-03 17:15:33,165 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: XiSiHzpymWY1hRXX7FOaNA==
+2018-12-03 17:15:33,165 [main] INFO  clientechat.ClienteChat - DEFAULT XiSiHzpymWY1hRXX7FOaNA==
+2018-12-03 17:15:33,165 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje XiSiHzpymWY1hRXX7FOaNA==
+2018-12-03 17:15:33,165 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: :happy:
+2018-12-03 17:16:15,077 [main] ERROR clientechat.ClienteChat - Error al leer del stream de entrada: Connection reset
+2018-12-03 17:16:15,077 [main] INFO  clientechat.ClienteChat - Me he conectado, fin del main
+2018-12-03 17:16:50,633 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: m.
+2018-12-03 17:16:50,633 [main] INFO  clientechat.ConexionServidor - Se esta creando la ConexionServidor
+2018-12-03 17:16:50,930 [main] INFO  clientechat.ConexionServidor - javax.crypto.KeyGenerator@62ee68d8
+2018-12-03 17:16:51,039 [main] INFO  clientechat.ConexionServidor - javax.crypto.spec.SecretKeySpec@17ccb
+2018-12-03 17:16:51,039 [main] INFO  clientechat.ConexionServidor - He generado la clave AES
+2018-12-03 17:16:51,039 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN KEY: javax.crypto.spec.SecretKeySpec@17ccb
+2018-12-03 17:16:51,039 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN STRING: EccWx4r0YK7+VV6yKYg9Sw==
+2018-12-03 17:16:56,023 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: h
+2018-12-03 17:16:56,023 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: V7CNvNqfwAwjdjpCqoi1vQ==
+2018-12-03 17:16:56,023 [main] INFO  clientechat.ClienteChat - DEFAULT V7CNvNqfwAwjdjpCqoi1vQ==
+2018-12-03 17:16:56,023 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje V7CNvNqfwAwjdjpCqoi1vQ==
+2018-12-03 17:16:56,023 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: h
+2018-12-03 17:17:02,818 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: hh
+2018-12-03 17:17:02,818 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: O+gX6qr3Yea1InGu9D9moA==
+2018-12-03 17:17:02,818 [main] INFO  clientechat.ClienteChat - DEFAULT O+gX6qr3Yea1InGu9D9moA==
+2018-12-03 17:17:02,818 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje O+gX6qr3Yea1InGu9D9moA==
+2018-12-03 17:17:02,818 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: hh
+2018-12-03 17:17:05,583 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: hhh
+2018-12-03 17:17:05,583 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: qZJBy2Fl1zAj0xduOAVjCg==
+2018-12-03 17:17:05,583 [main] INFO  clientechat.ClienteChat - DEFAULT qZJBy2Fl1zAj0xduOAVjCg==
+2018-12-03 17:17:05,599 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje qZJBy2Fl1zAj0xduOAVjCg==
+2018-12-03 17:17:05,599 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: hhh
+2018-12-03 17:17:16,174 [main] ERROR clientechat.ClienteChat - Error al leer del stream de entrada: Connection reset
+2018-12-03 17:17:16,174 [main] INFO  clientechat.ClienteChat - Me he conectado, fin del main
+2018-12-03 17:18:54,726 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: m.
+2018-12-03 17:18:54,741 [main] INFO  clientechat.ConexionServidor - Se esta creando la ConexionServidor
+2018-12-03 17:18:55,023 [main] INFO  clientechat.ConexionServidor - javax.crypto.KeyGenerator@62ee68d8
+2018-12-03 17:18:55,116 [main] INFO  clientechat.ConexionServidor - javax.crypto.spec.SecretKeySpec@fffe86a0
+2018-12-03 17:18:55,116 [main] INFO  clientechat.ConexionServidor - He generado la clave AES
+2018-12-03 17:18:55,116 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN KEY: javax.crypto.spec.SecretKeySpec@fffe86a0
+2018-12-03 17:18:55,116 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN STRING: yRXLS7jOoWabw0xtV6zP/w==
+2018-12-03 17:18:59,506 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: h
+2018-12-03 17:18:59,522 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: 3Z2ZL6tA1eaQe+AXRmnedA==
+2018-12-03 17:18:59,522 [main] INFO  clientechat.ClienteChat - DEFAULT 3Z2ZL6tA1eaQe+AXRmnedA==
+2018-12-03 17:18:59,522 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje 3Z2ZL6tA1eaQe+AXRmnedA==
+2018-12-03 17:18:59,522 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: h
+2018-12-03 17:19:02,334 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: hh
+2018-12-03 17:19:02,334 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: GOXX/9tyvr0xyRfRO4Io4A==
+2018-12-03 17:19:02,334 [main] INFO  clientechat.ClienteChat - DEFAULT GOXX/9tyvr0xyRfRO4Io4A==
+2018-12-03 17:19:02,334 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje GOXX/9tyvr0xyRfRO4Io4A==
+2018-12-03 17:19:02,334 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: hh
+2018-12-03 17:19:05,034 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: hhhh
+2018-12-03 17:19:05,034 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: 9b3SAZ4ONGdgdC17L0KyaQ==
+2018-12-03 17:19:05,034 [main] INFO  clientechat.ClienteChat - DEFAULT 9b3SAZ4ONGdgdC17L0KyaQ==
+2018-12-03 17:19:05,034 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje 9b3SAZ4ONGdgdC17L0KyaQ==
+2018-12-03 17:19:05,049 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: hhhh
+2018-12-03 17:21:51,328 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: m.
+2018-12-03 17:21:51,344 [main] INFO  clientechat.ConexionServidor - Se esta creando la ConexionServidor
+2018-12-03 17:21:51,625 [main] INFO  clientechat.ConexionServidor - javax.crypto.KeyGenerator@62ee68d8
+2018-12-03 17:21:51,735 [main] INFO  clientechat.ConexionServidor - javax.crypto.spec.SecretKeySpec@1787b
+2018-12-03 17:21:51,735 [main] INFO  clientechat.ConexionServidor - He generado la clave AES
+2018-12-03 17:21:51,735 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN KEY: javax.crypto.spec.SecretKeySpec@1787b
+2018-12-03 17:21:51,735 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN STRING: QUcE3psNikq7XciqC2KucQ==
+2018-12-03 17:21:58,171 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: :happy:
+2018-12-03 17:21:58,171 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: 2sVrEsKFM6LhmSXHg1mgEA==
+2018-12-03 17:21:58,171 [main] INFO  clientechat.ClienteChat - DEFAULT 2sVrEsKFM6LhmSXHg1mgEA==
+2018-12-03 17:21:58,171 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje 2sVrEsKFM6LhmSXHg1mgEA==
+2018-12-03 17:21:58,171 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: :happy:
+2018-12-03 17:32:32,990 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: m.
+2018-12-03 17:32:33,006 [main] INFO  clientechat.ConexionServidor - Se esta creando la ConexionServidor
+2018-12-03 17:38:54,269 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: m.
+2018-12-03 17:38:54,269 [main] INFO  clientechat.ConexionServidor - Se esta creando la ConexionServidor
+2018-12-03 17:38:54,643 [main] INFO  clientechat.ConexionServidor - javax.crypto.KeyGenerator@62ee68d8
+2018-12-03 17:38:54,753 [main] INFO  clientechat.ConexionServidor - javax.crypto.spec.SecretKeySpec@179a6
+2018-12-03 17:38:54,753 [main] INFO  clientechat.ConexionServidor - He generado la clave AES
+2018-12-03 17:38:54,753 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN KEY: javax.crypto.spec.SecretKeySpec@179a6
+2018-12-03 17:38:54,753 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN STRING: mygWdprJKOXX+Ts8lzJUxg==
+2018-12-03 17:38:56,752 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: sdf
+2018-12-03 17:38:56,768 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: HSCccyvnOpJWM4mPfmb/wA==
+2018-12-03 17:38:56,768 [main] INFO  clientechat.ClienteChat - DEFAULT HSCccyvnOpJWM4mPfmb/wA==
+2018-12-03 17:38:56,768 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje HSCccyvnOpJWM4mPfmb/wA==
+2018-12-03 17:38:56,768 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: sdf
+2018-12-03 17:38:59,383 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: fdsfds
+2018-12-03 17:38:59,383 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: M0IJ3vGDgk+YOlIAzn0A9Q==
+2018-12-03 17:38:59,383 [main] INFO  clientechat.ClienteChat - DEFAULT M0IJ3vGDgk+YOlIAzn0A9Q==
+2018-12-03 17:38:59,383 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje M0IJ3vGDgk+YOlIAzn0A9Q==
+2018-12-03 17:38:59,383 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: fdsfds
+2018-12-03 17:38:59,555 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: f
+2018-12-03 17:38:59,555 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: 6fQ2pkkZ9u0h2hle7N405Q==
+2018-12-03 17:38:59,555 [main] INFO  clientechat.ClienteChat - DEFAULT 6fQ2pkkZ9u0h2hle7N405Q==
+2018-12-03 17:38:59,555 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje 6fQ2pkkZ9u0h2hle7N405Q==
+2018-12-03 17:38:59,555 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: f
+2018-12-03 17:38:59,680 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: sdf
+2018-12-03 17:38:59,680 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: HSCccyvnOpJWM4mPfmb/wA==
+2018-12-03 17:38:59,695 [main] INFO  clientechat.ClienteChat - DEFAULT HSCccyvnOpJWM4mPfmb/wA==
+2018-12-03 17:38:59,695 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje HSCccyvnOpJWM4mPfmb/wA==
+2018-12-03 17:38:59,695 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: sdf
+2018-12-03 17:38:59,805 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: sd
+2018-12-03 17:38:59,820 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: HPcw4ruOrHyt31Kor0+6Ig==
+2018-12-03 17:38:59,820 [main] INFO  clientechat.ClienteChat - DEFAULT HPcw4ruOrHyt31Kor0+6Ig==
+2018-12-03 17:38:59,820 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje HPcw4ruOrHyt31Kor0+6Ig==
+2018-12-03 17:38:59,820 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: sd
+2018-12-03 17:38:59,946 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: f
+2018-12-03 17:38:59,946 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: 6fQ2pkkZ9u0h2hle7N405Q==
+2018-12-03 17:38:59,946 [main] INFO  clientechat.ClienteChat - DEFAULT 6fQ2pkkZ9u0h2hle7N405Q==
+2018-12-03 17:38:59,946 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje 6fQ2pkkZ9u0h2hle7N405Q==
+2018-12-03 17:38:59,946 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: f
+2018-12-03 17:39:00,086 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: dsf
+2018-12-03 17:39:00,086 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: sGL4HCnoMYMSYbSrK4jXow==
+2018-12-03 17:39:00,086 [main] INFO  clientechat.ClienteChat - DEFAULT sGL4HCnoMYMSYbSrK4jXow==
+2018-12-03 17:39:00,086 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje sGL4HCnoMYMSYbSrK4jXow==
+2018-12-03 17:39:00,086 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: dsf
+2018-12-03 17:39:00,211 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: ds
+2018-12-03 17:39:00,211 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: +vVBHY7Fi8XSK8isUoEvxA==
+2018-12-03 17:39:00,211 [main] INFO  clientechat.ClienteChat - DEFAULT +vVBHY7Fi8XSK8isUoEvxA==
+2018-12-03 17:39:00,211 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje +vVBHY7Fi8XSK8isUoEvxA==
+2018-12-03 17:39:00,211 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: ds
+2018-12-03 17:39:00,320 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: f
+2018-12-03 17:39:00,320 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: 6fQ2pkkZ9u0h2hle7N405Q==
+2018-12-03 17:39:00,320 [main] INFO  clientechat.ClienteChat - DEFAULT 6fQ2pkkZ9u0h2hle7N405Q==
+2018-12-03 17:39:00,320 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje 6fQ2pkkZ9u0h2hle7N405Q==
+2018-12-03 17:39:00,320 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: f
+2018-12-03 17:45:22,686 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: m.
+2018-12-03 17:45:22,686 [main] INFO  clientechat.ConexionServidor - Se esta creando la ConexionServidor
+2018-12-03 17:45:22,983 [main] INFO  clientechat.ConexionServidor - javax.crypto.KeyGenerator@62ee68d8
+2018-12-03 17:45:23,092 [main] INFO  clientechat.ConexionServidor - javax.crypto.spec.SecretKeySpec@fffe82a7
+2018-12-03 17:45:23,092 [main] INFO  clientechat.ConexionServidor - He generado la clave AES
+2018-12-03 17:45:23,092 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN KEY: javax.crypto.spec.SecretKeySpec@fffe82a7
+2018-12-03 17:45:23,092 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN STRING: +/VYcr2pVVamscUWH3bThQ==
+2018-12-03 17:45:25,045 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: hola
+2018-12-03 17:45:25,060 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: p3rpkBOxVEU0sG/+W2C8rA==
+2018-12-03 17:45:25,060 [main] INFO  clientechat.ClienteChat - DEFAULT p3rpkBOxVEU0sG/+W2C8rA==
+2018-12-03 17:45:25,060 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje p3rpkBOxVEU0sG/+W2C8rA==
+2018-12-03 17:45:25,060 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: hola
+2018-12-03 17:45:27,107 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: que tal
+2018-12-03 17:45:27,107 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: q5Y1lghQr4A1lQ3A2cc67Q==
+2018-12-03 17:45:27,107 [main] INFO  clientechat.ClienteChat - DEFAULT q5Y1lghQr4A1lQ3A2cc67Q==
+2018-12-03 17:45:27,107 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje q5Y1lghQr4A1lQ3A2cc67Q==
+2018-12-03 17:45:27,107 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: que tal
+2018-12-03 17:45:28,263 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: bien
+2018-12-03 17:45:28,263 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: imesJfrlbnSSpPfCajqiqA==
+2018-12-03 17:45:28,263 [main] INFO  clientechat.ClienteChat - DEFAULT imesJfrlbnSSpPfCajqiqA==
+2018-12-03 17:45:28,263 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje imesJfrlbnSSpPfCajqiqA==
+2018-12-03 17:45:28,263 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: bien
+2018-12-03 17:46:05,611 [main] ERROR clientechat.ClienteChat - Error al leer del stream de entrada: Connection reset
+2018-12-03 17:46:05,611 [main] INFO  clientechat.ClienteChat - Me he conectado, fin del main
+2018-12-03 17:48:48,689 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: m.
+2018-12-03 17:48:48,689 [main] INFO  clientechat.ConexionServidor - Se esta creando la ConexionServidor
+2018-12-03 17:48:48,970 [main] INFO  clientechat.ConexionServidor - javax.crypto.KeyGenerator@62ee68d8
+2018-12-03 17:48:49,080 [main] INFO  clientechat.ConexionServidor - javax.crypto.spec.SecretKeySpec@17de0
+2018-12-03 17:48:49,080 [main] INFO  clientechat.ConexionServidor - He generado la clave AES
+2018-12-03 17:48:49,080 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN KEY: javax.crypto.spec.SecretKeySpec@17de0
+2018-12-03 17:48:49,080 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN STRING: zqo+WcZRC2JE15JUEunSNw==
+2018-12-03 17:48:53,782 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: :happy:
+2018-12-03 17:48:53,782 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: fJhVrQdfrGX2NP+XLhumLA==
+2018-12-03 17:48:53,782 [main] INFO  clientechat.ClienteChat - DEFAULT fJhVrQdfrGX2NP+XLhumLA==
+2018-12-03 17:48:53,782 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje fJhVrQdfrGX2NP+XLhumLA==
+2018-12-03 17:48:53,782 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: :happy:
+2018-12-03 17:49:02,452 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: :joyful:
+2018-12-03 17:49:02,452 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: 5bz2bMryA49oExd9hYNWjg==
+2018-12-03 17:49:02,452 [main] INFO  clientechat.ClienteChat - DEFAULT 5bz2bMryA49oExd9hYNWjg==
+2018-12-03 17:49:02,452 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje 5bz2bMryA49oExd9hYNWjg==
+2018-12-03 17:49:02,452 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: :joyful:
+2018-12-03 17:49:15,652 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: :kiss:
+2018-12-03 17:49:15,652 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: 9d3ZN0lSO8WgZOBrBAzcAQ==
+2018-12-03 17:49:15,652 [main] INFO  clientechat.ClienteChat - DEFAULT 9d3ZN0lSO8WgZOBrBAzcAQ==
+2018-12-03 17:49:15,652 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje 9d3ZN0lSO8WgZOBrBAzcAQ==
+2018-12-03 17:49:15,652 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: :kiss:
+2018-12-03 17:49:21,653 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: :sad:
+2018-12-03 17:49:21,669 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: 3L0p9wsB0aBrrz2zKxnqMQ==
+2018-12-03 17:49:21,669 [main] INFO  clientechat.ClienteChat - DEFAULT 3L0p9wsB0aBrrz2zKxnqMQ==
+2018-12-03 17:49:21,669 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje 3L0p9wsB0aBrrz2zKxnqMQ==
+2018-12-03 17:49:21,669 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: :sad:
+2018-12-03 17:49:35,244 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: :thinking:
+2018-12-03 17:49:35,244 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: Q4ghtL6QxJ3f5tZxSjGi4g==
+2018-12-03 17:49:35,244 [main] INFO  clientechat.ClienteChat - DEFAULT Q4ghtL6QxJ3f5tZxSjGi4g==
+2018-12-03 17:49:35,244 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje Q4ghtL6QxJ3f5tZxSjGi4g==
+2018-12-03 17:49:35,244 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: :thinking:
+2018-12-03 17:49:44,632 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: :friendly:
+2018-12-03 17:49:44,632 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: /PjfMebCy7pyy6Ls8Q1Fgg==
+2018-12-03 17:49:44,632 [main] INFO  clientechat.ClienteChat - DEFAULT /PjfMebCy7pyy6Ls8Q1Fgg==
+2018-12-03 17:49:44,632 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje /PjfMebCy7pyy6Ls8Q1Fgg==
+2018-12-03 17:49:44,648 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: :friendly:
+2018-12-03 17:49:48,303 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: :poker:
+2018-12-03 17:49:48,303 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: XgIVA1AGm12y68FZhVLzmg==
+2018-12-03 17:49:48,303 [main] INFO  clientechat.ClienteChat - DEFAULT XgIVA1AGm12y68FZhVLzmg==
+2018-12-03 17:49:48,303 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje XgIVA1AGm12y68FZhVLzmg==
+2018-12-03 17:49:48,303 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: :poker:
+2018-12-03 17:50:01,789 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: :/
+2018-12-03 17:50:01,789 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: GzD64fEHawrBc8Nwx+Lk9Q==
+2018-12-03 17:50:01,789 [main] INFO  clientechat.ClienteChat - DEFAULT GzD64fEHawrBc8Nwx+Lk9Q==
+2018-12-03 17:50:01,789 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje GzD64fEHawrBc8Nwx+Lk9Q==
+2018-12-03 17:50:01,789 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: :/
+2018-12-03 17:50:16,957 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: :cry:
+2018-12-03 17:50:16,957 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: 3vpcitdZZr9gi17Pg+0Qiw==
+2018-12-03 17:50:16,957 [main] INFO  clientechat.ClienteChat - DEFAULT 3vpcitdZZr9gi17Pg+0Qiw==
+2018-12-03 17:50:16,957 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje 3vpcitdZZr9gi17Pg+0Qiw==
+2018-12-03 17:50:16,957 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: :cry:
+2018-12-03 17:50:20,623 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: :confused:
+2018-12-03 17:50:20,623 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: TzMgzyVfkwEmsOJtMEssAw==
+2018-12-03 17:50:20,623 [main] INFO  clientechat.ClienteChat - DEFAULT TzMgzyVfkwEmsOJtMEssAw==
+2018-12-03 17:50:20,623 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje TzMgzyVfkwEmsOJtMEssAw==
+2018-12-03 17:50:20,623 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: :confused:
+2018-12-03 17:50:37,879 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: :angry:
+2018-12-03 17:50:37,879 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: pPK6K/0NFAy5QNITAUa4NQ==
+2018-12-03 17:50:37,879 [main] INFO  clientechat.ClienteChat - DEFAULT pPK6K/0NFAy5QNITAUa4NQ==
+2018-12-03 17:50:37,879 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje pPK6K/0NFAy5QNITAUa4NQ==
+2018-12-03 17:50:37,879 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: :angry:
+2018-12-03 17:50:47,018 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: :mood:
+2018-12-03 17:50:47,018 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: G0BExD1SH6jmpkkBZDk1TQ==
+2018-12-03 17:50:47,018 [main] INFO  clientechat.ClienteChat - DEFAULT G0BExD1SH6jmpkkBZDk1TQ==
+2018-12-03 17:50:47,018 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje G0BExD1SH6jmpkkBZDk1TQ==
+2018-12-03 17:50:47,018 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: :mood:
+2018-12-03 17:51:01,559 [main] ERROR clientechat.ClienteChat - Error al leer del stream de entrada: Connection reset
+2018-12-03 17:51:01,559 [main] INFO  clientechat.ClienteChat - Me he conectado, fin del main
+2018-12-03 17:52:18,863 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: m.
+2018-12-03 17:52:18,878 [main] INFO  clientechat.ConexionServidor - Se esta creando la ConexionServidor
+2018-12-03 17:52:19,159 [main] INFO  clientechat.ConexionServidor - javax.crypto.KeyGenerator@62ee68d8
+2018-12-03 17:52:19,253 [main] INFO  clientechat.ConexionServidor - javax.crypto.spec.SecretKeySpec@fffe8870
+2018-12-03 17:52:19,253 [main] INFO  clientechat.ConexionServidor - He generado la clave AES
+2018-12-03 17:52:19,253 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN KEY: javax.crypto.spec.SecretKeySpec@fffe8870
+2018-12-03 17:52:19,253 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN STRING: IUMobriG9L9NscnbtRYQmw==
+2018-12-03 17:52:25,310 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: :toto:
+2018-12-03 17:52:25,325 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: 5k+g4ts/fcCI9P+omz1odg==
+2018-12-03 17:52:25,325 [main] INFO  clientechat.ClienteChat - DEFAULT 5k+g4ts/fcCI9P+omz1odg==
+2018-12-03 17:52:25,325 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje 5k+g4ts/fcCI9P+omz1odg==
+2018-12-03 17:52:25,325 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: :toto:
+2018-12-03 17:52:35,198 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: :regulinchis:
+2018-12-03 17:52:35,198 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: a37HmpEyXAY/7uFPBzkyyFCrR++HNqPAlnuzX2/out4=
+2018-12-03 17:52:35,198 [main] INFO  clientechat.ClienteChat - DEFAULT a37HmpEyXAY/7uFPBzkyyFCrR++HNqPAlnuzX2/out4=
+2018-12-03 17:52:35,214 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje a37HmpEyXAY/7uFPBzkyyFCrR++HNqPAlnuzX2/out4=
+2018-12-03 17:52:35,214 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: :regulinchis:
+2018-12-03 17:53:32,973 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: hol
+2018-12-03 17:53:32,973 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: Wl8T1eyJQesW+S/9asdKpw==
+2018-12-03 17:53:32,973 [main] INFO  clientechat.ClienteChat - DEFAULT Wl8T1eyJQesW+S/9asdKpw==
+2018-12-03 17:53:32,973 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje Wl8T1eyJQesW+S/9asdKpw==
+2018-12-03 17:53:32,973 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: hol
+2018-12-03 17:54:14,370 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: :happy:
+2018-12-03 17:54:14,370 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: unwN61OV+ZCC0RYa/nnupA==
+2018-12-03 17:54:14,370 [main] INFO  clientechat.ClienteChat - DEFAULT unwN61OV+ZCC0RYa/nnupA==
+2018-12-03 17:54:14,370 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje unwN61OV+ZCC0RYa/nnupA==
+2018-12-03 17:54:14,370 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: :happy:
+2018-12-03 17:54:18,510 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: :sad:
+2018-12-03 17:54:18,510 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: 6PbLkzKqY0gaCdz2WFuOvg==
+2018-12-03 17:54:18,525 [main] INFO  clientechat.ClienteChat - DEFAULT 6PbLkzKqY0gaCdz2WFuOvg==
+2018-12-03 17:54:18,525 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje 6PbLkzKqY0gaCdz2WFuOvg==
+2018-12-03 17:54:18,525 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: :sad:
+2018-12-03 17:54:23,165 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: :mood:
+2018-12-03 17:54:23,165 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: sx6DMMSpKG6QQ98pGMVNFg==
+2018-12-03 17:54:23,165 [main] INFO  clientechat.ClienteChat - DEFAULT sx6DMMSpKG6QQ98pGMVNFg==
+2018-12-03 17:54:23,165 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje sx6DMMSpKG6QQ98pGMVNFg==
+2018-12-03 17:54:23,165 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: :mood:
+2018-12-03 17:54:28,961 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: :wink:
+2018-12-03 17:54:28,961 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: HsId0a2we+DaRNIr8wqWDg==
+2018-12-03 17:54:28,961 [main] INFO  clientechat.ClienteChat - DEFAULT HsId0a2we+DaRNIr8wqWDg==
+2018-12-03 17:54:28,961 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje HsId0a2we+DaRNIr8wqWDg==
+2018-12-03 17:54:28,961 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: :wink:
+2018-12-03 17:54:34,053 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: :angry:
+2018-12-03 17:54:34,053 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: pzQTLyavi7ICBVOaU9pbRA==
+2018-12-03 17:54:34,053 [main] INFO  clientechat.ClienteChat - DEFAULT pzQTLyavi7ICBVOaU9pbRA==
+2018-12-03 17:54:34,053 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje pzQTLyavi7ICBVOaU9pbRA==
+2018-12-03 17:54:34,053 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: :angry:
+2018-12-03 17:54:50,233 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: :toto:
+2018-12-03 17:54:50,233 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: 5k+g4ts/fcCI9P+omz1odg==
+2018-12-03 17:54:50,233 [main] INFO  clientechat.ClienteChat - DEFAULT 5k+g4ts/fcCI9P+omz1odg==
+2018-12-03 17:54:50,233 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje 5k+g4ts/fcCI9P+omz1odg==
+2018-12-03 17:54:50,233 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: :toto:
+2018-12-03 17:59:34,994 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: m.
+2018-12-03 17:59:35,009 [main] INFO  clientechat.ConexionServidor - Se esta creando la ConexionServidor
+2018-12-03 17:59:35,290 [main] INFO  clientechat.ConexionServidor - javax.crypto.KeyGenerator@62ee68d8
+2018-12-03 17:59:35,400 [main] INFO  clientechat.ConexionServidor - javax.crypto.spec.SecretKeySpec@168dd
+2018-12-03 17:59:35,400 [main] INFO  clientechat.ConexionServidor - He generado la clave AES
+2018-12-03 17:59:35,400 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN KEY: javax.crypto.spec.SecretKeySpec@168dd
+2018-12-03 17:59:35,400 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN STRING: hf5TVKFJwSQ5ysIwf39yyg==
+2018-12-03 17:59:38,696 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: :toto:
+2018-12-03 17:59:38,712 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: Fkc3OeaJJMR4pqMw+vV6Xw==
+2018-12-03 17:59:38,712 [main] INFO  clientechat.ClienteChat - DEFAULT Fkc3OeaJJMR4pqMw+vV6Xw==
+2018-12-03 17:59:38,712 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje Fkc3OeaJJMR4pqMw+vV6Xw==
+2018-12-03 17:59:38,712 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: :toto:
+2018-12-03 17:59:48,225 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: :doubt:
+2018-12-03 17:59:48,225 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: 1o/Qg7ycvghWEiL5e5HvCw==
+2018-12-03 17:59:48,225 [main] INFO  clientechat.ClienteChat - DEFAULT 1o/Qg7ycvghWEiL5e5HvCw==
+2018-12-03 17:59:48,225 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje 1o/Qg7ycvghWEiL5e5HvCw==
+2018-12-03 17:59:48,225 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: :doubt:
+2018-12-03 17:59:55,005 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: :doubt.
+2018-12-03 17:59:55,005 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: jwZxNKahX/qEROM9gY1M+A==
+2018-12-03 17:59:55,020 [main] INFO  clientechat.ClienteChat - DEFAULT jwZxNKahX/qEROM9gY1M+A==
+2018-12-03 17:59:55,020 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje jwZxNKahX/qEROM9gY1M+A==
+2018-12-03 17:59:55,020 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: :doubt.
+2018-12-03 17:59:59,713 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: :doubt:
+2018-12-03 17:59:59,713 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: 1o/Qg7ycvghWEiL5e5HvCw==
+2018-12-03 17:59:59,713 [main] INFO  clientechat.ClienteChat - DEFAULT 1o/Qg7ycvghWEiL5e5HvCw==
+2018-12-03 17:59:59,713 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje 1o/Qg7ycvghWEiL5e5HvCw==
+2018-12-03 17:59:59,713 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: :doubt:
+2018-12-03 18:02:24,641 [main] ERROR clientechat.ClienteChat - Error al leer del stream de entrada: Connection reset
+2018-12-03 18:02:24,641 [main] INFO  clientechat.ClienteChat - Me he conectado, fin del main
+2018-12-03 18:02:41,348 [main] INFO  clientechat.ClienteChat - Quieres conectarte a localhost en el puerto 1234 con el nombre de ususario: m.
+2018-12-03 18:02:41,363 [main] INFO  clientechat.ConexionServidor - Se esta creando la ConexionServidor
+2018-12-03 18:02:41,644 [main] INFO  clientechat.ConexionServidor - javax.crypto.KeyGenerator@62ee68d8
+2018-12-03 18:02:41,754 [main] INFO  clientechat.ConexionServidor - javax.crypto.spec.SecretKeySpec@fffe85dd
+2018-12-03 18:02:41,754 [main] INFO  clientechat.ConexionServidor - He generado la clave AES
+2018-12-03 18:02:41,754 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN KEY: javax.crypto.spec.SecretKeySpec@fffe85dd
+2018-12-03 18:02:41,754 [main] INFO  clientechat.ConexionServidor - CLAVE SECRETA AES GENERADA EN STRING: tEHTrR0JZWB2hWfwmID6Gg==
+2018-12-03 18:02:45,100 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: :toto:
+2018-12-03 18:02:45,116 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: 7/vuyJs3wM/IiuxFbyE0HQ==
+2018-12-03 18:02:45,116 [main] INFO  clientechat.ClienteChat - DEFAULT 7/vuyJs3wM/IiuxFbyE0HQ==
+2018-12-03 18:02:45,116 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje 7/vuyJs3wM/IiuxFbyE0HQ==
+2018-12-03 18:02:45,116 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: :toto:
+2018-12-03 18:03:02,143 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Vamos a cifrar el mensaje: m: :joyful:
+2018-12-03 18:03:02,143 [AWT-EventQueue-0] INFO  clientechat.ConexionServidor - Se ha cifrado el mensaje: ZJ45oIE3H764PvRkPpSblw==
+2018-12-03 18:03:02,159 [main] INFO  clientechat.ClienteChat - DEFAULT ZJ45oIE3H764PvRkPpSblw==
+2018-12-03 18:03:02,159 [main] INFO  clientechat.ConexionServidor - A descifrar el mensaje ZJ45oIE3H764PvRkPpSblw==
+2018-12-03 18:03:02,159 [main] INFO  clientechat.ConexionServidor - Se ha densencriptado: m: :joyful:

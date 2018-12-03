@@ -120,7 +120,7 @@ public class ClienteChat extends JFrame {
         // Accion para el boton enviar
         cs = new ConexionServidor(socket, tfMensaje, usuario);
         btEnviar.addActionListener(cs);
-
+        tfMensaje.addActionListener(cs);
     }
 
     /**
@@ -168,7 +168,7 @@ public class ClienteChat extends JFrame {
                         break;
 
                     case "LISTA":
-                        usuariosChat.setText(" " + System.lineSeparator() + System.lineSeparator());
+                        usuariosChat.setText(" USUARIOS CONECTADOS:" + System.lineSeparator() + System.lineSeparator());
                         for(int i = 0; i<splitStr.length-1; i++){
                             usuariosChat.append(" " + splitStr[i+1] + System.lineSeparator());
                         }
@@ -177,7 +177,38 @@ public class ClienteChat extends JFrame {
                     default:
                         log.info("DEFAULT " + mensaje);
                         mensaje = cs.descifrarmensaje(mensaje);
-                        String[] splitStr2 = mensaje.trim().split("\\s+");
+
+
+
+                        mensaje = mensaje.replace(":happy:", ":)");
+                        mensaje = mensaje.replace(":sad:", ":(");
+                        mensaje = mensaje.replace(":angry:", "ì_í");
+                        mensaje = mensaje.replace(":surprised:", "owo");
+                        mensaje = mensaje.replace(":wink:", "ewe");
+                        mensaje = mensaje.replace(":sick:", "uwu");
+                        mensaje = mensaje.replace(":confused:", ".-.");
+                        mensaje = mensaje.replace(":cry:", ":_(");
+                        mensaje = mensaje.replace(":challenge:", ":P");
+                        mensaje = mensaje.replace(":laughing:", "xD");
+                        mensaje = mensaje.replace(":sunglasses:", "8^)");
+                        mensaje = mensaje.replace(":cat:", "^o.o^");
+                        mensaje = mensaje.replace(":kiss:", "<3");
+                        mensaje = mensaje.replace(":thinking:", ":v");
+                        mensaje = mensaje.replace(":friendly:", ":D");
+                        mensaje = mensaje.replace(":poker:", ":|");
+                        mensaje = mensaje.replace(":annoyed:", ">.<");
+                        mensaje = mensaje.replace(":hug:", "(>o.o)>");
+                        mensaje = mensaje.replace(":mood:", "( ͡° ͜ʖ ͡°)");
+                        mensaje = mensaje.replace(":nice:", ":3");
+                        mensaje = mensaje.replace(":joyful:", "/(^~^)/");
+                        mensaje = mensaje.replace(":regulinchis:", ":/");
+                        mensaje = mensaje.replace(":toto:", "I BLESS THE RAINS DOWN IN AFRICA \n ░░░░░░▄▄▓██▓░░░░░░░░░░░░░░░░ \n ░░░░▄████████▓░▄▓▄▄▄░░░░░░░░ \n░░░▄████████████████░░░░░░░░ \n░░▓██████████████████░░░░░░░ \n░░███████████████████▓░░░░░░ \n░░████████████████████▓░░░░░ \n░░▄█████████████████████▄▄░░ \n░░░▒▓███▓▓████████████████░░ \n░░░░░░░░░░░▄████████████▓░░░ \n░░░░░░░░░░░▄███████████░░░░░ \n░░░░░░░░░░░░▄█████████░░░░░░ \n░░░░░░░░░░░░░█████████▓░░░░░ \n░░░░░░░░░░░░▄█████████▓░░▄░░ \n░░░░░░░░░░░░▄████████░░░██░░ \n░░░░░░░░░░░░░███████▓░░░█░░░ \n ░░░░░░░░░░░░░░▄███▓ ");
+
+
+
+
+
+                                String[] splitStr2 = mensaje.trim().split("\\s+");
                         if(splitStr2.length>1) mensajesChat.append(mensaje + System.lineSeparator());
                         break;
                 }

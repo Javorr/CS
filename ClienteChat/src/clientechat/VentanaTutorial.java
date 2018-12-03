@@ -1,46 +1,35 @@
-
 package clientechat;
 
-
-import org.apache.log4j.Logger;
-
-import javax.swing.*;
-import java.awt.*;
+import java.awt.Container;
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+import java.awt.Insets;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import javax.swing.*;
+import org.apache.log4j.Logger;
 
 
 public class VentanaConfiguracion extends JDialog{
 
     private Logger log = Logger.getLogger(VentanaConfiguracion.class);
-    private JTextField tfUsuario;
-    private JTextField tfHost;
-    private JTextField tfPuerto;
 
-
-    public VentanaConfiguracion(JFrame padre) {
+    public VentanaTutorial(JFrame padre) {
         super(padre, "Configuracion inicial", true);
 
-        JLabel lbUsuario = new JLabel("Usuario:");
-        JLabel lbHost = new JLabel("Host:");
-        JLabel lbPuerto = new JLabel("Puerto:");
+        URL url = new URL("C:\\gif");
+        Icon icon = new ImageIcon(url);
+        JLabel lbGif = new JLabel(icon);
 
-        tfUsuario = new JTextField();
-        tfHost = new JTextField("localhost");
-        tfPuerto = new JTextField("1234");
+        JFrame f = new JFrame("Animation");
+        f.getContentPane().add(lbGIF);
 
         JButton btAceptar = new JButton("Aceptar");
         btAceptar.addActionListener(new ActionListener() {
-
             @Override
             public void actionPerformed(ActionEvent e) {
                 setVisible(false);
             }
-        });
-        tfUsuario.addActionListener(new ActionListener() {
-
-            @Override
-            public void actionPerformed(ActionEvent e) { setVisible(false); }
         });
 
         Container c = this.getContentPane();
@@ -51,30 +40,10 @@ public class VentanaConfiguracion extends JDialog{
 
         gbc.gridx = 0;
         gbc.gridy = 0;
-        c.add(lbUsuario, gbc);
-
-        gbc.gridx = 0;
-        gbc.gridy = 1;
-        c.add(lbHost, gbc);
-
-        gbc.gridx = 0;
-        gbc.gridy = 2;
-        c.add(lbPuerto, gbc);
+        c.add(lbGif, gbc);
 
         gbc.ipadx = 100;
         gbc.fill = GridBagConstraints.HORIZONTAL;
-
-        gbc.gridx = 1;
-        gbc.gridy = 0;
-        c.add(tfUsuario, gbc);
-
-        gbc.gridx = 1;
-        gbc.gridy = 1;
-        c.add(tfHost, gbc);
-
-        gbc.gridx = 1;
-        gbc.gridy = 2;
-        c.add(tfPuerto, gbc);
 
         gbc.gridx = 0;
         gbc.gridy = 3;
@@ -88,18 +57,4 @@ public class VentanaConfiguracion extends JDialog{
         this.setDefaultCloseOperation(JDialog.DO_NOTHING_ON_CLOSE); // Deshabilita el boton de cierre de la ventana
         this.setVisible(true);
     }
-
-
-    public String getUsuario(){
-        return this.tfUsuario.getText();
-    }
-
-    public String getHost(){
-        return this.tfHost.getText();
-    }
-
-    public int getPuerto(){
-        return Integer.parseInt(this.tfPuerto.getText());
-    }
-
 }
