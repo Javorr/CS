@@ -84,6 +84,12 @@ public class ConexionServidor implements ActionListener {
         log.info("CLAVE SECRETA AES GENERADA EN STRING: " + aesStr);
         spec = ivspec;
 
+        try {
+            salidaDatos.writeUTF("El usuario "+usuario+" se ha conectado");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
     }
 
 
@@ -205,6 +211,12 @@ public class ConexionServidor implements ActionListener {
             } catch (IllegalBlockSizeException e) {
                 e.printStackTrace();
             } catch (BadPaddingException e) {
+                e.printStackTrace();
+            }
+
+            try {
+                salidaDatos.writeUTF("El usuario "+usuario+" se ha conectado");
+            } catch (IOException e) {
                 e.printStackTrace();
             }
         }

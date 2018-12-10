@@ -101,8 +101,13 @@ public class ConexionCliente extends Thread implements Observer{
                     int huecosnombre = splitStr.length - 2;
                     String nombre = "";
 
-                    for(int i =0; i<huecosnombre; i++){
-                        nombre += splitStr[2+i];
+                    if(huecosnombre == 0) {
+                        nombre = "Usuario";
+                    }
+                    else {
+                        for(int i =0; i<huecosnombre; i++){
+                            nombre += splitStr[2+i];
+                        }
                     }
 
                     lista = "";
@@ -154,7 +159,7 @@ public class ConexionCliente extends Thread implements Observer{
                 }
 
                 mensajes.setMensaje("LISTA " + lista);
-
+                mensajes.setMensaje("El usuario "+nombre+" se ha desconectado");
                 if(isMaster){
                     log.info("Se ha cambiado el master");
                     mensajes.setMensaje("CAMBIO " + usuarios.get(0));

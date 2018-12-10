@@ -175,7 +175,9 @@ public class ClienteChat extends JFrame {
                             usuariosChat.append(" " + splitStr[i+1] + System.lineSeparator());
                         }
                         break;
-
+                    case "El":
+                        mensajesChat.append(mensaje+System.lineSeparator());
+                        break;
                     default:
                         log.info("DEFAULT " + mensaje);
                         mensaje = cs.descifrarmensaje(mensaje);
